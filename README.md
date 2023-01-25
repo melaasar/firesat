@@ -1,7 +1,5 @@
 # FireSat
 
-[![Release](https://img.shields.io/github/v/tag/opencaesar/firesat-example?label=release)](https://github.com/opencaesar/firesat-example/releases/latest)
-
 This is a description of a FireSat mission design expressed as OWL ontology files (in `ttl` format).
 
 Notice that the OWL files are in the folder `src/owl` and organized in subfolders based on their namespaces.
