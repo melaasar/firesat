@@ -1,0 +1,2018 @@
+@prefix : <http://imce.jpl.nasa.gov/foundation/project#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://imce.jpl.nasa.gov/foundation/project#approves
+# 
+# http://imce.jpl.nasa.gov/foundation/project#authorizes
+# 
+# http://imce.jpl.nasa.gov/foundation/project#belongsTo
+# 
+# http://imce.jpl.nasa.gov/foundation/project#binds
+# 
+# http://imce.jpl.nasa.gov/foundation/project#concurs
+# 
+# http://imce.jpl.nasa.gov/foundation/project#delegatesTo
+# 
+# http://imce.jpl.nasa.gov/foundation/project#delivers
+# 
+# http://imce.jpl.nasa.gov/foundation/project#describes
+# 
+# http://imce.jpl.nasa.gov/foundation/project#executes
+# 
+# http://imce.jpl.nasa.gov/foundation/project#hasAssignment
+# 
+# http://imce.jpl.nasa.gov/foundation/project#hasParticipant
+# 
+# http://imce.jpl.nasa.gov/foundation/project#hasResponsibilityFor
+# 
+# http://imce.jpl.nasa.gov/foundation/project#hasRole
+# 
+# http://imce.jpl.nasa.gov/foundation/project#interchangesThrough
+# 
+# http://imce.jpl.nasa.gov/foundation/project#invokes
+# 
+# http://imce.jpl.nasa.gov/foundation/project#involves
+# 
+# http://imce.jpl.nasa.gov/foundation/project#involves1
+# 
+# http://imce.jpl.nasa.gov/foundation/project#involves2
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isApprovedBy
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isAssignedTo
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isAuthorizedBy
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isBoundBy
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isConcurredBy
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isDelegateOf
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isDeliveredBy
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isDescribedBy
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isExecutedBy
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isInterchangePointFor
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isInvokedBy
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isInvolvedIn
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isInvolvedIn1
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isInvolvedIn2
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isManfestedBy
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isPreparedBy
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isProducedBy
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isRealizedBy
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isReceivedBy
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isReliedOnBy
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isRepresentedBy
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isResponsibilityOf
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isRoleOf
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isSuppliedBy
+# 
+# http://imce.jpl.nasa.gov/foundation/project#manifests
+# 
+# http://imce.jpl.nasa.gov/foundation/project#participatesIn
+# 
+# http://imce.jpl.nasa.gov/foundation/project#prepares
+# 
+# http://imce.jpl.nasa.gov/foundation/project#produces
+# 
+# http://imce.jpl.nasa.gov/foundation/project#realizes
+# 
+# http://imce.jpl.nasa.gov/foundation/project#receives
+# 
+# http://imce.jpl.nasa.gov/foundation/project#reliesOn
+# 
+# http://imce.jpl.nasa.gov/foundation/project#represents
+# 
+# http://imce.jpl.nasa.gov/foundation/project#supplies
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isRequiredNotLaterThan
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://imce.jpl.nasa.gov/foundation/mission#Component
+# 
+# http://imce.jpl.nasa.gov/foundation/mission#Function
+# 
+# http://imce.jpl.nasa.gov/foundation/mission#Interface
+# 
+# http://imce.jpl.nasa.gov/foundation/mission#Junction
+# 
+# http://imce.jpl.nasa.gov/foundation/mission#Mission
+# 
+# http://imce.jpl.nasa.gov/foundation/mission#Objective
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Approves
+# 
+# http://imce.jpl.nasa.gov/foundation/project#AssignedElement
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Authority
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Authorizes
+# 
+# http://imce.jpl.nasa.gov/foundation/project#BelongsTo
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Binds
+# 
+# http://imce.jpl.nasa.gov/foundation/project#BoundElement
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Concern
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Concurs
+# 
+# http://imce.jpl.nasa.gov/foundation/project#DelegatesTo
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Deliverable
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Delivers
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Describes
+# 
+# http://imce.jpl.nasa.gov/foundation/project#DevelopedElement
+# 
+# http://imce.jpl.nasa.gov/foundation/project#DevelopmentState
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Executes
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Facility
+# 
+# http://imce.jpl.nasa.gov/foundation/project#HasAssignment
+# 
+# http://imce.jpl.nasa.gov/foundation/project#HasParticipant
+# 
+# http://imce.jpl.nasa.gov/foundation/project#HasResponsibilityFor
+# 
+# http://imce.jpl.nasa.gov/foundation/project#HasRole
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Interchange
+# 
+# http://imce.jpl.nasa.gov/foundation/project#InterchangePoint
+# 
+# http://imce.jpl.nasa.gov/foundation/project#InterchangesThrough
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Invokes
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Involves
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Involves1
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Involves2
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Manifests
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Organization
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Person
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Policy
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Prepares
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Process
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Produces
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Product
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Program
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Project
+# 
+# http://imce.jpl.nasa.gov/foundation/project#RealizedElement
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Realizes
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Receives
+# 
+# http://imce.jpl.nasa.gov/foundation/project#ReliesOn
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Represents
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Role
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Stakeholder
+# 
+# http://imce.jpl.nasa.gov/foundation/project#SuppliedElement
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Supplies
+# 
+# http://imce.jpl.nasa.gov/foundation/project#WorkPackage
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Rules
+# #
+# #################################################################
+# 
+# 
+
+<http://imce.jpl.nasa.gov/foundation/project> a owl:Ontology;
+  owl:imports <http://imce.jpl.nasa.gov/foundation/analysis>, <http://imce.jpl.nasa.gov/foundation/base>,
+    <http://imce.jpl.nasa.gov/foundation/mission>, <http://purl.org/dc/elements/1.1>;
+  <http://purl.org/dc/elements/1.1/creator> "Jet Propulsion Laboratory";
+  <http://purl.org/dc/elements/1.1/description> "The Project vocabulary defines concepts and properties for describing a project in terms of its stakeholders, concerns, work breakdown, and deliverables. It provides a basis for specialization by domain experts.";
+  <http://purl.org/dc/elements/1.1/rights> "Copyright 2010-2020, by the California Institute of Technology. ALL RIGHTS RESERVED. United States Government Sponsorship acknowledged. Any commercial use must be negotiated with the Office of Technology Transfer at the California Institute of Technology. This software may be subject to U.S. export control laws. By accepting this software, the user agrees to comply with all applicable U.S. export laws and regulations. User has the responsibility to obtain export licenses, or other export authority as may be required before exporting such information to foreign countries or providing access to foreign persons.";
+  <http://purl.org/dc/elements/1.1/title> "Project";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Vocabulary> .
+
+:approves a owl:ObjectProperty, owl:AsymmetricProperty, owl:IrreflexiveProperty;
+  rdfs:subPropertyOf :hasAssignment;
+  rdfs:domain :Role;
+  rdfs:range :Product;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation>;
+  rdfs:label "approves" .
+
+:authorizes a owl:ObjectProperty, owl:InverseFunctionalProperty, owl:AsymmetricProperty,
+    owl:IrreflexiveProperty;
+  rdfs:domain :Authority;
+  rdfs:range :Authority;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation>;
+  rdfs:label "authorizes" .
+
+:belongsTo a owl:ObjectProperty;
+  rdfs:domain :Person;
+  rdfs:range :Organization;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation>;
+  rdfs:label "belongs to" .
+
+:binds a owl:ObjectProperty, owl:AsymmetricProperty, owl:IrreflexiveProperty;
+  rdfs:domain :Policy;
+  rdfs:range :BoundElement;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation>;
+  rdfs:label "binds" .
+
+:concurs a owl:ObjectProperty, owl:AsymmetricProperty, owl:IrreflexiveProperty;
+  rdfs:subPropertyOf :hasAssignment;
+  rdfs:domain :Role;
+  rdfs:range :Product;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation>;
+  rdfs:label "concurs" .
+
+:delegatesTo a owl:ObjectProperty, owl:InverseFunctionalProperty, owl:AsymmetricProperty,
+    owl:IrreflexiveProperty;
+  rdfs:domain :Role;
+  rdfs:range :Role;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation>;
+  rdfs:label "delegates to" .
+
+:delivers a owl:ObjectProperty, owl:InverseFunctionalProperty, owl:AsymmetricProperty,
+    owl:IrreflexiveProperty;
+  rdfs:domain :InterchangePoint;
+  rdfs:range :Deliverable;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation>;
+  rdfs:label "delivers" .
+
+:describes a owl:ObjectProperty, owl:AsymmetricProperty, owl:IrreflexiveProperty;
+  rdfs:domain :Product;
+  rdfs:range :DevelopedElement;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation>;
+  rdfs:label "describes" .
+
+:executes a owl:ObjectProperty, owl:InverseFunctionalProperty, owl:AsymmetricProperty,
+    owl:IrreflexiveProperty;
+  rdfs:domain :Authority;
+  rdfs:range :Process;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation>;
+  rdfs:label "executes" .
+
+:hasAssignment a owl:ObjectProperty, owl:AsymmetricProperty, owl:IrreflexiveProperty;
+  rdfs:domain :Role;
+  rdfs:range :AssignedElement;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation>;
+  rdfs:label "has assignment" .
+
+:hasParticipant a owl:ObjectProperty, owl:AsymmetricProperty, owl:IrreflexiveProperty;
+  rdfs:domain :Interchange;
+  rdfs:range :Deliverable;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation>;
+  rdfs:label "has participant" .
+
+:hasResponsibilityFor a owl:ObjectProperty, owl:InverseFunctionalProperty;
+  rdfs:domain :Organization;
+  rdfs:range :Authority;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation>;
+  rdfs:label "has responsibility for" .
+
+:hasRole a owl:ObjectProperty, owl:InverseFunctionalProperty, owl:AsymmetricProperty,
+    owl:IrreflexiveProperty;
+  rdfs:domain :Person;
+  rdfs:range :Role;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation>;
+  rdfs:label "has role" .
+
+:interchangesThrough a owl:ObjectProperty, owl:InverseFunctionalProperty, owl:AsymmetricProperty,
+    owl:IrreflexiveProperty;
+  rdfs:domain :Process;
+  rdfs:range :InterchangePoint;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation>;
+  rdfs:label "interchanges through" .
+
+:invokes a owl:ObjectProperty, owl:IrreflexiveProperty;
+  rdfs:domain :Process;
+  rdfs:range :Process;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation>;
+  rdfs:label "invokes" .
+
+:involves a owl:ObjectProperty, owl:AsymmetricProperty, owl:IrreflexiveProperty;
+  rdfs:domain :Interchange;
+  rdfs:range :Process;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation>;
+  rdfs:label "involves" .
+
+:involves1 a owl:ObjectProperty, owl:FunctionalProperty, owl:AsymmetricProperty, owl:IrreflexiveProperty;
+  rdfs:subPropertyOf :involves;
+  rdfs:domain :Interchange;
+  rdfs:range :Process;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation>;
+  rdfs:label "involves1" .
+
+:involves2 a owl:ObjectProperty, owl:FunctionalProperty, owl:AsymmetricProperty, owl:IrreflexiveProperty;
+  rdfs:subPropertyOf :involves;
+  rdfs:domain :Interchange;
+  rdfs:range :Process;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation>;
+  rdfs:label "involves2" .
+
+:isApprovedBy a owl:ObjectProperty;
+  owl:inverseOf :approves;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation>;
+  rdfs:label "is approved by" .
+
+:isAssignedTo a owl:ObjectProperty;
+  owl:inverseOf :hasAssignment;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation>;
+  rdfs:label "is assigned to" .
+
+:isAuthorizedBy a owl:ObjectProperty;
+  owl:inverseOf :authorizes;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation>;
+  rdfs:label "is authorized by" .
+
+:isBoundBy a owl:ObjectProperty;
+  owl:inverseOf :binds;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation>;
+  rdfs:label "is bound by" .
+
+:isConcurredBy a owl:ObjectProperty;
+  owl:inverseOf :concurs;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation>;
+  rdfs:label "is concurred by" .
+
+:isDelegateOf a owl:ObjectProperty;
+  owl:inverseOf :delegatesTo;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation>;
+  rdfs:label "is delegate of" .
+
+:isDeliveredBy a owl:ObjectProperty;
+  owl:inverseOf :delivers;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation>;
+  rdfs:label "is delivered by" .
+
+:isDescribedBy a owl:ObjectProperty;
+  owl:inverseOf :describes;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation>;
+  rdfs:label "is described by" .
+
+:isExecutedBy a owl:ObjectProperty;
+  owl:inverseOf :executes;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation>;
+  rdfs:label "is executed by" .
+
+:isInterchangePointFor a owl:ObjectProperty;
+  owl:inverseOf :interchangesThrough;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation>;
+  rdfs:label "is interchange point for" .
+
+:isInvokedBy a owl:ObjectProperty;
+  owl:inverseOf :invokes;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation>;
+  rdfs:label "is invoked by" .
+
+:isInvolvedIn a owl:ObjectProperty;
+  owl:inverseOf :involves;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation>;
+  rdfs:label "is involved in" .
+
+:isInvolvedIn1 a owl:ObjectProperty;
+  owl:inverseOf :involves1;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation>;
+  rdfs:label "is involved in 1" .
+
+:isInvolvedIn2 a owl:ObjectProperty;
+  owl:inverseOf :involves2;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation>;
+  rdfs:label "is involved in 2" .
+
+:isManfestedBy a owl:ObjectProperty;
+  owl:inverseOf :manifests;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation>;
+  rdfs:label "is manifested by" .
+
+:isPreparedBy a owl:ObjectProperty;
+  owl:inverseOf :prepares;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation>;
+  rdfs:label "is prepared by" .
+
+:isProducedBy a owl:ObjectProperty;
+  owl:inverseOf :produces;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation>;
+  rdfs:label "is produced by" .
+
+:isRealizedBy a owl:ObjectProperty;
+  owl:inverseOf :realizes;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation>;
+  rdfs:label "is realized by" .
+
+:isReceivedBy a owl:ObjectProperty;
+  owl:inverseOf :receives;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation>;
+  rdfs:label "is received by" .
+
+:isReliedOnBy a owl:ObjectProperty;
+  owl:inverseOf :reliesOn;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation>;
+  rdfs:label "is relied on by" .
+
+:isRepresentedBy a owl:ObjectProperty;
+  owl:inverseOf :represents;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation>;
+  rdfs:label "is represented by" .
+
+:isResponsibilityOf a owl:ObjectProperty;
+  owl:inverseOf :hasResponsibilityFor;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation>;
+  rdfs:label "is responsibility of" .
+
+:isRoleOf a owl:ObjectProperty;
+  owl:inverseOf :hasRole;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation>;
+  rdfs:label "is role of" .
+
+:isSuppliedBy a owl:ObjectProperty;
+  owl:inverseOf :supplies;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation>;
+  rdfs:label "is supplied by" .
+
+:manifests a owl:ObjectProperty, owl:InverseFunctionalProperty, owl:AsymmetricProperty,
+    owl:IrreflexiveProperty;
+  rdfs:domain :DevelopedElement;
+  rdfs:range :DevelopmentState;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation>;
+  rdfs:label "manifests" .
+
+:participatesIn a owl:ObjectProperty;
+  owl:inverseOf :hasParticipant;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation>;
+  rdfs:label "participates in" .
+
+:prepares a owl:ObjectProperty, owl:AsymmetricProperty, owl:IrreflexiveProperty;
+  rdfs:subPropertyOf :hasAssignment;
+  rdfs:domain :Role;
+  rdfs:range :Product;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation>;
+  rdfs:label "prepares" .
+
+:produces a owl:ObjectProperty, owl:InverseFunctionalProperty, owl:AsymmetricProperty,
+    owl:IrreflexiveProperty;
+  rdfs:domain :Authority;
+  rdfs:range :Product;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation>;
+  rdfs:label "produces" .
+
+:realizes a owl:ObjectProperty, owl:AsymmetricProperty, owl:IrreflexiveProperty;
+  rdfs:domain :RealizedElement;
+  rdfs:range :RealizedElement;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation>;
+  rdfs:label "realizes" .
+
+:receives a owl:ObjectProperty, owl:AsymmetricProperty, owl:IrreflexiveProperty;
+  rdfs:domain :InterchangePoint;
+  rdfs:range :Deliverable;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation>;
+  rdfs:label "receives" .
+
+:reliesOn a owl:ObjectProperty, owl:AsymmetricProperty, owl:IrreflexiveProperty;
+  rdfs:domain :Authority;
+  rdfs:range :DevelopedElement;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation>;
+  rdfs:label "relies on" .
+
+:represents a owl:ObjectProperty, owl:AsymmetricProperty, owl:IrreflexiveProperty;
+  rdfs:domain :Stakeholder;
+  rdfs:range :Concern;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation>;
+  rdfs:label "represents" .
+
+:supplies a owl:ObjectProperty, owl:InverseFunctionalProperty, owl:AsymmetricProperty,
+    owl:IrreflexiveProperty;
+  rdfs:domain :Authority;
+  rdfs:range :SuppliedElement;
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation>;
+  rdfs:label "supplies" .
+
+:isRequiredNotLaterThan a owl:DatatypeProperty;
+  rdfs:domain :Deliverable;
+  rdfs:range xsd:dateTime;
+  <http://purl.org/dc/elements/1.1/description> "A [=Deliverable=] [=isRequiredNotLaterThan=] some [=dateTime=].";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#scalarProperty>;
+  rdfs:label "is required not later than" .
+
+<http://imce.jpl.nasa.gov/foundation/mission#Component> rdfs:subClassOf :DevelopedElement,
+    :RealizedElement, :SuppliedElement, _:genid1, _:genid2, _:genid3 .
+
+_:genid1 a owl:Restriction;
+  owl:allValuesFrom <http://imce.jpl.nasa.gov/foundation/mission#Component>;
+  owl:onProperty :isRealizedBy .
+
+_:genid2 a owl:Restriction;
+  owl:allValuesFrom :WorkPackage;
+  owl:onProperty :isSuppliedBy .
+
+_:genid3 a owl:Restriction;
+  owl:allValuesFrom <http://imce.jpl.nasa.gov/foundation/mission#Component>;
+  owl:onProperty :realizes .
+
+<http://imce.jpl.nasa.gov/foundation/mission#Function> rdfs:subClassOf :RealizedElement,
+    _:genid4, _:genid5 .
+
+_:genid4 a owl:Restriction;
+  owl:allValuesFrom <http://imce.jpl.nasa.gov/foundation/mission#Function>;
+  owl:onProperty :isRealizedBy .
+
+_:genid5 a owl:Restriction;
+  owl:allValuesFrom <http://imce.jpl.nasa.gov/foundation/mission#Function>;
+  owl:onProperty :realizes .
+
+<http://imce.jpl.nasa.gov/foundation/mission#Interface> rdfs:subClassOf :DevelopedElement,
+    :RealizedElement, _:genid6, _:genid7 .
+
+_:genid6 a owl:Restriction;
+  owl:allValuesFrom <http://imce.jpl.nasa.gov/foundation/mission#Interface>;
+  owl:onProperty :isRealizedBy .
+
+_:genid7 a owl:Restriction;
+  owl:allValuesFrom <http://imce.jpl.nasa.gov/foundation/mission#Interface>;
+  owl:onProperty :realizes .
+
+<http://imce.jpl.nasa.gov/foundation/mission#Junction> rdfs:subClassOf :DevelopedElement,
+    :RealizedElement, _:genid8, _:genid9 .
+
+_:genid8 a owl:Restriction;
+  owl:allValuesFrom <http://imce.jpl.nasa.gov/foundation/mission#Junction>;
+  owl:onProperty :isRealizedBy .
+
+_:genid9 a owl:Restriction;
+  owl:allValuesFrom <http://imce.jpl.nasa.gov/foundation/mission#Junction>;
+  owl:onProperty :realizes .
+
+<http://imce.jpl.nasa.gov/foundation/mission#Mission> rdfs:subClassOf :RealizedElement,
+    :SuppliedElement, _:genid10, _:genid11, _:genid12 .
+
+_:genid10 a owl:Restriction;
+  owl:allValuesFrom <http://imce.jpl.nasa.gov/foundation/mission#Mission>;
+  owl:onProperty :isRealizedBy .
+
+_:genid11 a owl:Restriction;
+  owl:allValuesFrom :Project;
+  owl:onProperty :isSuppliedBy .
+
+_:genid12 a owl:Restriction;
+  owl:allValuesFrom <http://imce.jpl.nasa.gov/foundation/mission#Mission>;
+  owl:onProperty :realizes .
+
+<http://imce.jpl.nasa.gov/foundation/mission#Objective> rdfs:subClassOf :Concern .
+
+:Approves a owl:Class;
+  rdfs:subClassOf :HasAssignment;
+  <http://purl.org/dc/elements/1.1/description> "A [=Role=] [=approves=] zero or more [=Product=]s.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity>;
+  rdfs:label "Approves" .
+
+:AssignedElement a owl:Class;
+  <http://purl.org/dc/elements/1.1/description> "[=AssignedElement=] is the domain of [=isAssignedTo=].";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Aspect>;
+  rdfs:label "Assigned Element" .
+
+:Authority a owl:Class;
+  <http://purl.org/dc/elements/1.1/description> "An [=Authority=] is any entity that asserts a fact in a model. Example [=Authority=]s include [=Program=], [=Project=], and [=WorkPackage=]. (The association of an     [=Authority=] with its asserted facts requires mechanisms outside the vocabulary of OML and OWL proper, e.g., named graphs. Authorization is conveyed by the organization of statements in a repository.)";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept>;
+  rdfs:label "Authority" .
+
+:Authorizes a owl:Class;
+  <http://purl.org/dc/elements/1.1/description> "An [=Authority=] [=authorizes=] zero or more [=Authority=]s.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity>;
+  rdfs:label "Authorizes" .
+
+:BelongsTo a owl:Class;
+  <http://purl.org/dc/elements/1.1/description> "A [=Person=] [=belongsTo=] zero or more [=Organization=]s.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity>;
+  rdfs:label "Belongs To" .
+
+:Binds a owl:Class;
+  <http://purl.org/dc/elements/1.1/description> "A [=Policy=] [=binds=] zero or more [=BoundElement=]s.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity>;
+  rdfs:label "Binds" .
+
+:BoundElement a owl:Class;
+  <http://purl.org/dc/elements/1.1/description> "[=BoundElement=] is the domain of [=binds=].";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Aspect>;
+  rdfs:label "Bound Element" .
+
+:Concern a owl:Class;
+  rdfs:subClassOf <http://imce.jpl.nasa.gov/foundation/base#AggregatedElement>, <http://imce.jpl.nasa.gov/foundation/base#IdentifiedElement>,
+    _:genid13, _:genid14;
+  <http://purl.org/dc/elements/1.1/description> "<para>A [=Concern=] is a specific interest that one or more [=Stakeholder=]s have in the successful completion of a [=Project=] or [=Program=] and its [=Mission=]s. </para>";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept>;
+  rdfs:label "Concern" .
+
+_:genid13 a owl:Restriction;
+  owl:allValuesFrom :Concern;
+  owl:onProperty <http://imce.jpl.nasa.gov/foundation/base#aggregates> .
+
+_:genid14 a owl:Restriction;
+  owl:allValuesFrom :Concern;
+  owl:onProperty <http://imce.jpl.nasa.gov/foundation/base#isAggregatedIn> .
+
+:Concurs a owl:Class;
+  rdfs:subClassOf :HasAssignment;
+  <http://purl.org/dc/elements/1.1/description> "A [=Role=] [=concurs=] in zero or more [=Product=]s.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity>;
+  rdfs:label "Concurs" .
+
+:DelegatesTo a owl:Class;
+  <http://purl.org/dc/elements/1.1/description> "A [=Role=] [=delegatesTo=] zero or more [=Role=]s.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity>;
+  rdfs:label "Delegates To" .
+
+:Deliverable a owl:Class;
+  rdfs:subClassOf <http://imce.jpl.nasa.gov/foundation/base#IdentifiedElement>;
+  <http://purl.org/dc/elements/1.1/description> "A [=Deliverable=] is the result of successful execution of a [=Process=]. It may be a prerequisite to another [=Process=].";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept>;
+  rdfs:label "Deliverable" .
+
+:Delivers a owl:Class;
+  <http://purl.org/dc/elements/1.1/description> "An [=InterchangePoint=] [=delivers=] zero or more [=Deliverable=]s.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity>;
+  rdfs:label "Delivers" .
+
+:Describes a owl:Class;
+  <http://purl.org/dc/elements/1.1/description> "A [=Product=] [=describes=] zero or more [=DevelopedElement=]s.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity>;
+  rdfs:label "Describes" .
+
+:DevelopedElement a owl:Class;
+  rdfs:subClassOf <http://imce.jpl.nasa.gov/foundation/analysis#CharacterizedElement>;
+  <http://purl.org/dc/elements/1.1/description> "[=DevelopedElement=] is the domain of [=manifests=].";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Aspect>;
+  rdfs:label "Developed Element" .
+
+:DevelopmentState a owl:Class;
+  rdfs:subClassOf <http://imce.jpl.nasa.gov/foundation/analysis#Characterization>, :Deliverable,
+    _:genid15;
+  <http://purl.org/dc/elements/1.1/description> "A [=DevelopmentState=] is a kind of [=Deliverable=] that represents a defined condition for a [=DevelopedElement=]. [=DevelopmentState=]s may be unique to the     [=DevelopedElement=]; example [=DevelopmentState=]s for a [=Product=] include Preliminary, Draft, and Final.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept>;
+  rdfs:label "Development State" .
+
+_:genid15 a owl:Restriction;
+  owl:allValuesFrom :DevelopedElement;
+  owl:onProperty <http://imce.jpl.nasa.gov/foundation/analysis#characterizes> .
+
+:Executes a owl:Class;
+  <http://purl.org/dc/elements/1.1/description> "An [=Authority=] [=executes=] zero or more [=Process=]es.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity>;
+  rdfs:label "Executes" .
+
+:Facility a owl:Class;
+  rdfs:subClassOf <http://imce.jpl.nasa.gov/foundation/base#IdentifiedElement>, :DevelopedElement;
+  <http://purl.org/dc/elements/1.1/description> "A [=Facility=] is any asset (e.g., laboratory, assembly facility, test facility, etc.) whose [=DevelopmentState=] may be a [=Deliverable=] for a project process.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept>;
+  rdfs:label "Facility" .
+
+:HasAssignment a owl:Class;
+  <http://purl.org/dc/elements/1.1/description> "A [=Role=] [=hasAssignment=] zero or more [=AssignedElement=]es.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity>;
+  rdfs:label "Has Assignment" .
+
+:HasParticipant a owl:Class;
+  <http://purl.org/dc/elements/1.1/description> "An [=Interchange=] [=hasParticipant=] zero or more [=Deliverable=]s.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity>;
+  rdfs:label "Has Participant" .
+
+:HasResponsibilityFor a owl:Class;
+  <http://purl.org/dc/elements/1.1/description> "An [=Organization=] [=hasResponsibilityFor=] zero or more [=Authority=]s.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity>;
+  rdfs:label "Has Responsibility For" .
+
+:HasRole a owl:Class;
+  <http://purl.org/dc/elements/1.1/description> "A [=Person=] [=hasRole=] zero or more [=Role=]s.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity>;
+  rdfs:label "Has Role" .
+
+:Interchange a owl:Class;
+  rdfs:subClassOf <http://imce.jpl.nasa.gov/foundation/base#IdentifiedElement>;
+  <http://purl.org/dc/elements/1.1/description> "An [=Interchange=] represents the intended joint behavior of a pair of [=Process=]es. It indicates that a [=Deliverable=] may be delivered by one [=Process=]     and received by the other [=Process=].";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept>;
+  rdfs:label "Interchange" .
+
+:InterchangePoint a owl:Class;
+  rdfs:subClassOf <http://imce.jpl.nasa.gov/foundation/base#IdentifiedElement>;
+  <http://purl.org/dc/elements/1.1/description> "An [=InterchangePoint=] is a feature of a [=Process=] that permits it to participatein an [=Interchange=].";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept>;
+  rdfs:label "Interchange Point" .
+
+:InterchangesThrough a owl:Class;
+  <http://purl.org/dc/elements/1.1/description> "A [=Process=] [=interchangesThrough=] zero or more [=InterchangePoint=]s.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity>;
+  rdfs:label "Interchanges Through" .
+
+:Invokes a owl:Class;
+  <http://purl.org/dc/elements/1.1/description> "A [=Process=] [=invokes=] zero or more [=Process=]es.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity>;
+  rdfs:label "Invokes" .
+
+:Involves a owl:Class;
+  <http://purl.org/dc/elements/1.1/description> "An [=Interchange=] [=involves=] zero or more [=Process=]es.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity>;
+  rdfs:label "Involves" .
+
+:Involves1 a owl:Class;
+  rdfs:subClassOf :Involves;
+  <http://purl.org/dc/elements/1.1/description> "[=involves1=] and [=involves2=] are distinguishable specializations of[=involves=]. These specializations are employed to indicate distinct ends of an[=Interchange=].";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity>;
+  rdfs:label "Involves1" .
+
+:Involves2 a owl:Class;
+  rdfs:subClassOf :Involves;
+  <http://purl.org/dc/elements/1.1/description> "[=involves1=] and [=involves2=] are distinguishable specializations of[=involves=]. These specializations are employed to indicate distinct ends of an[=Interchange=].";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity>;
+  rdfs:label "Involves2" .
+
+:Manifests a owl:Class;
+  <http://purl.org/dc/elements/1.1/description> "A [=DevelopedElement=] [=manifests=] zero or more [=DevelopmentState=]s.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity>;
+  rdfs:label "Manifests" .
+
+:Organization a owl:Class;
+  rdfs:subClassOf <http://imce.jpl.nasa.gov/foundation/base#IdentifiedElement>;
+  <http://purl.org/dc/elements/1.1/description> "An [=Organization=] [=hasResponsibilityFor=] zero or more [=Authority=]s.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept>;
+  rdfs:label "Organization" .
+
+:Person a owl:Class;
+  rdfs:subClassOf <http://imce.jpl.nasa.gov/foundation/base#IdentifiedElement>;
+  <http://purl.org/dc/elements/1.1/description> "A [=Person=] is an individual human being. A [=Person=] [=belongsTo=] zero or more [=Organization=]s.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept>;
+  rdfs:label "Person" .
+
+:Policy a owl:Class;
+  rdfs:subClassOf <http://imce.jpl.nasa.gov/foundation/base#IdentifiedElement>;
+  <http://purl.org/dc/elements/1.1/description> "A [=Policy=] represents a specific exercise of authority that [=binds=] one or more model elements.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept>;
+  rdfs:label "Policy" .
+
+:Prepares a owl:Class;
+  rdfs:subClassOf :HasAssignment;
+  <http://purl.org/dc/elements/1.1/description> "A [=Role=] [=prepares=] zero or more [=Product=]s.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity>;
+  rdfs:label "Prepares" .
+
+:Process a owl:Class;
+  rdfs:subClassOf <http://imce.jpl.nasa.gov/foundation/base#IdentifiedElement>, :AssignedElement,
+    :RealizedElement, _:genid16, _:genid17;
+  <http://purl.org/dc/elements/1.1/description> "A [=Process=] is an activity authorized by a [=WorkPackage=] in support of delivering a [=Component=] or producing a [=Product=]. Examples include <emphasis>    design trajectory</emphasis>, <emphasis>conduct trade study</emphasis>, and <emphasis>review subsystem design</emphasis>.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept>;
+  rdfs:label "Process" .
+
+_:genid16 a owl:Restriction;
+  owl:allValuesFrom :Process;
+  owl:onProperty :isRealizedBy .
+
+_:genid17 a owl:Restriction;
+  owl:allValuesFrom :Process;
+  owl:onProperty :realizes .
+
+:Produces a owl:Class;
+  <http://purl.org/dc/elements/1.1/description> "A [=Authority=] [=produces=] zero or more [=Product=]s.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity>;
+  rdfs:label "Produces" .
+
+:Product a owl:Class;
+  rdfs:subClassOf <http://imce.jpl.nasa.gov/foundation/base#AggregatedElement>, <http://imce.jpl.nasa.gov/foundation/base#IdentifiedElement>,
+    :DevelopedElement, :SuppliedElement, _:genid18, _:genid19;
+  <http://purl.org/dc/elements/1.1/description> "A [=Product=] is a document or other artifact supplied by a [=WorkPackage=]. Example [=Product=]s include trade study reports, design documents, and inspection reports.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept>;
+  rdfs:label "Product" .
+
+_:genid18 a owl:Restriction;
+  owl:allValuesFrom :Product;
+  owl:onProperty <http://imce.jpl.nasa.gov/foundation/base#aggregates> .
+
+_:genid19 a owl:Restriction;
+  owl:allValuesFrom :Product;
+  owl:onProperty <http://imce.jpl.nasa.gov/foundation/base#isAggregatedIn> .
+
+:Program a owl:Class;
+  rdfs:subClassOf :Authority, _:genid20;
+  <http://purl.org/dc/elements/1.1/description> "A [=Program=] is an [=Authority=] that [=authorizes=] zero or more [=Project=]s.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept>;
+  rdfs:label "Program" .
+
+_:genid20 a owl:Restriction;
+  owl:allValuesFrom :Project;
+  owl:onProperty :authorizes .
+
+:Project a owl:Class;
+  rdfs:subClassOf :Authority, :RealizedElement, _:genid21, _:genid22, _:genid23, _:genid24,
+    _:genid25;
+  <http://purl.org/dc/elements/1.1/description> "A [=Project=] is an [=Authority=] that [=supplies=] a related set of [=Mission=]s in pursuit of a set of [=Objective=]s.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept>;
+  rdfs:label "Project" .
+
+_:genid21 a owl:Restriction;
+  owl:allValuesFrom :WorkPackage;
+  owl:onProperty :authorizes .
+
+_:genid22 a owl:Restriction;
+  owl:allValuesFrom :Program;
+  owl:onProperty :isAuthorizedBy .
+
+_:genid23 a owl:Restriction;
+  owl:allValuesFrom :Project;
+  owl:onProperty :isRealizedBy .
+
+_:genid24 a owl:Restriction;
+  owl:allValuesFrom :Project;
+  owl:onProperty :realizes .
+
+_:genid25 a owl:Restriction;
+  owl:allValuesFrom <http://imce.jpl.nasa.gov/foundation/mission#Mission>;
+  owl:onProperty :supplies .
+
+:RealizedElement a owl:Class;
+  <http://purl.org/dc/elements/1.1/description> "[=RealizedElement=] is the domain and range of [=realizes=].";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Aspect>;
+  rdfs:label "Realized Element" .
+
+:Realizes a owl:Class;
+  <http://purl.org/dc/elements/1.1/description> "A [=RealizedElement=] [=realizes=] zero or more [=RealizedElement=]s.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity>;
+  rdfs:label "Realizes" .
+
+:Receives a owl:Class;
+  rdfs:subClassOf :AssignedElement;
+  <http://purl.org/dc/elements/1.1/description> "An [=InterchangePoint=] [=receives=] zero or more [=Deliverable=]s.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity>;
+  rdfs:label "Receives" .
+
+:ReliesOn a owl:Class;
+  rdfs:subClassOf :AssignedElement;
+  <http://purl.org/dc/elements/1.1/description> "An [=Authority=] [=reliesOn=] zero or more [=DevelopedElement=]s.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity>;
+  rdfs:label "Relies On" .
+
+:Represents a owl:Class;
+  <http://purl.org/dc/elements/1.1/description> "An [=Stakeholder=] [=represents=] zero or more [=Concern=]s.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity>;
+  rdfs:label "Represents" .
+
+:Role a owl:Class;
+  rdfs:subClassOf <http://imce.jpl.nasa.gov/foundation/base#IdentifiedElement>;
+  <http://purl.org/dc/elements/1.1/description> "A [=Role=] corresponds to a set of assignments meant to be filled by a single [=Person=].";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept>;
+  rdfs:label "Role" .
+
+:Stakeholder a owl:Class;
+  rdfs:subClassOf <http://imce.jpl.nasa.gov/foundation/base#IdentifiedElement>;
+  <http://purl.org/dc/elements/1.1/description> "A [=Stakeholder=] is a person or organization with a recognized interest in the successful completion of a [=Project=] or [=Program=]. Example     [=Stakeholder=]s include scientists, NASA Directorates, nuclear safety advocates, and the general public.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept>;
+  rdfs:label "Stakeholder" .
+
+:SuppliedElement a owl:Class;
+  <http://purl.org/dc/elements/1.1/description> "A [=SuppliedElement=] is the range of [=supplies=].";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Aspect>;
+  rdfs:label "Supplied Element" .
+
+:Supplies a owl:Class;
+  rdfs:subClassOf :AssignedElement;
+  <http://purl.org/dc/elements/1.1/description> "An [=Authority=] [=supplies=] zero or more [=SuppliedElement=]s.";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity>;
+  rdfs:label "Supplies" .
+
+:WorkPackage a owl:Class;
+  rdfs:subClassOf <http://imce.jpl.nasa.gov/foundation/base#Package>, :Authority, :RealizedElement,
+    _:genid26, _:genid27, _:genid28, _:genid29;
+  <http://purl.org/dc/elements/1.1/description> "A [=WorkPackage=] is an [=Authority=] subordinate to a [=Project=]that [=produces=] definite [=Product=]s and/or [=supplies=] definite[=SuppliedElements=] in the context of that [=Project=].";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept>;
+  rdfs:label "Work Package" .
+
+_:genid26 a owl:Restriction;
+  owl:allValuesFrom :WorkPackage;
+  owl:onProperty :authorizes .
+
+_:genid27 a owl:Restriction;
+  owl:allValuesFrom :WorkPackage;
+  owl:onProperty :isRealizedBy .
+
+_:genid28 a owl:Restriction;
+  owl:allValuesFrom :WorkPackage;
+  owl:onProperty :realizes .
+
+_:genid29 a owl:Restriction;
+  owl:allValuesFrom <http://imce.jpl.nasa.gov/foundation/mission#Component>;
+  owl:onProperty :supplies .
+
+<urn:swrl:var#r> a <http://www.w3.org/2003/11/swrl#Variable> .
+
+<urn:swrl:var#s> a <http://www.w3.org/2003/11/swrl#Variable> .
+
+<urn:swrl:var#t> a <http://www.w3.org/2003/11/swrl#Variable> .
+
+_:genid102 a <http://www.w3.org/2003/11/swrl#Imp>;
+  rdfs:label "executes derivation";
+  <http://www.w3.org/2003/11/swrl#body> _:genid107;
+  <http://www.w3.org/2003/11/swrl#head> _:genid109 .
+
+_:genid107 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid105;
+  rdf:first _:genid108 .
+
+_:genid105 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid103;
+  rdf:first _:genid106 .
+
+_:genid103 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid104 .
+
+_:genid104 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+
+_:genid106 a <http://www.w3.org/2003/11/swrl#ClassAtom>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#classPredicate> :Executes .
+
+_:genid108 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+
+_:genid109 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid110 .
+
+_:genid110 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> :executes .
+
+_:genid111 a <http://www.w3.org/2003/11/swrl#Imp>;
+  rdfs:label "hasAssignment derivation";
+  <http://www.w3.org/2003/11/swrl#body> _:genid116;
+  <http://www.w3.org/2003/11/swrl#head> _:genid118 .
+
+_:genid116 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid114;
+  rdf:first _:genid117 .
+
+_:genid114 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid112;
+  rdf:first _:genid115 .
+
+_:genid112 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid113 .
+
+_:genid113 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+
+_:genid115 a <http://www.w3.org/2003/11/swrl#ClassAtom>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#classPredicate> :HasAssignment .
+
+_:genid117 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+
+_:genid118 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid119 .
+
+_:genid119 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasAssignment .
+
+_:genid120 a <http://www.w3.org/2003/11/swrl#Imp>;
+  rdfs:label "hasParticipant derivation";
+  <http://www.w3.org/2003/11/swrl#body> _:genid125;
+  <http://www.w3.org/2003/11/swrl#head> _:genid127 .
+
+_:genid125 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid123;
+  rdf:first _:genid126 .
+
+_:genid123 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid121;
+  rdf:first _:genid124 .
+
+_:genid121 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid122 .
+
+_:genid122 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+
+_:genid124 a <http://www.w3.org/2003/11/swrl#ClassAtom>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#classPredicate> :HasParticipant .
+
+_:genid126 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+
+_:genid127 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid128 .
+
+_:genid128 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasParticipant .
+
+_:genid129 a <http://www.w3.org/2003/11/swrl#Imp>;
+  rdfs:label "hasResponsibilityFor derivation";
+  <http://www.w3.org/2003/11/swrl#body> _:genid134;
+  <http://www.w3.org/2003/11/swrl#head> _:genid136 .
+
+_:genid134 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid132;
+  rdf:first _:genid135 .
+
+_:genid132 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid130;
+  rdf:first _:genid133 .
+
+_:genid130 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid131 .
+
+_:genid131 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+
+_:genid133 a <http://www.w3.org/2003/11/swrl#ClassAtom>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#classPredicate> :HasResponsibilityFor .
+
+_:genid135 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+
+_:genid136 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid137 .
+
+_:genid137 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasResponsibilityFor .
+
+_:genid138 a <http://www.w3.org/2003/11/swrl#Imp>;
+  rdfs:label "hasRole derivation";
+  <http://www.w3.org/2003/11/swrl#body> _:genid143;
+  <http://www.w3.org/2003/11/swrl#head> _:genid145 .
+
+_:genid143 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid141;
+  rdf:first _:genid144 .
+
+_:genid141 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid139;
+  rdf:first _:genid142 .
+
+_:genid139 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid140 .
+
+_:genid140 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+
+_:genid142 a <http://www.w3.org/2003/11/swrl#ClassAtom>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#classPredicate> :HasRole .
+
+_:genid144 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+
+_:genid145 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid146 .
+
+_:genid146 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasRole .
+
+_:genid147 a <http://www.w3.org/2003/11/swrl#Imp>;
+  rdfs:label "interchangesThrough derivation";
+  <http://www.w3.org/2003/11/swrl#body> _:genid152;
+  <http://www.w3.org/2003/11/swrl#head> _:genid154 .
+
+_:genid152 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid150;
+  rdf:first _:genid153 .
+
+_:genid150 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid148;
+  rdf:first _:genid151 .
+
+_:genid148 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid149 .
+
+_:genid149 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+
+_:genid151 a <http://www.w3.org/2003/11/swrl#ClassAtom>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#classPredicate> :InterchangesThrough .
+
+_:genid153 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+
+_:genid154 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid155 .
+
+_:genid155 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> :interchangesThrough .
+
+_:genid156 a <http://www.w3.org/2003/11/swrl#Imp>;
+  rdfs:label "invokes derivation";
+  <http://www.w3.org/2003/11/swrl#body> _:genid161;
+  <http://www.w3.org/2003/11/swrl#head> _:genid163 .
+
+_:genid161 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid159;
+  rdf:first _:genid162 .
+
+_:genid159 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid157;
+  rdf:first _:genid160 .
+
+_:genid157 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid158 .
+
+_:genid158 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+
+_:genid160 a <http://www.w3.org/2003/11/swrl#ClassAtom>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#classPredicate> :Invokes .
+
+_:genid162 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+
+_:genid163 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid164 .
+
+_:genid164 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> :invokes .
+
+_:genid165 a <http://www.w3.org/2003/11/swrl#Imp>;
+  rdfs:label "involves derivation";
+  <http://www.w3.org/2003/11/swrl#body> _:genid170;
+  <http://www.w3.org/2003/11/swrl#head> _:genid172 .
+
+_:genid170 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid168;
+  rdf:first _:genid171 .
+
+_:genid168 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid166;
+  rdf:first _:genid169 .
+
+_:genid166 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid167 .
+
+_:genid167 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+
+_:genid169 a <http://www.w3.org/2003/11/swrl#ClassAtom>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#classPredicate> :Involves .
+
+_:genid171 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+
+_:genid172 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid173 .
+
+_:genid173 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> :involves .
+
+_:genid174 a <http://www.w3.org/2003/11/swrl#Imp>;
+  rdfs:label "involves1 derivation";
+  <http://www.w3.org/2003/11/swrl#body> _:genid179;
+  <http://www.w3.org/2003/11/swrl#head> _:genid181 .
+
+_:genid179 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid177;
+  rdf:first _:genid180 .
+
+_:genid177 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid175;
+  rdf:first _:genid178 .
+
+_:genid175 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid176 .
+
+_:genid176 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+
+_:genid178 a <http://www.w3.org/2003/11/swrl#ClassAtom>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#classPredicate> :Involves1 .
+
+_:genid180 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+
+_:genid181 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid182 .
+
+_:genid182 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> :involves1 .
+
+_:genid183 a <http://www.w3.org/2003/11/swrl#Imp>;
+  rdfs:label "involves2 derivation";
+  <http://www.w3.org/2003/11/swrl#body> _:genid188;
+  <http://www.w3.org/2003/11/swrl#head> _:genid190 .
+
+_:genid188 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid186;
+  rdf:first _:genid189 .
+
+_:genid186 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid184;
+  rdf:first _:genid187 .
+
+_:genid184 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid185 .
+
+_:genid185 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+
+_:genid187 a <http://www.w3.org/2003/11/swrl#ClassAtom>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#classPredicate> :Involves2 .
+
+_:genid189 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+
+_:genid190 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid191 .
+
+_:genid191 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> :involves2 .
+
+_:genid192 a <http://www.w3.org/2003/11/swrl#Imp>;
+  rdfs:label "manifests derivation";
+  <http://www.w3.org/2003/11/swrl#body> _:genid197 .
+
+_:genid197 rdf:rest _:genid195;
+  rdf:first _:genid198 .
+
+_:genid195 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid193;
+  rdf:first _:genid196 .
+
+_:genid193 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid194 .
+
+_:genid194 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+
+_:genid196 a <http://www.w3.org/2003/11/swrl#ClassAtom>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#classPredicate> :Manifests .
+
+_:genid198 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+# Generated by the OWL API (version 5.1.17.2020-11-07T15:03:35Z) https://github.com/owlcs/owlapi/
+
+_:genid197 a <http://www.w3.org/2003/11/swrl#AtomList> .
+
+_:genid192 <http://www.w3.org/2003/11/swrl#head> _:genid199 .
+
+_:genid199 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid200 .
+
+_:genid200 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> :manifests .
+
+_:genid201 a <http://www.w3.org/2003/11/swrl#Imp>;
+  rdfs:label "prepares derivation";
+  <http://www.w3.org/2003/11/swrl#body> _:genid206;
+  <http://www.w3.org/2003/11/swrl#head> _:genid208 .
+
+_:genid206 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid204;
+  rdf:first _:genid207 .
+
+_:genid204 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid202;
+  rdf:first _:genid205 .
+
+_:genid202 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid203 .
+
+_:genid203 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+
+_:genid205 a <http://www.w3.org/2003/11/swrl#ClassAtom>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#classPredicate> :Prepares .
+
+_:genid207 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+
+_:genid208 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid209 .
+
+_:genid209 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> :prepares .
+
+_:genid210 a <http://www.w3.org/2003/11/swrl#Imp>;
+  rdfs:label "produces derivation";
+  <http://www.w3.org/2003/11/swrl#body> _:genid215;
+  <http://www.w3.org/2003/11/swrl#head> _:genid217 .
+
+_:genid215 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid213;
+  rdf:first _:genid216 .
+
+_:genid213 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid211;
+  rdf:first _:genid214 .
+
+_:genid211 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid212 .
+
+_:genid212 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+
+_:genid214 a <http://www.w3.org/2003/11/swrl#ClassAtom>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#classPredicate> :Produces .
+
+_:genid216 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+
+_:genid217 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid218 .
+
+_:genid218 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> :produces .
+
+_:genid219 a <http://www.w3.org/2003/11/swrl#Imp>;
+  rdfs:label "realizes derivation";
+  <http://www.w3.org/2003/11/swrl#body> _:genid224;
+  <http://www.w3.org/2003/11/swrl#head> _:genid226 .
+
+_:genid224 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid222;
+  rdf:first _:genid225 .
+
+_:genid222 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid220;
+  rdf:first _:genid223 .
+
+_:genid220 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid221 .
+
+_:genid221 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+
+_:genid223 a <http://www.w3.org/2003/11/swrl#ClassAtom>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#classPredicate> :Realizes .
+
+_:genid225 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+
+_:genid226 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid227 .
+
+_:genid227 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> :realizes .
+
+_:genid228 a <http://www.w3.org/2003/11/swrl#Imp>;
+  rdfs:label "receives derivation";
+  <http://www.w3.org/2003/11/swrl#body> _:genid233;
+  <http://www.w3.org/2003/11/swrl#head> _:genid235 .
+
+_:genid233 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid231;
+  rdf:first _:genid234 .
+
+_:genid231 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid229;
+  rdf:first _:genid232 .
+
+_:genid229 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid230 .
+
+_:genid230 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+
+_:genid232 a <http://www.w3.org/2003/11/swrl#ClassAtom>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#classPredicate> :Receives .
+
+_:genid234 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+
+_:genid235 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid236 .
+
+_:genid236 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> :receives .
+
+_:genid237 a <http://www.w3.org/2003/11/swrl#Imp>;
+  rdfs:label "reliesOn derivation";
+  <http://www.w3.org/2003/11/swrl#body> _:genid242;
+  <http://www.w3.org/2003/11/swrl#head> _:genid244 .
+
+_:genid242 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid240;
+  rdf:first _:genid243 .
+
+_:genid240 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid238;
+  rdf:first _:genid241 .
+
+_:genid238 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid239 .
+
+_:genid239 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+
+_:genid241 a <http://www.w3.org/2003/11/swrl#ClassAtom>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#classPredicate> :ReliesOn .
+
+_:genid243 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+
+_:genid244 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid245 .
+
+_:genid245 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> :reliesOn .
+
+_:genid246 a <http://www.w3.org/2003/11/swrl#Imp>;
+  rdfs:label "represents derivation";
+  <http://www.w3.org/2003/11/swrl#body> _:genid251;
+  <http://www.w3.org/2003/11/swrl#head> _:genid253 .
+
+_:genid251 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid249;
+  rdf:first _:genid252 .
+
+_:genid249 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid247;
+  rdf:first _:genid250 .
+
+_:genid247 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid248 .
+
+_:genid248 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+
+_:genid250 a <http://www.w3.org/2003/11/swrl#ClassAtom>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#classPredicate> :Represents .
+
+_:genid252 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+
+_:genid253 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid254 .
+
+_:genid254 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> :represents .
+
+_:genid255 a <http://www.w3.org/2003/11/swrl#Imp>;
+  rdfs:label "supplies derivation";
+  <http://www.w3.org/2003/11/swrl#body> _:genid260;
+  <http://www.w3.org/2003/11/swrl#head> _:genid262 .
+
+_:genid260 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid258;
+  rdf:first _:genid261 .
+
+_:genid258 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid256;
+  rdf:first _:genid259 .
+
+_:genid256 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid257 .
+
+_:genid257 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+
+_:genid259 a <http://www.w3.org/2003/11/swrl#ClassAtom>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#classPredicate> :Supplies .
+
+_:genid261 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+
+_:genid262 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid263 .
+
+_:genid263 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> :supplies .
+
+_:genid30 a <http://www.w3.org/2003/11/swrl#Imp>;
+  rdfs:label "approves derivation";
+  <http://www.w3.org/2003/11/swrl#body> _:genid35;
+  <http://www.w3.org/2003/11/swrl#head> _:genid37 .
+
+_:genid35 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid33;
+  rdf:first _:genid36 .
+
+_:genid33 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid31;
+  rdf:first _:genid34 .
+
+_:genid31 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid32 .
+
+_:genid32 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+
+_:genid34 a <http://www.w3.org/2003/11/swrl#ClassAtom>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#classPredicate> :Approves .
+
+_:genid36 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+
+_:genid37 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid38 .
+
+_:genid38 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> :approves .
+
+_:genid39 a <http://www.w3.org/2003/11/swrl#Imp>;
+  rdfs:label "authorizes derivation";
+  <http://www.w3.org/2003/11/swrl#body> _:genid44;
+  <http://www.w3.org/2003/11/swrl#head> _:genid46 .
+
+_:genid44 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid42;
+  rdf:first _:genid45 .
+
+_:genid42 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid40;
+  rdf:first _:genid43 .
+
+_:genid40 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid41 .
+
+_:genid41 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+
+_:genid43 a <http://www.w3.org/2003/11/swrl#ClassAtom>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#classPredicate> :Authorizes .
+
+_:genid45 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+
+_:genid46 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid47 .
+
+_:genid47 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> :authorizes .
+
+_:genid48 a <http://www.w3.org/2003/11/swrl#Imp>;
+  rdfs:label "belongsTo derivation";
+  <http://www.w3.org/2003/11/swrl#body> _:genid53;
+  <http://www.w3.org/2003/11/swrl#head> _:genid55 .
+
+_:genid53 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid51;
+  rdf:first _:genid54 .
+
+_:genid51 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid49;
+  rdf:first _:genid52 .
+
+_:genid49 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid50 .
+
+_:genid50 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+
+_:genid52 a <http://www.w3.org/2003/11/swrl#ClassAtom>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#classPredicate> :BelongsTo .
+
+_:genid54 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+
+_:genid55 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid56 .
+
+_:genid56 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> :belongsTo .
+
+_:genid57 a <http://www.w3.org/2003/11/swrl#Imp>;
+  rdfs:label "binds derivation";
+  <http://www.w3.org/2003/11/swrl#body> _:genid62;
+  <http://www.w3.org/2003/11/swrl#head> _:genid64 .
+
+_:genid62 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid60;
+  rdf:first _:genid63 .
+
+_:genid60 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid58;
+  rdf:first _:genid61 .
+
+_:genid58 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid59 .
+
+_:genid59 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+
+_:genid61 a <http://www.w3.org/2003/11/swrl#ClassAtom>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#classPredicate> :Binds .
+
+_:genid63 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+
+_:genid64 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid65 .
+
+_:genid65 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> :binds .
+
+_:genid66 a <http://www.w3.org/2003/11/swrl#Imp>;
+  rdfs:label "concurs derivation";
+  <http://www.w3.org/2003/11/swrl#body> _:genid71;
+  <http://www.w3.org/2003/11/swrl#head> _:genid73 .
+
+_:genid71 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid69;
+  rdf:first _:genid72 .
+
+_:genid69 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid67;
+  rdf:first _:genid70 .
+
+_:genid67 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid68 .
+
+_:genid68 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+
+_:genid70 a <http://www.w3.org/2003/11/swrl#ClassAtom>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#classPredicate> :Concurs .
+
+_:genid72 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+
+_:genid73 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid74 .
+
+_:genid74 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> :concurs .
+
+_:genid75 a <http://www.w3.org/2003/11/swrl#Imp>;
+  rdfs:label "delegatesTo derivation";
+  <http://www.w3.org/2003/11/swrl#body> _:genid80;
+  <http://www.w3.org/2003/11/swrl#head> _:genid82 .
+
+_:genid80 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid78;
+  rdf:first _:genid81 .
+
+_:genid78 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid76;
+  rdf:first _:genid79 .
+
+_:genid76 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid77 .
+
+_:genid77 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+
+_:genid79 a <http://www.w3.org/2003/11/swrl#ClassAtom>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#classPredicate> :DelegatesTo .
+
+_:genid81 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+
+_:genid82 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid83 .
+
+_:genid83 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> :delegatesTo .
+
+_:genid84 a <http://www.w3.org/2003/11/swrl#Imp>;
+  rdfs:label "delivers derivation";
+  <http://www.w3.org/2003/11/swrl#body> _:genid89;
+  <http://www.w3.org/2003/11/swrl#head> _:genid91 .
+
+_:genid89 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid87;
+  rdf:first _:genid90 .
+
+_:genid87 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid85;
+  rdf:first _:genid88 .
+
+_:genid85 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid86 .
+
+_:genid86 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+
+_:genid88 a <http://www.w3.org/2003/11/swrl#ClassAtom>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#classPredicate> :Delivers .
+
+_:genid90 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+
+_:genid91 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid92 .
+
+_:genid92 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> :delivers .
+
+_:genid93 a <http://www.w3.org/2003/11/swrl#Imp>;
+  rdfs:label "describes derivation";
+  <http://www.w3.org/2003/11/swrl#body> _:genid98;
+  <http://www.w3.org/2003/11/swrl#head> _:genid100 .
+
+_:genid98 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid96;
+  rdf:first _:genid99 .
+
+_:genid96 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest _:genid94;
+  rdf:first _:genid97 .
+
+_:genid94 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid95 .
+
+_:genid95 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+
+_:genid97 a <http://www.w3.org/2003/11/swrl#ClassAtom>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#classPredicate> :Describes .
+
+_:genid99 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+
+_:genid100 a <http://www.w3.org/2003/11/swrl#AtomList>;
+  rdf:rest rdf:nil;
+  rdf:first _:genid101 .
+
+_:genid101 a <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom>;
+  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t>;
+  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s>;
+  <http://www.w3.org/2003/11/swrl#propertyPredicate> :describes .

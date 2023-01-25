@@ -1,0 +1,760 @@
+@prefix : <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#BasePlate
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#LaunchVehicleAdapter
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#PayloadStructuralInterface
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#PressurantTankMountingPanel
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#PrimaryFlightComputerUnit
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#PropellantTankMountingPanel
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#PropulsionStructurePost1
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#PropulsionStructurePost2
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#PropulsionStructurePost3
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#PropulsionStructurePost4
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#SeparationSystem
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#SidePanel1
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#SidePanel2
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#SidePanel3
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#SidePanel4
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#SidePanel5
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#SidePanel6
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#StructurePost1
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#StructurePost2
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#StructurePost3
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#StructurePost4
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#StructurePost5
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#StructurePost6
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#TopPanel
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/functions#PrimaryFlightComputerUnitPerformsDetectNewWildfires
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#EnvironmentForBasePlate
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#EnvironmentForLaunchVehicleAdapter
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#EnvironmentForPayloadStructuralInterface
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#EnvironmentForPressurantTankMountingPanel
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#EnvironmentForPropellantTankMountingPanel
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#EnvironmentForPropulsionStructurePost1
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#EnvironmentForPropulsionStructurePost2
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#EnvironmentForPropulsionStructurePost3
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#EnvironmentForPropulsionStructurePost4
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#EnvironmentForSeparationSystem
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#EnvironmentForSidePanel1
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#EnvironmentForSidePanel2
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#EnvironmentForSidePanel3
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#EnvironmentForSidePanel4
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#EnvironmentForSidePanel5
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#EnvironmentForSidePanel6
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#EnvironmentForStructurePost1
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#EnvironmentForStructurePost2
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#EnvironmentForStructurePost3
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#EnvironmentForStructurePost4
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#EnvironmentForStructurePost5
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#EnvironmentForStructurePost6
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#EnvironmentForTopPanel
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#LaunchEnvironmentForBasePlate
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#LaunchEnvironmentForLaunchVehicleAdapter
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#LaunchEnvironmentForPayloadStructuralInterface
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#LaunchEnvironmentForPressurantTankMountingPanel
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#LaunchEnvironmentForPropellantTankMountingPanel
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#LaunchEnvironmentForPropulsionStructurePost1
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#LaunchEnvironmentForPropulsionStructurePost2
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#LaunchEnvironmentForPropulsionStructurePost3
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#LaunchEnvironmentForPropulsionStructurePost4
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#LaunchEnvironmentForSeparationSystem
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#LaunchEnvironmentForSidePanel1
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#LaunchEnvironmentForSidePanel2
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#LaunchEnvironmentForSidePanel3
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#LaunchEnvironmentForSidePanel4
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#LaunchEnvironmentForSidePanel5
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#LaunchEnvironmentForSidePanel6
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#LaunchEnvironmentForStructurePost1
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#LaunchEnvironmentForStructurePost2
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#LaunchEnvironmentForStructurePost3
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#LaunchEnvironmentForStructurePost4
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#LaunchEnvironmentForStructurePost5
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#LaunchEnvironmentForStructurePost6
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#LaunchEnvironmentForTopPanel
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#MaintenanceForPrimaryFlightComputerUnit
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#PrecedenceForPrimaryFlightComputerUnit
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceEnvironmentForBasePlate
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceEnvironmentForPayloadStructuralInterface
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceEnvironmentForPressurantTankMountingPanel
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceEnvironmentForPropellantTankMountingPanel
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceEnvironmentForPropulsionStructurePost1
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceEnvironmentForPropulsionStructurePost2
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceEnvironmentForPropulsionStructurePost3
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceEnvironmentForPropulsionStructurePost4
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceEnvironmentForSidePanel1
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceEnvironmentForSidePanel2
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceEnvironmentForSidePanel3
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceEnvironmentForSidePanel4
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceEnvironmentForSidePanel5
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceEnvironmentForSidePanel6
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceEnvironmentForStructurePost1
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceEnvironmentForStructurePost2
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceEnvironmentForStructurePost3
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceEnvironmentForStructurePost4
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceEnvironmentForStructurePost5
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceEnvironmentForStructurePost6
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceEnvironmentForTopPanel
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceVehicleNaturalFrequencyForBasePlate
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceVehicleNaturalFrequencyForPayloadStructuralInterface
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceVehicleNaturalFrequencyForPressurantTankMountingPanel
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceVehicleNaturalFrequencyForPropellantTankMountingPanel
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceVehicleNaturalFrequencyForPropulsionStructurePost1
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceVehicleNaturalFrequencyForPropulsionStructurePost2
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceVehicleNaturalFrequencyForPropulsionStructurePost3
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceVehicleNaturalFrequencyForPropulsionStructurePost4
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceVehicleNaturalFrequencyForSidePanel1
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceVehicleNaturalFrequencyForSidePanel2
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceVehicleNaturalFrequencyForSidePanel3
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceVehicleNaturalFrequencyForSidePanel4
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceVehicleNaturalFrequencyForSidePanel5
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceVehicleNaturalFrequencyForSidePanel6
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceVehicleNaturalFrequencyForStructurePost1
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceVehicleNaturalFrequencyForStructurePost2
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceVehicleNaturalFrequencyForStructurePost3
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceVehicleNaturalFrequencyForStructurePost4
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceVehicleNaturalFrequencyForStructurePost5
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceVehicleNaturalFrequencyForStructurePost6
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SpaceVehicleNaturalFrequencyForTopPanel
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#StructuralQualificationForBasePlate
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#StructuralQualificationForPayloadStructuralInterface
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#StructuralQualificationForPressurantTankMountingPanel
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#StructuralQualificationForPropellantTankMountingPanel
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#StructuralQualificationForPropulsionStructurePost1
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#StructuralQualificationForPropulsionStructurePost2
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#StructuralQualificationForPropulsionStructurePost3
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#StructuralQualificationForPropulsionStructurePost4
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#StructuralQualificationForSidePanel1
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#StructuralQualificationForSidePanel2
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#StructuralQualificationForSidePanel3
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#StructuralQualificationForSidePanel4
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#StructuralQualificationForSidePanel5
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#StructuralQualificationForSidePanel6
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#StructuralQualificationForStructurePost1
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#StructuralQualificationForStructurePost2
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#StructuralQualificationForStructurePost3
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#StructuralQualificationForStructurePost4
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#StructuralQualificationForStructurePost5
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#StructuralQualificationForStructurePost6
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#StructuralQualificationForTopPanel
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements#SupportabilityForPrimaryFlightComputerUnit
+# 
+# Generated by the OWL API (version 5.1.17.2020-11-07T15:03:35Z) https://github.com/owlcs/owlapi/
+
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/requirements>
+  a owl:Ontology;
+  owl:imports <http://imce.jpl.nasa.gov/foundation/mission>, <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental>,
+    <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/logistical>,
+    <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system>,
+    <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies>,
+    <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/functions>,
+    <http://purl.org/dc/elements/1.1>;
+  <http://purl.org/dc/elements/1.1/title> "Command and Data Handling Requirements";
+  <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Description> .
+
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#BasePlate>
+  <http://imce.jpl.nasa.gov/foundation/mission#isSpecifiedBy> :EnvironmentForBasePlate,
+    :LaunchEnvironmentForBasePlate, :SpaceEnvironmentForBasePlate, :SpaceVehicleNaturalFrequencyForBasePlate,
+    :StructuralQualificationForBasePlate .
+
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#LaunchVehicleAdapter>
+  <http://imce.jpl.nasa.gov/foundation/mission#isSpecifiedBy> :EnvironmentForLaunchVehicleAdapter,
+    :LaunchEnvironmentForLaunchVehicleAdapter .
+
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#PayloadStructuralInterface>
+  <http://imce.jpl.nasa.gov/foundation/mission#isSpecifiedBy> :EnvironmentForPayloadStructuralInterface,
+    :LaunchEnvironmentForPayloadStructuralInterface, :SpaceEnvironmentForPayloadStructuralInterface,
+    :SpaceVehicleNaturalFrequencyForPayloadStructuralInterface, :StructuralQualificationForPayloadStructuralInterface .
+
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#PressurantTankMountingPanel>
+  <http://imce.jpl.nasa.gov/foundation/mission#isSpecifiedBy> :EnvironmentForPressurantTankMountingPanel,
+    :LaunchEnvironmentForPressurantTankMountingPanel, :SpaceEnvironmentForPressurantTankMountingPanel,
+    :SpaceVehicleNaturalFrequencyForPressurantTankMountingPanel, :StructuralQualificationForPressurantTankMountingPanel .
+
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#PrimaryFlightComputerUnit>
+  <http://imce.jpl.nasa.gov/foundation/mission#isSpecifiedBy> :MaintenanceForPrimaryFlightComputerUnit,
+    :PrecedenceForPrimaryFlightComputerUnit, :SupportabilityForPrimaryFlightComputerUnit .
+
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#PropellantTankMountingPanel>
+  <http://imce.jpl.nasa.gov/foundation/mission#isSpecifiedBy> :EnvironmentForPropellantTankMountingPanel,
+    :LaunchEnvironmentForPropellantTankMountingPanel, :SpaceEnvironmentForPropellantTankMountingPanel,
+    :SpaceVehicleNaturalFrequencyForPropellantTankMountingPanel, :StructuralQualificationForPropellantTankMountingPanel .
+
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#PropulsionStructurePost1>
+  <http://imce.jpl.nasa.gov/foundation/mission#isSpecifiedBy> :EnvironmentForPropulsionStructurePost1,
+    :LaunchEnvironmentForPropulsionStructurePost1, :SpaceEnvironmentForPropulsionStructurePost1,
+    :SpaceVehicleNaturalFrequencyForPropulsionStructurePost1, :StructuralQualificationForPropulsionStructurePost1 .
+
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#PropulsionStructurePost2>
+  <http://imce.jpl.nasa.gov/foundation/mission#isSpecifiedBy> :EnvironmentForPropulsionStructurePost2,
+    :LaunchEnvironmentForPropulsionStructurePost2, :SpaceEnvironmentForPropulsionStructurePost2,
+    :SpaceVehicleNaturalFrequencyForPropulsionStructurePost2, :StructuralQualificationForPropulsionStructurePost2 .
+
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#PropulsionStructurePost3>
+  <http://imce.jpl.nasa.gov/foundation/mission#isSpecifiedBy> :EnvironmentForPropulsionStructurePost3,
+    :LaunchEnvironmentForPropulsionStructurePost3, :SpaceEnvironmentForPropulsionStructurePost3,
+    :SpaceVehicleNaturalFrequencyForPropulsionStructurePost3, :StructuralQualificationForPropulsionStructurePost3 .
+
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#PropulsionStructurePost4>
+  <http://imce.jpl.nasa.gov/foundation/mission#isSpecifiedBy> :EnvironmentForPropulsionStructurePost4,
+    :LaunchEnvironmentForPropulsionStructurePost4, :SpaceEnvironmentForPropulsionStructurePost4,
+    :SpaceVehicleNaturalFrequencyForPropulsionStructurePost4, :StructuralQualificationForPropulsionStructurePost4 .
+
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#SeparationSystem>
+  <http://imce.jpl.nasa.gov/foundation/mission#isSpecifiedBy> :EnvironmentForSeparationSystem,
+    :LaunchEnvironmentForSeparationSystem .
+
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#SidePanel1>
+  <http://imce.jpl.nasa.gov/foundation/mission#isSpecifiedBy> :EnvironmentForSidePanel1,
+    :LaunchEnvironmentForSidePanel1, :SpaceEnvironmentForSidePanel1, :SpaceVehicleNaturalFrequencyForSidePanel1,
+    :StructuralQualificationForSidePanel1 .
+
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#SidePanel2>
+  <http://imce.jpl.nasa.gov/foundation/mission#isSpecifiedBy> :EnvironmentForSidePanel2,
+    :LaunchEnvironmentForSidePanel2, :SpaceEnvironmentForSidePanel2, :SpaceVehicleNaturalFrequencyForSidePanel2,
+    :StructuralQualificationForSidePanel2 .
+
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#SidePanel3>
+  <http://imce.jpl.nasa.gov/foundation/mission#isSpecifiedBy> :EnvironmentForSidePanel3,
+    :LaunchEnvironmentForSidePanel3, :SpaceEnvironmentForSidePanel3, :SpaceVehicleNaturalFrequencyForSidePanel3,
+    :StructuralQualificationForSidePanel3 .
+
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#SidePanel4>
+  <http://imce.jpl.nasa.gov/foundation/mission#isSpecifiedBy> :EnvironmentForSidePanel4,
+    :LaunchEnvironmentForSidePanel4, :SpaceEnvironmentForSidePanel4, :SpaceVehicleNaturalFrequencyForSidePanel4,
+    :StructuralQualificationForSidePanel4 .
+
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#SidePanel5>
+  <http://imce.jpl.nasa.gov/foundation/mission#isSpecifiedBy> :EnvironmentForSidePanel5,
+    :LaunchEnvironmentForSidePanel5, :SpaceEnvironmentForSidePanel5, :SpaceVehicleNaturalFrequencyForSidePanel5,
+    :StructuralQualificationForSidePanel5 .
+
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#SidePanel6>
+  <http://imce.jpl.nasa.gov/foundation/mission#isSpecifiedBy> :EnvironmentForSidePanel6,
+    :LaunchEnvironmentForSidePanel6, :SpaceEnvironmentForSidePanel6, :SpaceVehicleNaturalFrequencyForSidePanel6,
+    :StructuralQualificationForSidePanel6 .
+
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#StructurePost1>
+  <http://imce.jpl.nasa.gov/foundation/mission#isSpecifiedBy> :EnvironmentForStructurePost1,
+    :LaunchEnvironmentForStructurePost1, :SpaceEnvironmentForStructurePost1, :SpaceVehicleNaturalFrequencyForStructurePost1,
+    :StructuralQualificationForStructurePost1 .
+
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#StructurePost2>
+  <http://imce.jpl.nasa.gov/foundation/mission#isSpecifiedBy> :EnvironmentForStructurePost2,
+    :LaunchEnvironmentForStructurePost2, :SpaceEnvironmentForStructurePost2, :SpaceVehicleNaturalFrequencyForStructurePost2,
+    :StructuralQualificationForStructurePost2 .
+
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#StructurePost3>
+  <http://imce.jpl.nasa.gov/foundation/mission#isSpecifiedBy> :EnvironmentForStructurePost3,
+    :LaunchEnvironmentForStructurePost3, :SpaceEnvironmentForStructurePost3, :SpaceVehicleNaturalFrequencyForStructurePost3,
+    :StructuralQualificationForStructurePost3 .
+
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#StructurePost4>
+  <http://imce.jpl.nasa.gov/foundation/mission#isSpecifiedBy> :EnvironmentForStructurePost4,
+    :LaunchEnvironmentForStructurePost4, :SpaceEnvironmentForStructurePost4, :SpaceVehicleNaturalFrequencyForStructurePost4,
+    :StructuralQualificationForStructurePost4 .
+
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#StructurePost5>
+  <http://imce.jpl.nasa.gov/foundation/mission#isSpecifiedBy> :EnvironmentForStructurePost5,
+    :LaunchEnvironmentForStructurePost5, :SpaceEnvironmentForStructurePost5, :SpaceVehicleNaturalFrequencyForStructurePost5,
+    :StructuralQualificationForStructurePost5 .
+
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#StructurePost6>
+  <http://imce.jpl.nasa.gov/foundation/mission#isSpecifiedBy> :EnvironmentForStructurePost6,
+    :LaunchEnvironmentForStructurePost6, :SpaceEnvironmentForStructurePost6, :SpaceVehicleNaturalFrequencyForStructurePost6,
+    :StructuralQualificationForStructurePost6 .
+
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#TopPanel>
+  <http://imce.jpl.nasa.gov/foundation/mission#isSpecifiedBy> :EnvironmentForTopPanel,
+    :LaunchEnvironmentForTopPanel, :SpaceEnvironmentForTopPanel, :SpaceVehicleNaturalFrequencyForTopPanel,
+    :StructuralQualificationForTopPanel .
+
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/functions#PrimaryFlightComputerUnitPerformsDetectNewWildfires>
+  <http://imce.jpl.nasa.gov/foundation/mission#isSpecifiedBy> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#IncidentProcessing> .
+
+:EnvironmentForBasePlate a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#Environment> .
+
+:EnvironmentForLaunchVehicleAdapter a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#Environment> .
+
+:EnvironmentForPayloadStructuralInterface a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#Environment> .
+
+:EnvironmentForPressurantTankMountingPanel a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#Environment> .
+
+:EnvironmentForPropellantTankMountingPanel a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#Environment> .
+
+:EnvironmentForPropulsionStructurePost1 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#Environment> .
+
+:EnvironmentForPropulsionStructurePost2 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#Environment> .
+
+:EnvironmentForPropulsionStructurePost3 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#Environment> .
+
+:EnvironmentForPropulsionStructurePost4 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#Environment> .
+
+:EnvironmentForSeparationSystem a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#Environment> .
+
+:EnvironmentForSidePanel1 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#Environment> .
+
+:EnvironmentForSidePanel2 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#Environment> .
+
+:EnvironmentForSidePanel3 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#Environment> .
+
+:EnvironmentForSidePanel4 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#Environment> .
+
+:EnvironmentForSidePanel5 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#Environment> .
+
+:EnvironmentForSidePanel6 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#Environment> .
+
+:EnvironmentForStructurePost1 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#Environment> .
+
+:EnvironmentForStructurePost2 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#Environment> .
+
+:EnvironmentForStructurePost3 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#Environment> .
+
+:EnvironmentForStructurePost4 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#Environment> .
+
+:EnvironmentForStructurePost5 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#Environment> .
+
+:EnvironmentForStructurePost6 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#Environment> .
+
+:EnvironmentForTopPanel a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#Environment> .
+
+:LaunchEnvironmentForBasePlate a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#LaunchEnvironment> .
+
+:LaunchEnvironmentForLaunchVehicleAdapter a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#LaunchEnvironment> .
+
+:LaunchEnvironmentForPayloadStructuralInterface a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#LaunchEnvironment> .
+
+:LaunchEnvironmentForPressurantTankMountingPanel a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#LaunchEnvironment> .
+
+:LaunchEnvironmentForPropellantTankMountingPanel a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#LaunchEnvironment> .
+
+:LaunchEnvironmentForPropulsionStructurePost1 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#LaunchEnvironment> .
+
+:LaunchEnvironmentForPropulsionStructurePost2 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#LaunchEnvironment> .
+
+:LaunchEnvironmentForPropulsionStructurePost3 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#LaunchEnvironment> .
+
+:LaunchEnvironmentForPropulsionStructurePost4 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#LaunchEnvironment> .
+
+:LaunchEnvironmentForSeparationSystem a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#LaunchEnvironment> .
+
+:LaunchEnvironmentForSidePanel1 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#LaunchEnvironment> .
+
+:LaunchEnvironmentForSidePanel2 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#LaunchEnvironment> .
+
+:LaunchEnvironmentForSidePanel3 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#LaunchEnvironment> .
+
+:LaunchEnvironmentForSidePanel4 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#LaunchEnvironment> .
+
+:LaunchEnvironmentForSidePanel5 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#LaunchEnvironment> .
+
+:LaunchEnvironmentForSidePanel6 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#LaunchEnvironment> .
+
+:LaunchEnvironmentForStructurePost1 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#LaunchEnvironment> .
+
+:LaunchEnvironmentForStructurePost2 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#LaunchEnvironment> .
+
+:LaunchEnvironmentForStructurePost3 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#LaunchEnvironment> .
+
+:LaunchEnvironmentForStructurePost4 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#LaunchEnvironment> .
+
+:LaunchEnvironmentForStructurePost5 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#LaunchEnvironment> .
+
+:LaunchEnvironmentForStructurePost6 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#LaunchEnvironment> .
+
+:LaunchEnvironmentForTopPanel a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#LaunchEnvironment> .
+
+:MaintenanceForPrimaryFlightComputerUnit a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/logistical#Maintenance> .
+
+:PrecedenceForPrimaryFlightComputerUnit a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#Precedence> .
+
+:SpaceEnvironmentForBasePlate a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceEnvironment> .
+
+:SpaceEnvironmentForPayloadStructuralInterface a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceEnvironment> .
+
+:SpaceEnvironmentForPressurantTankMountingPanel a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceEnvironment> .
+
+:SpaceEnvironmentForPropellantTankMountingPanel a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceEnvironment> .
+
+:SpaceEnvironmentForPropulsionStructurePost1 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceEnvironment> .
+
+:SpaceEnvironmentForPropulsionStructurePost2 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceEnvironment> .
+
+:SpaceEnvironmentForPropulsionStructurePost3 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceEnvironment> .
+
+:SpaceEnvironmentForPropulsionStructurePost4 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceEnvironment> .
+
+:SpaceEnvironmentForSidePanel1 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceEnvironment> .
+
+:SpaceEnvironmentForSidePanel2 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceEnvironment> .
+
+:SpaceEnvironmentForSidePanel3 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceEnvironment> .
+
+:SpaceEnvironmentForSidePanel4 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceEnvironment> .
+
+:SpaceEnvironmentForSidePanel5 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceEnvironment> .
+
+:SpaceEnvironmentForSidePanel6 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceEnvironment> .
+
+:SpaceEnvironmentForStructurePost1 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceEnvironment> .
+
+:SpaceEnvironmentForStructurePost2 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceEnvironment> .
+
+:SpaceEnvironmentForStructurePost3 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceEnvironment> .
+
+:SpaceEnvironmentForStructurePost4 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceEnvironment> .
+
+:SpaceEnvironmentForStructurePost5 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceEnvironment> .
+
+:SpaceEnvironmentForStructurePost6 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceEnvironment> .
+
+:SpaceEnvironmentForTopPanel a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceEnvironment> .
+
+:SpaceVehicleNaturalFrequencyForBasePlate a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceVehicleNaturalFrequency> .
+
+:SpaceVehicleNaturalFrequencyForPayloadStructuralInterface a owl:NamedIndividual,
+    <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceVehicleNaturalFrequency> .
+
+:SpaceVehicleNaturalFrequencyForPressurantTankMountingPanel a owl:NamedIndividual,
+    <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceVehicleNaturalFrequency> .
+
+:SpaceVehicleNaturalFrequencyForPropellantTankMountingPanel a owl:NamedIndividual,
+    <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceVehicleNaturalFrequency> .
+
+:SpaceVehicleNaturalFrequencyForPropulsionStructurePost1 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceVehicleNaturalFrequency> .
+
+:SpaceVehicleNaturalFrequencyForPropulsionStructurePost2 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceVehicleNaturalFrequency> .
+
+:SpaceVehicleNaturalFrequencyForPropulsionStructurePost3 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceVehicleNaturalFrequency> .
+
+:SpaceVehicleNaturalFrequencyForPropulsionStructurePost4 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceVehicleNaturalFrequency> .
+
+:SpaceVehicleNaturalFrequencyForSidePanel1 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceVehicleNaturalFrequency> .
+
+:SpaceVehicleNaturalFrequencyForSidePanel2 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceVehicleNaturalFrequency> .
+
+:SpaceVehicleNaturalFrequencyForSidePanel3 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceVehicleNaturalFrequency> .
+
+:SpaceVehicleNaturalFrequencyForSidePanel4 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceVehicleNaturalFrequency> .
+
+:SpaceVehicleNaturalFrequencyForSidePanel5 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceVehicleNaturalFrequency> .
+
+:SpaceVehicleNaturalFrequencyForSidePanel6 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceVehicleNaturalFrequency> .
+
+:SpaceVehicleNaturalFrequencyForStructurePost1 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceVehicleNaturalFrequency> .
+
+:SpaceVehicleNaturalFrequencyForStructurePost2 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceVehicleNaturalFrequency> .
+
+:SpaceVehicleNaturalFrequencyForStructurePost3 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceVehicleNaturalFrequency> .
+
+:SpaceVehicleNaturalFrequencyForStructurePost4 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceVehicleNaturalFrequency> .
+
+:SpaceVehicleNaturalFrequencyForStructurePost5 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceVehicleNaturalFrequency> .
+
+:SpaceVehicleNaturalFrequencyForStructurePost6 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceVehicleNaturalFrequency> .
+
+:SpaceVehicleNaturalFrequencyForTopPanel a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceVehicleNaturalFrequency> .
+
+:StructuralQualificationForBasePlate a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#StructuralQualification> .
+
+:StructuralQualificationForPayloadStructuralInterface a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#StructuralQualification> .
+
+:StructuralQualificationForPressurantTankMountingPanel a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#StructuralQualification> .
+
+:StructuralQualificationForPropellantTankMountingPanel a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#StructuralQualification> .
+
+:StructuralQualificationForPropulsionStructurePost1 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#StructuralQualification> .
+
+:StructuralQualificationForPropulsionStructurePost2 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#StructuralQualification> .
+
+:StructuralQualificationForPropulsionStructurePost3 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#StructuralQualification> .
+
+:StructuralQualificationForPropulsionStructurePost4 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#StructuralQualification> .
+
+:StructuralQualificationForSidePanel1 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#StructuralQualification> .
+
+:StructuralQualificationForSidePanel2 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#StructuralQualification> .
+
+:StructuralQualificationForSidePanel3 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#StructuralQualification> .
+
+:StructuralQualificationForSidePanel4 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#StructuralQualification> .
+
+:StructuralQualificationForSidePanel5 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#StructuralQualification> .
+
+:StructuralQualificationForSidePanel6 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#StructuralQualification> .
+
+:StructuralQualificationForStructurePost1 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#StructuralQualification> .
+
+:StructuralQualificationForStructurePost2 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#StructuralQualification> .
+
+:StructuralQualificationForStructurePost3 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#StructuralQualification> .
+
+:StructuralQualificationForStructurePost4 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#StructuralQualification> .
+
+:StructuralQualificationForStructurePost5 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#StructuralQualification> .
+
+:StructuralQualificationForStructurePost6 a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#StructuralQualification> .
+
+:StructuralQualificationForTopPanel a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#StructuralQualification> .
+
+:SupportabilityForPrimaryFlightComputerUnit a owl:NamedIndividual, <http://imce.jpl.nasa.gov/foundation/mission#Requirement>;
+  <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/logistical#Supportability> .

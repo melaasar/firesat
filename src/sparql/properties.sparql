@@ -1,0 +1,19 @@
+# This is an example query for properties along with their domain classes and range classes
+
+PREFIX owl:   <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?domain ?domain_label ?property ?property_label ?range ?range_label
+
+WHERE {
+	?domain a owl:Class .
+	OPTIONAL { ?domain rdfs:label ?domain_label }
+	   
+	?property rdfs:domain ?domain .
+	OPTIONAL { ?property rdfs:label ?property_label }
+	
+	?property rdfs:range ?range .
+	OPTIONAL { ?range rdfs:label ?range_label }
+}
+
+ORDER BY ?domain

@@ -1,0 +1,69 @@
+/* 
+ * The Maven coordinates for the project artifact
+ */
+ext.title = "FireSat Example"
+description='The FireSat example project'
+
+/* 
+ * The Gradle task dependencies 
+ */
+buildscript {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'io.opencaesar.owl:owl-fuseki-gradle:+'
+        classpath 'io.opencaesar.owl:owl-query-gradle:+'
+        classpath 'io.opencaesar.owl:owl-load-gradle:+'
+    }
+}
+
+/*
+ * The repositories to look up dependencies in
+ */
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+/*
+ * Start a Fuseki server
+ * https://github.com/opencaesar/owl-tools/blob/master/owl-fuseki/README.md
+ */
+task startFuseki(type: io.opencaesar.owl.fuseki.StartFusekiTask) {
+    configurationPath = file('.fuseki.ttl')
+    outputFolderPath = file('.fuseki')
+	webUI = true
+}
+
+/*
+ * Stop a Fuseki server
+ * https://github.com/opencaesar/owl-tools/blob/master/owl-fuseki/README.md
+ */
+task stopFuseki(type: io.opencaesar.owl.fuseki.StopFusekiTask) {
+    outputFolderPath = file('.fuseki')
+}
+
+/*
+ * A task to load an OWL catalog to a Fuseki dataset endpoint
+ * https://github.com/opencaesar/owl-tools/blob/master/owl-load/README.md
+ */
+task load(type:io.opencaesar.owl.load.OwlLoadTask) {
+    endpointURL = 'http://localhost:3030/firesat'
+    catalogPath = file('src/owl/catalog.xml')
+    iris = ['http://opencaesar.io/examples/firesat/bundle/root']
+    fileExtensions = ['ttl']
+}
+
+/*
+ * A task to run a set of SPARQL queries on a Fuseki dataset endpoint
+ * https://github.com/opencaesar/owl-tools/blob/master/owl-query/README.md
+ */
+task query(type:io.opencaesar.owl.query.OwlQueryTask, dependsOn: load) {
+	inputs.files(load.inputs.files) // rerun when the dataset changes
+    endpointURL = 'http://localhost:3030/firesat'
+    queryPath = file('src/sparql')
+    resultPath = file('build/results')
+	format = 'json'
+}
