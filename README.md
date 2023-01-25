@@ -30,6 +30,8 @@ Run the following
 ``` 
 Inspect results of query in folder: `build/results` 
 
+> On Windows, replace ./gradlew by ./gradlew.bat
+
 ## Start Fuseki Server
 Start a new Fuseki instance if one is not already started
 ```
