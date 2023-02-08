@@ -1,19 +1,20 @@
-# This is an example query for properties along with their domain classes and range classes
+# This is an example query for properties along with their domain classes, range classes, and inverse properties
+# It also returns whether the property is functional and whether its inverse (if any) is functional
 
 PREFIX owl:   <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT DISTINCT ?domain ?domain_label ?property ?property_label ?range ?range_label
+SELECT DISTINCT ?domain ?property ?range ?functional ?inverse ?inverseFunctional
 
 WHERE {
 	?domain a owl:Class .
-	OPTIONAL { ?domain rdfs:label ?domain_label }
-	   
 	?property rdfs:domain ?domain .
-	OPTIONAL { ?property rdfs:label ?property_label }
-	
 	?property rdfs:range ?range .
-	OPTIONAL { ?range rdfs:label ?range_label }
+	BIND(EXISTS{?property a owl:FunctionalProperty} AS ?functional)
+	OPTIONAL { 
+		?property owl:inverseOf ?inverse . 
+		BIND(EXISTS{?property a owl:InverseFunctionalProperty} AS ?inverseFunctional)
+	}
 }
 
 ORDER BY ?domain
