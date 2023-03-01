@@ -50,6 +50,7 @@ task stopFuseki(type: io.opencaesar.owl.fuseki.StopFusekiTask) {
  * https://github.com/opencaesar/owl-tools/blob/master/owl-load/README.md
  */
 task load(type:io.opencaesar.owl.load.OwlLoadTask) {
+    inputs.files(startFuseki.outputFolderPath) // rerun when Fuseki (with memory dataset) restarts
     endpointURL = 'http://localhost:3030/firesat'
     catalogPath = file('src/owl/catalog.xml')
     iris = ['http://opencaesar.io/examples/firesat/bundle/root']

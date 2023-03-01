@@ -12,6 +12,8 @@
     fuseki:name         "firesat" ;														# See the endpoint url in build.gradle
     fuseki:serviceReadWriteGraphStore "data" ;											# SPARQL Graph store protocol (read and write)
     fuseki:endpoint 	[ fuseki:operation fuseki:query ;	fuseki:name "sparql"  ] ;	# SPARQL query service
+    fuseki:endpoint 	[ fuseki:operation fuseki:query ;	fuseki:name "query"  ] ;	# SPARQL query service
+    fuseki:endpoint 	[ fuseki:operation fuseki:update ;	fuseki:name "update" ] ;	# SPARQL Update service
     fuseki:endpoint 	[ fuseki:operation fuseki:shacl ;	fuseki:name "shacl" ] ;		# SHACL query service
     fuseki:dataset      <#dataset> .
 
