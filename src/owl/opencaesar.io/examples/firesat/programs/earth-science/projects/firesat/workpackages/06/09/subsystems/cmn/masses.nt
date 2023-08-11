@@ -1,0 +1,76 @@
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses> <http://www.w3.org/2002/07/owl#imports> <http://bipm.org/jcgm/vim4> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/disciplines/fse/fse> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/assemblies> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses> <http://purl.org/dc/elements/1.1/title> "Communications Masses" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Description> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://bipm.org/jcgm/vim4#characterizes
+<http://bipm.org/jcgm/vim4#characterizes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://bipm.org/jcgm/vim4#hasDoubleNumber
+<http://bipm.org/jcgm/vim4#hasDoubleNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses#ReceiveWhipAntennaMassLimitConstraint
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses#ReceiveWhipAntennaMassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses#ReceiveWhipAntennaMassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassLimitConstraint> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses#ReceiveWhipAntennaMassLimitConstraint> <http://bipm.org/jcgm/vim4#characterizes> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/assemblies#ReceiveWhipAntenna> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses#ReceiveWhipAntennaMassLimitConstraint> <http://bipm.org/jcgm/vim4#hasDoubleNumber> "0.08"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses#ReceiveWhipAntennaMassLimitConstraint> <http://www.w3.org/2000/01/rdf-schema#label> "Receive Whip Antenna Mass Limit Constraint" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses#ReceiverUnitMassLimitConstraint
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses#ReceiverUnitMassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses#ReceiverUnitMassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassLimitConstraint> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses#ReceiverUnitMassLimitConstraint> <http://bipm.org/jcgm/vim4#characterizes> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/assemblies#ReceiverUnit> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses#ReceiverUnitMassLimitConstraint> <http://bipm.org/jcgm/vim4#hasDoubleNumber> "1.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses#ReceiverUnitMassLimitConstraint> <http://www.w3.org/2000/01/rdf-schema#label> "Receiver Unit Mass Limit Constraint" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses#TransmitHiGainAntennaMassLimitConstraint
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses#TransmitHiGainAntennaMassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses#TransmitHiGainAntennaMassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassLimitConstraint> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses#TransmitHiGainAntennaMassLimitConstraint> <http://bipm.org/jcgm/vim4#characterizes> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/assemblies#TransmitHiGainAntenna> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses#TransmitHiGainAntennaMassLimitConstraint> <http://bipm.org/jcgm/vim4#hasDoubleNumber> "0.04"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses#TransmitHiGainAntennaMassLimitConstraint> <http://www.w3.org/2000/01/rdf-schema#label> "Transmit Hi-Gain Antenna Mass Limit Constraint" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses#TransmitWhipAntennaMassLimitConstraint
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses#TransmitWhipAntennaMassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses#TransmitWhipAntennaMassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassLimitConstraint> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses#TransmitWhipAntennaMassLimitConstraint> <http://bipm.org/jcgm/vim4#characterizes> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/assemblies#TransmitWhipAntenna> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses#TransmitWhipAntennaMassLimitConstraint> <http://bipm.org/jcgm/vim4#hasDoubleNumber> "0.04"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses#TransmitWhipAntennaMassLimitConstraint> <http://www.w3.org/2000/01/rdf-schema#label> "Transmit Whip Antenna Mass Limit Constraint" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses#TransmitterUnitMassLimitConstraint
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses#TransmitterUnitMassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses#TransmitterUnitMassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassLimitConstraint> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses#TransmitterUnitMassLimitConstraint> <http://bipm.org/jcgm/vim4#characterizes> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/assemblies#TransmitterUnit> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses#TransmitterUnitMassLimitConstraint> <http://bipm.org/jcgm/vim4#hasDoubleNumber> "2.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/masses#TransmitterUnitMassLimitConstraint> <http://www.w3.org/2000/01/rdf-schema#label> "Transmitter Unit Unit Mass Limit Constraint" .
+# 
+# Generated by the OWL API (version 5.1.17.2020-11-07T15:03:35Z) https://github.com/owlcs/owlapi/

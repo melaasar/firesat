@@ -1,0 +1,70 @@
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/signals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/signals> <http://www.w3.org/2002/07/owl#imports> <http://imce.jpl.nasa.gov/foundation/base> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/signals> <http://www.w3.org/2002/07/owl#imports> <http://imce.jpl.nasa.gov/foundation/mission> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/signals> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/disciplines/fse/fse> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/signals> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/05/systems/pld/assemblies> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/signals> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/05/systems/pld/endcircuits> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/signals> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/assemblies> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/signals> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/endcircuits> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/signals> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/signals> <http://purl.org/dc/elements/1.1/title> "FireSat Signals" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/signals> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Description> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://imce.jpl.nasa.gov/foundation/mission#joins1
+<http://imce.jpl.nasa.gov/foundation/mission#joins1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://imce.jpl.nasa.gov/foundation/mission#joins2
+<http://imce.jpl.nasa.gov/foundation/mission#joins2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly1
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly2
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://imce.jpl.nasa.gov/foundation/base#hasIdentifier
+<http://imce.jpl.nasa.gov/foundation/base#hasIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://opencaesar.io/examples/firesat/disciplines/fse/fse#hasFunctionDirection
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#hasFunctionDirection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/signals#5000To1000Power
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/signals#5000To1000Power> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/signals#5000To1000Power> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#PowerFunction> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/signals#5000To1000Power> <http://imce.jpl.nasa.gov/foundation/mission#joins1> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/05/systems/pld/endcircuits#PayloadModulePowerIn> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/signals#5000To1000Power> <http://imce.jpl.nasa.gov/foundation/mission#joins1> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/05/systems/pld/endcircuits#SensorPowerIn> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/signals#5000To1000Power> <http://imce.jpl.nasa.gov/foundation/mission#joins2> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/endcircuits#EPSRegulatorsAndConvertersUnitPowerOut3> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/signals#5000To1000Power> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly1> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/05/systems/pld/assemblies#PayloadModule> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/signals#5000To1000Power> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly1> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/05/systems/pld/assemblies#Sensor> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/signals#5000To1000Power> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly2> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/assemblies#EPSRegulatorsAndConvertersUnit> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/signals#5000To1000Power> <http://imce.jpl.nasa.gov/foundation/base#hasIdentifier> "1000-5000-001" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/signals#5000To1000Power> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#hasFunctionDirection> "2to1" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/signals#5000To1000Power> <http://www.w3.org/2000/01/rdf-schema#label> "5000 to 1000 Power" .
+# 
+# Generated by the OWL API (version 5.1.17.2020-11-07T15:03:35Z) https://github.com/owlcs/owlapi/

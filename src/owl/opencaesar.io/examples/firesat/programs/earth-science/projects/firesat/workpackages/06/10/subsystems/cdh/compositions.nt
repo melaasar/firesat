@@ -1,0 +1,48 @@
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/compositions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/compositions> <http://www.w3.org/2002/07/owl#imports> <http://imce.jpl.nasa.gov/foundation/base> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/compositions> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/compositions> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/compositions> <http://purl.org/dc/elements/1.1/title> "Command and Data Handling Compositions" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/compositions> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Description> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://imce.jpl.nasa.gov/foundation/base#contains
+<http://imce.jpl.nasa.gov/foundation/base#contains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#AvionicsStackSection
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#AvionicsStackSection> <http://imce.jpl.nasa.gov/foundation/base#contains> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#PrimaryFlightComputerUnit> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#BasePlateModule
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#BasePlateModule> <http://imce.jpl.nasa.gov/foundation/base#contains> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#AvionicsStackSection> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#BasePlateModule> <http://imce.jpl.nasa.gov/foundation/base#contains> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#BasePlate> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#LaunchVehicleInterfaceModule
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#LaunchVehicleInterfaceModule> <http://imce.jpl.nasa.gov/foundation/base#contains> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#LaunchVehicleAdapter> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#LaunchVehicleInterfaceModule> <http://imce.jpl.nasa.gov/foundation/base#contains> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#SeparationSystem> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#TopPanelModule
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#TopPanelModule> <http://imce.jpl.nasa.gov/foundation/base#contains> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#StructurePost1> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#TopPanelModule> <http://imce.jpl.nasa.gov/foundation/base#contains> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#StructurePost2> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#TopPanelModule> <http://imce.jpl.nasa.gov/foundation/base#contains> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#StructurePost3> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#TopPanelModule> <http://imce.jpl.nasa.gov/foundation/base#contains> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#StructurePost4> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#TopPanelModule> <http://imce.jpl.nasa.gov/foundation/base#contains> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#StructurePost5> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#TopPanelModule> <http://imce.jpl.nasa.gov/foundation/base#contains> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#StructurePost6> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#TopPanelModule> <http://imce.jpl.nasa.gov/foundation/base#contains> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#TopPanel> .
+# 
+# Generated by the OWL API (version 5.1.17.2020-11-07T15:03:35Z) https://github.com/owlcs/owlapi/

@@ -1,0 +1,146 @@
+<http://iso.org/iso-80000-3.7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://iso.org/iso-80000-3.7> <http://www.w3.org/2002/07/owl#imports> <http://bipm.org/jcgm/vim4> .
+<http://iso.org/iso-80000-3.7> <http://www.w3.org/2002/07/owl#imports> <http://iso.org/iso-80000-1> .
+<http://iso.org/iso-80000-3.7> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1> .
+<http://iso.org/iso-80000-3.7> <http://purl.org/dc/elements/1.1/creator> "Jet Propulsion Laboratory" .
+<http://iso.org/iso-80000-3.7> <http://purl.org/dc/elements/1.1/description> "The ISO-80000-3 library." .
+<http://iso.org/iso-80000-3.7> <http://purl.org/dc/elements/1.1/rights> "Copyright 2021, by the California Institute of Technology. ALL RIGHTS RESERVED. United States Government Sponsorship acknowledged. Any commercial use must be negotiated with the Office of Technology Transfer at the California Institute of Technology. \nThis software may be subject to U.S. export control laws. By accepting this software, the user agrees to comply with all applicable U.S. export laws and regulations. User has the responsibility to obtain export licenses, or other export authority as may be required before exporting such information to foreign countries or providing access to foreign persons." .
+<http://iso.org/iso-80000-3.7> <http://purl.org/dc/elements/1.1/title> "ISO-80000-3.7 time, second" .
+<http://iso.org/iso-80000-3.7> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Description> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://bipm.org/jcgm/vim4#hasMultiple
+<http://bipm.org/jcgm/vim4#hasMultiple> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://bipm.org/jcgm/vim4#instantiates
+<http://bipm.org/jcgm/vim4#instantiates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://bipm.org/jcgm/vim4#isMultipleOf
+<http://bipm.org/jcgm/vim4#isMultipleOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://opencaesar.io/oml#hasSource
+<http://opencaesar.io/oml#hasSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://opencaesar.io/oml#hasTarget
+<http://opencaesar.io/oml#hasTarget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://bipm.org/jcgm/vim4#dimensionSymbol
+<http://bipm.org/jcgm/vim4#dimensionSymbol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://bipm.org/jcgm/vim4#id
+<http://bipm.org/jcgm/vim4#id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://bipm.org/jcgm/vim4#isOffSystemUnit
+<http://bipm.org/jcgm/vim4#isOffSystemUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://iso.org/iso-80000-3.7#ISQ7-time
+<http://iso.org/iso-80000-3.7#ISQ7-time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://iso.org/iso-80000-3.7#ISQ7-time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bipm.org/jcgm/vim4#SystemHasBaseUnitaryQuantity> .
+<http://iso.org/iso-80000-3.7#ISQ7-time> <http://opencaesar.io/oml#hasSource> <http://iso.org/iso-80000-1#ISQ7> .
+<http://iso.org/iso-80000-3.7#ISQ7-time> <http://opencaesar.io/oml#hasTarget> <http://iso.org/iso-80000-3.7#time> .
+<http://iso.org/iso-80000-3.7#ISQ7-time> <http://bipm.org/jcgm/vim4#dimensionSymbol> "T" .
+# 
+# http://iso.org/iso-80000-3.7#ISQ8-time
+<http://iso.org/iso-80000-3.7#ISQ8-time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://iso.org/iso-80000-3.7#ISQ8-time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bipm.org/jcgm/vim4#SystemHasBaseUnitaryQuantity> .
+<http://iso.org/iso-80000-3.7#ISQ8-time> <http://opencaesar.io/oml#hasSource> <http://iso.org/iso-80000-1#ISQ8> .
+<http://iso.org/iso-80000-3.7#ISQ8-time> <http://opencaesar.io/oml#hasTarget> <http://iso.org/iso-80000-3.7#time> .
+<http://iso.org/iso-80000-3.7#ISQ8-time> <http://bipm.org/jcgm/vim4#dimensionSymbol> "T" .
+# 
+# http://iso.org/iso-80000-3.7#SI7-hour
+<http://iso.org/iso-80000-3.7#SI7-hour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://iso.org/iso-80000-3.7#SI7-hour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bipm.org/jcgm/vim4#SystemHasDerivedUnit> .
+<http://iso.org/iso-80000-3.7#SI7-hour> <http://opencaesar.io/oml#hasSource> <http://iso.org/iso-80000-1#SI7> .
+<http://iso.org/iso-80000-3.7#SI7-hour> <http://opencaesar.io/oml#hasTarget> <http://iso.org/iso-80000-3.7#hour> .
+<http://iso.org/iso-80000-3.7#SI7-hour> <http://bipm.org/jcgm/vim4#isOffSystemUnit> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://iso.org/iso-80000-3.7#SI7-minute
+<http://iso.org/iso-80000-3.7#SI7-minute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://iso.org/iso-80000-3.7#SI7-minute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bipm.org/jcgm/vim4#SystemHasDerivedUnit> .
+<http://iso.org/iso-80000-3.7#SI7-minute> <http://opencaesar.io/oml#hasSource> <http://iso.org/iso-80000-1#SI7> .
+<http://iso.org/iso-80000-3.7#SI7-minute> <http://opencaesar.io/oml#hasTarget> <http://iso.org/iso-80000-3.7#minute> .
+<http://iso.org/iso-80000-3.7#SI7-minute> <http://bipm.org/jcgm/vim4#isOffSystemUnit> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://iso.org/iso-80000-3.7#SI7-second
+<http://iso.org/iso-80000-3.7#SI7-second> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://iso.org/iso-80000-3.7#SI7-second> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bipm.org/jcgm/vim4#SystemHasBaseUnit> .
+<http://iso.org/iso-80000-3.7#SI7-second> <http://opencaesar.io/oml#hasSource> <http://iso.org/iso-80000-1#SI7> .
+<http://iso.org/iso-80000-3.7#SI7-second> <http://opencaesar.io/oml#hasTarget> <http://iso.org/iso-80000-3.7#second> .
+# 
+# http://iso.org/iso-80000-3.7#SI8-hour
+<http://iso.org/iso-80000-3.7#SI8-hour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://iso.org/iso-80000-3.7#SI8-hour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bipm.org/jcgm/vim4#SystemHasDerivedUnit> .
+<http://iso.org/iso-80000-3.7#SI8-hour> <http://opencaesar.io/oml#hasSource> <http://iso.org/iso-80000-1#SI8> .
+<http://iso.org/iso-80000-3.7#SI8-hour> <http://opencaesar.io/oml#hasTarget> <http://iso.org/iso-80000-3.7#hour> .
+<http://iso.org/iso-80000-3.7#SI8-hour> <http://bipm.org/jcgm/vim4#isOffSystemUnit> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://iso.org/iso-80000-3.7#SI8-minute
+<http://iso.org/iso-80000-3.7#SI8-minute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://iso.org/iso-80000-3.7#SI8-minute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bipm.org/jcgm/vim4#SystemHasDerivedUnit> .
+<http://iso.org/iso-80000-3.7#SI8-minute> <http://opencaesar.io/oml#hasSource> <http://iso.org/iso-80000-1#SI8> .
+<http://iso.org/iso-80000-3.7#SI8-minute> <http://opencaesar.io/oml#hasTarget> <http://iso.org/iso-80000-3.7#minute> .
+<http://iso.org/iso-80000-3.7#SI8-minute> <http://bipm.org/jcgm/vim4#isOffSystemUnit> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://iso.org/iso-80000-3.7#SI8-second
+<http://iso.org/iso-80000-3.7#SI8-second> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://iso.org/iso-80000-3.7#SI8-second> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bipm.org/jcgm/vim4#SystemHasBaseUnit> .
+<http://iso.org/iso-80000-3.7#SI8-second> <http://opencaesar.io/oml#hasSource> <http://iso.org/iso-80000-1#SI8> .
+<http://iso.org/iso-80000-3.7#SI8-second> <http://opencaesar.io/oml#hasTarget> <http://iso.org/iso-80000-3.7#second> .
+# 
+# http://iso.org/iso-80000-3.7#hour
+<http://iso.org/iso-80000-3.7#hour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://iso.org/iso-80000-3.7#hour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bipm.org/jcgm/vim4#PrefixedMeasurementUnit> .
+<http://iso.org/iso-80000-3.7#hour> <http://bipm.org/jcgm/vim4#hasMultiple> <http://iso.org/iso-80000-1#sixty> .
+<http://iso.org/iso-80000-3.7#hour> <http://bipm.org/jcgm/vim4#instantiates> <http://iso.org/iso-80000-3.7#time> .
+<http://iso.org/iso-80000-3.7#hour> <http://bipm.org/jcgm/vim4#isMultipleOf> <http://iso.org/iso-80000-3.7#minute> .
+<http://iso.org/iso-80000-3.7#hour> <http://bipm.org/jcgm/vim4#id> "hour" .
+<http://iso.org/iso-80000-3.7#hour> <http://purl.org/dc/elements/1.1/source> "3-7.c" .
+# 
+# http://iso.org/iso-80000-3.7#minute
+<http://iso.org/iso-80000-3.7#minute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://iso.org/iso-80000-3.7#minute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bipm.org/jcgm/vim4#PrefixedMeasurementUnit> .
+<http://iso.org/iso-80000-3.7#minute> <http://bipm.org/jcgm/vim4#hasMultiple> <http://iso.org/iso-80000-1#sixty> .
+<http://iso.org/iso-80000-3.7#minute> <http://bipm.org/jcgm/vim4#instantiates> <http://iso.org/iso-80000-3.7#time> .
+<http://iso.org/iso-80000-3.7#minute> <http://bipm.org/jcgm/vim4#isMultipleOf> <http://iso.org/iso-80000-3.7#second> .
+<http://iso.org/iso-80000-3.7#minute> <http://bipm.org/jcgm/vim4#id> "minute" .
+<http://iso.org/iso-80000-3.7#minute> <http://purl.org/dc/elements/1.1/source> "3-7.b" .
+# 
+# http://iso.org/iso-80000-3.7#second
+<http://iso.org/iso-80000-3.7#second> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://iso.org/iso-80000-3.7#second> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bipm.org/jcgm/vim4#UnprefixedMeasurementUnit> .
+<http://iso.org/iso-80000-3.7#second> <http://bipm.org/jcgm/vim4#instantiates> <http://iso.org/iso-80000-3.7#time> .
+<http://iso.org/iso-80000-3.7#second> <http://bipm.org/jcgm/vim4#id> "second" .
+<http://iso.org/iso-80000-3.7#second> <http://purl.org/dc/elements/1.1/source> "3-7.a" .
+# 
+# http://iso.org/iso-80000-3.7#time
+<http://iso.org/iso-80000-3.7#time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://iso.org/iso-80000-3.7#time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bipm.org/jcgm/vim4#GeneralUnitaryQuantity> .
+<http://iso.org/iso-80000-3.7#time> <http://bipm.org/jcgm/vim4#id> "time" .
+<http://iso.org/iso-80000-3.7#time> <http://purl.org/dc/elements/1.1/source> "3-7" .
+# 
+# Generated by the OWL API (version 5.1.17.2020-11-07T15:03:35Z) https://github.com/owlcs/owlapi/

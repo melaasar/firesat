@@ -1,0 +1,77 @@
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions> <http://www.w3.org/2002/07/owl#imports> <http://imce.jpl.nasa.gov/foundation/mission> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions> <http://www.w3.org/2002/07/owl#imports> <http://imce.jpl.nasa.gov/foundation/project> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/assemblies> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions> <http://purl.org/dc/elements/1.1/title> "Structures and Mechanisms Functions" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Description> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://imce.jpl.nasa.gov/foundation/mission#performs
+<http://imce.jpl.nasa.gov/foundation/mission#performs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#realizes
+<http://imce.jpl.nasa.gov/foundation/project#realizes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/assemblies#EPSRegulatorsAndConvertersUnit
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/assemblies#EPSRegulatorsAndConvertersUnit> <http://imce.jpl.nasa.gov/foundation/mission#performs> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions#Supply_Power_24_7ByEPSRegulatorsAndConvertersUnit> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/assemblies#PowerControlUnit
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/assemblies#PowerControlUnit> <http://imce.jpl.nasa.gov/foundation/mission#performs> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions#Supply_Power_24_7ByPowerControlUnit> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/assemblies#SolarArrayWithSADA1
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/assemblies#SolarArrayWithSADA1> <http://imce.jpl.nasa.gov/foundation/mission#performs> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions#DeployMechanismsBySolarArrayWithSADA1> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/assemblies#SolarArrayWithSADA1> <http://imce.jpl.nasa.gov/foundation/mission#performs> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions#TransformSolarRadiationsIntoEnergyBySolarArrayWithSADA1> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/assemblies#SolarArrayWithSADA2
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/assemblies#SolarArrayWithSADA2> <http://imce.jpl.nasa.gov/foundation/mission#performs> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions#DeployMechanismsBySolarArrayWithSADA2> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/assemblies#SolarArrayWithSADA2> <http://imce.jpl.nasa.gov/foundation/mission#performs> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions#TransformSolarRadiationsIntoEnergyBySolarArrayWithSADA2> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions#DeployMechanismsBySolarArrayWithSADA1
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions#DeployMechanismsBySolarArrayWithSADA1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions#DeployMechanismsBySolarArrayWithSADA1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions#DeployMechanismsBySolarArrayWithSADA1> <http://imce.jpl.nasa.gov/foundation/project#realizes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#DeployMechanisms> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions#DeployMechanismsBySolarArrayWithSADA2
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions#DeployMechanismsBySolarArrayWithSADA2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions#DeployMechanismsBySolarArrayWithSADA2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions#DeployMechanismsBySolarArrayWithSADA2> <http://imce.jpl.nasa.gov/foundation/project#realizes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#DeployMechanisms> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions#Supply_Power_24_7ByEPSRegulatorsAndConvertersUnit
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions#Supply_Power_24_7ByEPSRegulatorsAndConvertersUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions#Supply_Power_24_7ByEPSRegulatorsAndConvertersUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions#Supply_Power_24_7ByEPSRegulatorsAndConvertersUnit> <http://imce.jpl.nasa.gov/foundation/project#realizes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Supply_Power_24_7> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions#Supply_Power_24_7ByPowerControlUnit
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions#Supply_Power_24_7ByPowerControlUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions#Supply_Power_24_7ByPowerControlUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions#Supply_Power_24_7ByPowerControlUnit> <http://imce.jpl.nasa.gov/foundation/project#realizes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Supply_Power_24_7> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions#TransformSolarRadiationsIntoEnergyBySolarArrayWithSADA1
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions#TransformSolarRadiationsIntoEnergyBySolarArrayWithSADA1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions#TransformSolarRadiationsIntoEnergyBySolarArrayWithSADA1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions#TransformSolarRadiationsIntoEnergyBySolarArrayWithSADA1> <http://imce.jpl.nasa.gov/foundation/project#realizes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#TransformSolarRadiationsIntoEnergy> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions#TransformSolarRadiationsIntoEnergyBySolarArrayWithSADA2
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions#TransformSolarRadiationsIntoEnergyBySolarArrayWithSADA2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions#TransformSolarRadiationsIntoEnergyBySolarArrayWithSADA2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/04/subsystems/sam/functions#TransformSolarRadiationsIntoEnergyBySolarArrayWithSADA2> <http://imce.jpl.nasa.gov/foundation/project#realizes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#TransformSolarRadiationsIntoEnergy> .
+# 
+# Generated by the OWL API (version 5.1.17.2020-11-07T15:03:35Z) https://github.com/owlcs/owlapi/

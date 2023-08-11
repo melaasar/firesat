@@ -1,0 +1,148 @@
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies> <http://www.w3.org/2002/07/owl#imports> <http://imce.jpl.nasa.gov/foundation/base> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/disciplines/fse/fse> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/subsystems/prp/prp> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies> <http://purl.org/dc/elements/1.1/title> "Propulsion Assemblies" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Description> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://imce.jpl.nasa.gov/foundation/base#aggregates
+<http://imce.jpl.nasa.gov/foundation/base#aggregates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://imce.jpl.nasa.gov/foundation/base#hasIdentifier
+<http://imce.jpl.nasa.gov/foundation/base#hasIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster1
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#Assembly> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster1> <http://imce.jpl.nasa.gov/foundation/base#hasIdentifier> "518000-1" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster1> <http://www.w3.org/2000/01/rdf-schema#label> "ACS Thruster 1" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster2
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#Assembly> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster2> <http://imce.jpl.nasa.gov/foundation/base#hasIdentifier> "518000-2" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster2> <http://www.w3.org/2000/01/rdf-schema#label> "ACS Thruster 2" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster3
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#Assembly> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster3> <http://imce.jpl.nasa.gov/foundation/base#hasIdentifier> "518000-3" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster3> <http://www.w3.org/2000/01/rdf-schema#label> "ACS Thruster 3" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster4
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#Assembly> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster4> <http://imce.jpl.nasa.gov/foundation/base#hasIdentifier> "518000-4" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster4> <http://www.w3.org/2000/01/rdf-schema#label> "ACS Thruster 4" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster5
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#Assembly> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster5> <http://imce.jpl.nasa.gov/foundation/base#hasIdentifier> "518000-5" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster5> <http://www.w3.org/2000/01/rdf-schema#label> "ACS Thruster 5" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster6
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#Assembly> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster6> <http://imce.jpl.nasa.gov/foundation/base#hasIdentifier> "518000-6" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster6> <http://www.w3.org/2000/01/rdf-schema#label> "ACS Thruster 6" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#BPPropellantLineUnit
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#BPPropellantLineUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#BPPropellantLineUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#Assembly> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#BPPropellantLineUnit> <http://imce.jpl.nasa.gov/foundation/base#hasIdentifier> "519200" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#BPPropellantLineUnit> <http://www.w3.org/2000/01/rdf-schema#label> "BP Propellant Line Unit" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#FillDrainValveUnit
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#FillDrainValveUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#FillDrainValveUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#Assembly> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#FillDrainValveUnit> <http://imce.jpl.nasa.gov/foundation/base#hasIdentifier> "519100" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#FillDrainValveUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Fill/Drain Valve Unit" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PMPropellantLineUnit
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PMPropellantLineUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PMPropellantLineUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#Assembly> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PMPropellantLineUnit> <http://imce.jpl.nasa.gov/foundation/base#hasIdentifier> "536000" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PMPropellantLineUnit> <http://www.w3.org/2000/01/rdf-schema#label> "PM Propellant Line Unit" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PressurantTank
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PressurantTank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PressurantTank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#Assembly> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PressurantTank> <http://imce.jpl.nasa.gov/foundation/base#hasIdentifier> "535000" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PressurantTank> <http://www.w3.org/2000/01/rdf-schema#label> "Pressurant Tank" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PrimaryThruster
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PrimaryThruster> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PrimaryThruster> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#Assembly> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PrimaryThruster> <http://imce.jpl.nasa.gov/foundation/base#hasIdentifier> "517000" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PrimaryThruster> <http://www.w3.org/2000/01/rdf-schema#label> "Primary Thruster" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PropellantHandlingSection
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PropellantHandlingSection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PropellantHandlingSection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#Assembly> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PropellantHandlingSection> <http://imce.jpl.nasa.gov/foundation/base#hasIdentifier> "519000" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PropellantHandlingSection> <http://www.w3.org/2000/01/rdf-schema#label> "Propellant Handling Section" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PropellantTank
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PropellantTank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PropellantTank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#Assembly> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PropellantTank> <http://imce.jpl.nasa.gov/foundation/base#hasIdentifier> "532000" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PropellantTank> <http://www.w3.org/2000/01/rdf-schema#label> "Propellant Tank" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PropulsionModule
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PropulsionModule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PropulsionModule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#Assembly> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PropulsionModule> <http://imce.jpl.nasa.gov/foundation/base#hasIdentifier> "530000" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PropulsionModule> <http://www.w3.org/2000/01/rdf-schema#label> "Propulsion Module" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PropulsionSystemControlUnit
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PropulsionSystemControlUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PropulsionSystemControlUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#Assembly> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PropulsionSystemControlUnit> <http://imce.jpl.nasa.gov/foundation/base#hasIdentifier> "516700" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PropulsionSystemControlUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Propulsion System Control Unit" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/subsystems/prp/prp#Propulsion
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/subsystems/prp/prp#Propulsion> <http://imce.jpl.nasa.gov/foundation/base#aggregates> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster1> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/subsystems/prp/prp#Propulsion> <http://imce.jpl.nasa.gov/foundation/base#aggregates> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster2> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/subsystems/prp/prp#Propulsion> <http://imce.jpl.nasa.gov/foundation/base#aggregates> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster3> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/subsystems/prp/prp#Propulsion> <http://imce.jpl.nasa.gov/foundation/base#aggregates> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster4> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/subsystems/prp/prp#Propulsion> <http://imce.jpl.nasa.gov/foundation/base#aggregates> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster5> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/subsystems/prp/prp#Propulsion> <http://imce.jpl.nasa.gov/foundation/base#aggregates> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster6> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/subsystems/prp/prp#Propulsion> <http://imce.jpl.nasa.gov/foundation/base#aggregates> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#BPPropellantLineUnit> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/subsystems/prp/prp#Propulsion> <http://imce.jpl.nasa.gov/foundation/base#aggregates> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#FillDrainValveUnit> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/subsystems/prp/prp#Propulsion> <http://imce.jpl.nasa.gov/foundation/base#aggregates> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PMPropellantLineUnit> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/subsystems/prp/prp#Propulsion> <http://imce.jpl.nasa.gov/foundation/base#aggregates> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PressurantTank> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/subsystems/prp/prp#Propulsion> <http://imce.jpl.nasa.gov/foundation/base#aggregates> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PrimaryThruster> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/subsystems/prp/prp#Propulsion> <http://imce.jpl.nasa.gov/foundation/base#aggregates> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PropellantHandlingSection> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/subsystems/prp/prp#Propulsion> <http://imce.jpl.nasa.gov/foundation/base#aggregates> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PropellantTank> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/subsystems/prp/prp#Propulsion> <http://imce.jpl.nasa.gov/foundation/base#aggregates> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PropulsionModule> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/subsystems/prp/prp#Propulsion> <http://imce.jpl.nasa.gov/foundation/base#aggregates> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PropulsionSystemControlUnit> .
+# 
+# Generated by the OWL API (version 5.1.17.2020-11-07T15:03:35Z) https://github.com/owlcs/owlapi/

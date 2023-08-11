@@ -1,0 +1,56 @@
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/06/subsystems/eps/requirements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/06/subsystems/eps/requirements> <http://www.w3.org/2002/07/owl#imports> <http://imce.jpl.nasa.gov/foundation/mission> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/06/subsystems/eps/requirements> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/06/subsystems/eps/requirements> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/06/subsystems/eps/assemblies> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/06/subsystems/eps/requirements> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/06/subsystems/eps/requirements> <http://purl.org/dc/elements/1.1/title> "Electric Power System Requirements" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/06/subsystems/eps/requirements> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Description> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://imce.jpl.nasa.gov/foundation/mission#isSpecifiedBy
+<http://imce.jpl.nasa.gov/foundation/mission#isSpecifiedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://imce.jpl.nasa.gov/foundation/mission#refines
+<http://imce.jpl.nasa.gov/foundation/mission#refines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/06/subsystems/eps/assemblies#BatteryPack1
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/06/subsystems/eps/assemblies#BatteryPack1> <http://imce.jpl.nasa.gov/foundation/mission#isSpecifiedBy> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/06/subsystems/eps/requirements#SpaceEnvironmentForBatteryPack1> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/06/subsystems/eps/assemblies#BatteryPack2
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/06/subsystems/eps/assemblies#BatteryPack2> <http://imce.jpl.nasa.gov/foundation/mission#isSpecifiedBy> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/06/subsystems/eps/requirements#SpaceEnvironmentForBatteryPack2> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/06/subsystems/eps/assemblies#BatteryPack3
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/06/subsystems/eps/assemblies#BatteryPack3> <http://imce.jpl.nasa.gov/foundation/mission#isSpecifiedBy> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/06/subsystems/eps/requirements#SpaceEnvironmentForBatteryPack3> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/06/subsystems/eps/requirements#SpaceEnvironmentForBatteryPack1
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/06/subsystems/eps/requirements#SpaceEnvironmentForBatteryPack1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/06/subsystems/eps/requirements#SpaceEnvironmentForBatteryPack1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/06/subsystems/eps/requirements#SpaceEnvironmentForBatteryPack1> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceEnvironment> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/06/subsystems/eps/requirements#SpaceEnvironmentForBatteryPack2
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/06/subsystems/eps/requirements#SpaceEnvironmentForBatteryPack2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/06/subsystems/eps/requirements#SpaceEnvironmentForBatteryPack2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/06/subsystems/eps/requirements#SpaceEnvironmentForBatteryPack2> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceEnvironment> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/06/subsystems/eps/requirements#SpaceEnvironmentForBatteryPack3
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/06/subsystems/eps/requirements#SpaceEnvironmentForBatteryPack3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/06/subsystems/eps/requirements#SpaceEnvironmentForBatteryPack3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/06/subsystems/eps/requirements#SpaceEnvironmentForBatteryPack3> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/environmental#SpaceEnvironment> .
+# 
+# Generated by the OWL API (version 5.1.17.2020-11-07T15:03:35Z) https://github.com/owlcs/owlapi/

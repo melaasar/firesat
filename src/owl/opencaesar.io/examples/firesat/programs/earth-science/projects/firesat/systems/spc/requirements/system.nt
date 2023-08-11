@@ -1,0 +1,74 @@
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system> <http://www.w3.org/2002/07/owl#imports> <http://imce.jpl.nasa.gov/foundation/mission> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system> <http://purl.org/dc/elements/1.1/title> "Spacecraft System Requirements" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Description> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://imce.jpl.nasa.gov/foundation/mission#refines
+<http://imce.jpl.nasa.gov/foundation/mission#refines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#IncidentProcessing
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#IncidentProcessing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#IncidentProcessing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#IncidentProcessing> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationForDetectingANewWildfire> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#IncidentProcessing> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationForFireGeoLocation> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#IncidentProcessing> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationForOnboardValidation> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#Interoperability
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#Interoperability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#Interoperability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#Interoperability> <http://www.w3.org/2000/01/rdf-schema#label> "Interoperability" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#Manufacturability
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#Manufacturability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#Manufacturability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#Manufacturability> <http://www.w3.org/2000/01/rdf-schema#label> "Manufacturability" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#Precedence
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#Precedence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#Precedence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#Precedence> <http://www.w3.org/2000/01/rdf-schema#label> "Precedence" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#PrimeItemDefinition
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#PrimeItemDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#PrimeItemDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#PrimeItemDefinition> <http://www.w3.org/2000/01/rdf-schema#label> "Prime item definition" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#SecurityAndSafety
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#SecurityAndSafety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#SecurityAndSafety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#SecurityAndSafety> <http://www.w3.org/2000/01/rdf-schema#label> "Security and Safety" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#StandardSample
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#StandardSample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#StandardSample> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#StandardSample> <http://www.w3.org/2000/01/rdf-schema#label> "Standard sample" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#UplinkDownlinkHardware
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#UplinkDownlinkHardware> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#UplinkDownlinkHardware> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#UplinkDownlinkHardware> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#DownwardsMessages> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#UplinkDownlinkHardware> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationFor911MessageDownlink> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#UplinkDownlinkHardware> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#GroundSystemInterface> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/system#UplinkDownlinkHardware> <http://www.w3.org/2000/01/rdf-schema#label> "Uplink/downlink hardware" .
+# 
+# Generated by the OWL API (version 5.1.17.2020-11-07T15:03:35Z) https://github.com/owlcs/owlapi/

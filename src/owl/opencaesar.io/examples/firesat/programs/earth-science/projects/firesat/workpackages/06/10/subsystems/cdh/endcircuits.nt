@@ -1,0 +1,78 @@
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/endcircuits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/endcircuits> <http://www.w3.org/2002/07/owl#imports> <http://imce.jpl.nasa.gov/foundation/base> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/endcircuits> <http://www.w3.org/2002/07/owl#imports> <http://imce.jpl.nasa.gov/foundation/mission> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/endcircuits> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/disciplines/fse/fse> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/endcircuits> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/endcircuits> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/endcircuits> <http://purl.org/dc/elements/1.1/title> "Command and Data Handling Endcircuits" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/endcircuits> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Description> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://imce.jpl.nasa.gov/foundation/mission#presents
+<http://imce.jpl.nasa.gov/foundation/mission#presents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://imce.jpl.nasa.gov/foundation/base#hasIdentifier
+<http://imce.jpl.nasa.gov/foundation/base#hasIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#AvionicsStackSection
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#AvionicsStackSection> <http://imce.jpl.nasa.gov/foundation/mission#presents> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/endcircuits#AvionicsStackSectionPowerIn> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#LaunchVehicleInterfaceModule
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#LaunchVehicleInterfaceModule> <http://imce.jpl.nasa.gov/foundation/mission#presents> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/endcircuits#LaunchVehicleInterfaceModulePowerIn> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#PrimaryFlightComputerUnit
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#PrimaryFlightComputerUnit> <http://imce.jpl.nasa.gov/foundation/mission#presents> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/endcircuits#PrimaryFlightComputerUnitPowerIn> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#SeparationSystem
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/assemblies#SeparationSystem> <http://imce.jpl.nasa.gov/foundation/mission#presents> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/endcircuits#SeparationSystemPowerIn> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/endcircuits#AvionicsStackSectionPowerIn
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/endcircuits#AvionicsStackSectionPowerIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/endcircuits#AvionicsStackSectionPowerIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#PowerIn> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/endcircuits#AvionicsStackSectionPowerIn> <http://imce.jpl.nasa.gov/foundation/base#hasIdentifier> "1" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/endcircuits#AvionicsStackSectionPowerIn> <http://www.w3.org/2000/01/rdf-schema#label> "Avionics Stack Section Power In" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/endcircuits#LaunchVehicleInterfaceModulePowerIn
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/endcircuits#LaunchVehicleInterfaceModulePowerIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/endcircuits#LaunchVehicleInterfaceModulePowerIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#PowerIn> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/endcircuits#LaunchVehicleInterfaceModulePowerIn> <http://imce.jpl.nasa.gov/foundation/base#hasIdentifier> "1" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/endcircuits#LaunchVehicleInterfaceModulePowerIn> <http://www.w3.org/2000/01/rdf-schema#label> "Launch Vehicle Interface Module Power In" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/endcircuits#PrimaryFlightComputerUnitPowerIn
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/endcircuits#PrimaryFlightComputerUnitPowerIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/endcircuits#PrimaryFlightComputerUnitPowerIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#PowerIn> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/endcircuits#PrimaryFlightComputerUnitPowerIn> <http://imce.jpl.nasa.gov/foundation/base#hasIdentifier> "1" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/endcircuits#PrimaryFlightComputerUnitPowerIn> <http://www.w3.org/2000/01/rdf-schema#label> "Primary Flight Computer Unit Power In" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/endcircuits#SeparationSystemPowerIn
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/endcircuits#SeparationSystemPowerIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/endcircuits#SeparationSystemPowerIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#PowerIn> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/endcircuits#SeparationSystemPowerIn> <http://imce.jpl.nasa.gov/foundation/base#hasIdentifier> "1" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/10/subsystems/cdh/endcircuits#SeparationSystemPowerIn> <http://www.w3.org/2000/01/rdf-schema#label> "Separation System Power In" .
+# 
+# Generated by the OWL API (version 5.1.17.2020-11-07T15:03:35Z) https://github.com/owlcs/owlapi/

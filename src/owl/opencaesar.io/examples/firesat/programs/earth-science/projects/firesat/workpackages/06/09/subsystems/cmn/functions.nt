@@ -1,0 +1,105 @@
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions> <http://www.w3.org/2002/07/owl#imports> <http://imce.jpl.nasa.gov/foundation/mission> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions> <http://www.w3.org/2002/07/owl#imports> <http://imce.jpl.nasa.gov/foundation/project> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/assemblies> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions> <http://purl.org/dc/elements/1.1/title> "Communications Functions" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Description> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://imce.jpl.nasa.gov/foundation/mission#performs
+<http://imce.jpl.nasa.gov/foundation/mission#performs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#realizes
+<http://imce.jpl.nasa.gov/foundation/project#realizes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://opencaesar.io/oml#hasSource
+<http://opencaesar.io/oml#hasSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://opencaesar.io/oml#hasTarget
+<http://opencaesar.io/oml#hasTarget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/assemblies#ReceiveWhipAntenna
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/assemblies#ReceiveWhipAntenna> <http://imce.jpl.nasa.gov/foundation/mission#performs> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#Communicate911DownlinkWithRegionalFieldOfficesByReceiveWhipAntenna> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/assemblies#ReceiveWhipAntenna> <http://imce.jpl.nasa.gov/foundation/mission#performs> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#DeployMechanismsByReceiveWhipAntenna> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/assemblies#ReceiverUnit
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/assemblies#ReceiverUnit> <http://imce.jpl.nasa.gov/foundation/mission#performs> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#ApplyCommandsByReceiverUnit> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/assemblies#TransmitHiGainAntenna
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/assemblies#TransmitHiGainAntenna> <http://imce.jpl.nasa.gov/foundation/mission#performs> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#DeployMechanismsByTransmitHiGainAntenna> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/assemblies#TransmitWhipAntenna
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/assemblies#TransmitWhipAntenna> <http://imce.jpl.nasa.gov/foundation/mission#performs> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#DeployMechanismsByTransmitWhipAntenna> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/assemblies#TransmitWhipAntenna> <http://imce.jpl.nasa.gov/foundation/mission#performs> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#SendTelemetryToNOAAGroundStationsByTransmitWhipAntenna> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#ApplyCommandsByReceiverUnit
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#ApplyCommandsByReceiverUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#ApplyCommandsByReceiverUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#ApplyCommandsByReceiverUnit> <http://imce.jpl.nasa.gov/foundation/project#realizes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#ApplyCommands> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#Communicate911DownlinkWithRegionalFieldOfficesByReceiveWhipAntenna
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#Communicate911DownlinkWithRegionalFieldOfficesByReceiveWhipAntenna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#Communicate911DownlinkWithRegionalFieldOfficesByReceiveWhipAntenna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#Communicate911DownlinkWithRegionalFieldOfficesByReceiveWhipAntenna> <http://imce.jpl.nasa.gov/foundation/project#realizes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Communicate911DownlinkWithRegionalFieldOffices> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#Communicate911DownlinkWithRegionalFieldOfficesByTransmitHiGainAntenna
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#Communicate911DownlinkWithRegionalFieldOfficesByTransmitHiGainAntenna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#Communicate911DownlinkWithRegionalFieldOfficesByTransmitHiGainAntenna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#Communicate911DownlinkWithRegionalFieldOfficesByTransmitHiGainAntenna> <http://imce.jpl.nasa.gov/foundation/project#realizes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Communicate911DownlinkWithRegionalFieldOffices> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#DeployMechanismsByReceiveWhipAntenna
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#DeployMechanismsByReceiveWhipAntenna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#DeployMechanismsByReceiveWhipAntenna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#DeployMechanismsByReceiveWhipAntenna> <http://imce.jpl.nasa.gov/foundation/project#realizes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#DeployMechanisms> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#DeployMechanismsByTransmitHiGainAntenna
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#DeployMechanismsByTransmitHiGainAntenna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#DeployMechanismsByTransmitHiGainAntenna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#DeployMechanismsByTransmitHiGainAntenna> <http://imce.jpl.nasa.gov/foundation/project#realizes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#DeployMechanisms> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#DeployMechanismsByTransmitWhipAntenna
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#DeployMechanismsByTransmitWhipAntenna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#DeployMechanismsByTransmitWhipAntenna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#DeployMechanismsByTransmitWhipAntenna> <http://imce.jpl.nasa.gov/foundation/project#realizes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#DeployMechanisms> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#GenerateTelemetryByTransmitterUnit
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#GenerateTelemetryByTransmitterUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#GenerateTelemetryByTransmitterUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#GenerateTelemetryByTransmitterUnit> <http://imce.jpl.nasa.gov/foundation/project#realizes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#GenerateTelemetry> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#SendTelemetryToNOAAGroundStationsByTransmitWhipAntenna
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#SendTelemetryToNOAAGroundStationsByTransmitWhipAntenna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#SendTelemetryToNOAAGroundStationsByTransmitWhipAntenna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#SendTelemetryToNOAAGroundStationsByTransmitWhipAntenna> <http://imce.jpl.nasa.gov/foundation/project#realizes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#SendTelemetryToNOAAGroundStations> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#TransmitHiGainAntennaPerformsCommunicate911DownlinkWithRegionalFieldOffices
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#TransmitHiGainAntennaPerformsCommunicate911DownlinkWithRegionalFieldOffices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#TransmitHiGainAntennaPerformsCommunicate911DownlinkWithRegionalFieldOffices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Performs> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#TransmitHiGainAntennaPerformsCommunicate911DownlinkWithRegionalFieldOffices> <http://opencaesar.io/oml#hasSource> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/assemblies#TransmitHiGainAntenna> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#TransmitHiGainAntennaPerformsCommunicate911DownlinkWithRegionalFieldOffices> <http://opencaesar.io/oml#hasTarget> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#Communicate911DownlinkWithRegionalFieldOfficesByTransmitHiGainAntenna> .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#TransmitterUnitPerformsGenerateTelemetry
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#TransmitterUnitPerformsGenerateTelemetry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#TransmitterUnitPerformsGenerateTelemetry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Performs> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#TransmitterUnitPerformsGenerateTelemetry> <http://opencaesar.io/oml#hasSource> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/assemblies#TransmitterUnit> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#TransmitterUnitPerformsGenerateTelemetry> <http://opencaesar.io/oml#hasTarget> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/09/subsystems/cmn/functions#GenerateTelemetryByTransmitterUnit> .
+# 
+# Generated by the OWL API (version 5.1.17.2020-11-07T15:03:35Z) https://github.com/owlcs/owlapi/

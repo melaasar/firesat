@@ -1,0 +1,1832 @@
+<http://imce.jpl.nasa.gov/foundation/project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://imce.jpl.nasa.gov/foundation/project> <http://www.w3.org/2002/07/owl#imports> <http://imce.jpl.nasa.gov/foundation/analysis> .
+<http://imce.jpl.nasa.gov/foundation/project> <http://www.w3.org/2002/07/owl#imports> <http://imce.jpl.nasa.gov/foundation/base> .
+<http://imce.jpl.nasa.gov/foundation/project> <http://www.w3.org/2002/07/owl#imports> <http://imce.jpl.nasa.gov/foundation/mission> .
+<http://imce.jpl.nasa.gov/foundation/project> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1> .
+<http://imce.jpl.nasa.gov/foundation/project> <http://purl.org/dc/elements/1.1/creator> "Jet Propulsion Laboratory" .
+<http://imce.jpl.nasa.gov/foundation/project> <http://purl.org/dc/elements/1.1/description> "The Project vocabulary defines concepts and properties for describing a project in terms of its stakeholders, concerns, work breakdown, and deliverables. It provides a basis for specialization by domain experts." .
+<http://imce.jpl.nasa.gov/foundation/project> <http://purl.org/dc/elements/1.1/rights> "Copyright 2010-2020, by the California Institute of Technology. ALL RIGHTS RESERVED. United States Government Sponsorship acknowledged. Any commercial use must be negotiated with the Office of Technology Transfer at the California Institute of Technology. \nThis software may be subject to U.S. export control laws. By accepting this software, the user agrees to comply with all applicable U.S. export laws and regulations. User has the responsibility to obtain export licenses, or other export authority as may be required before exporting such information to foreign countries or providing access to foreign persons." .
+<http://imce.jpl.nasa.gov/foundation/project> <http://purl.org/dc/elements/1.1/title> "Project" .
+<http://imce.jpl.nasa.gov/foundation/project> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Vocabulary> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://imce.jpl.nasa.gov/foundation/project#approves
+<http://imce.jpl.nasa.gov/foundation/project#approves> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#approves> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://imce.jpl.nasa.gov/foundation/project#hasAssignment> .
+<http://imce.jpl.nasa.gov/foundation/project#approves> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#approves> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#approves> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Role> .
+<http://imce.jpl.nasa.gov/foundation/project#approves> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Product> .
+<http://imce.jpl.nasa.gov/foundation/project#approves> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#approves> <http://www.w3.org/2000/01/rdf-schema#label> "approves" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#authorizes
+<http://imce.jpl.nasa.gov/foundation/project#authorizes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#authorizes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#authorizes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#authorizes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#authorizes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Authority> .
+<http://imce.jpl.nasa.gov/foundation/project#authorizes> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Authority> .
+<http://imce.jpl.nasa.gov/foundation/project#authorizes> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#authorizes> <http://www.w3.org/2000/01/rdf-schema#label> "authorizes" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#belongsTo
+<http://imce.jpl.nasa.gov/foundation/project#belongsTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#belongsTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Person> .
+<http://imce.jpl.nasa.gov/foundation/project#belongsTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Organization> .
+<http://imce.jpl.nasa.gov/foundation/project#belongsTo> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#belongsTo> <http://www.w3.org/2000/01/rdf-schema#label> "belongs to" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#binds
+<http://imce.jpl.nasa.gov/foundation/project#binds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#binds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#binds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#binds> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Policy> .
+<http://imce.jpl.nasa.gov/foundation/project#binds> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#BoundElement> .
+<http://imce.jpl.nasa.gov/foundation/project#binds> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#binds> <http://www.w3.org/2000/01/rdf-schema#label> "binds" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#concurs
+<http://imce.jpl.nasa.gov/foundation/project#concurs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#concurs> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://imce.jpl.nasa.gov/foundation/project#hasAssignment> .
+<http://imce.jpl.nasa.gov/foundation/project#concurs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#concurs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#concurs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Role> .
+<http://imce.jpl.nasa.gov/foundation/project#concurs> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Product> .
+<http://imce.jpl.nasa.gov/foundation/project#concurs> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#concurs> <http://www.w3.org/2000/01/rdf-schema#label> "concurs" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#delegatesTo
+<http://imce.jpl.nasa.gov/foundation/project#delegatesTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#delegatesTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#delegatesTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#delegatesTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#delegatesTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Role> .
+<http://imce.jpl.nasa.gov/foundation/project#delegatesTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Role> .
+<http://imce.jpl.nasa.gov/foundation/project#delegatesTo> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#delegatesTo> <http://www.w3.org/2000/01/rdf-schema#label> "delegates to" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#delivers
+<http://imce.jpl.nasa.gov/foundation/project#delivers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#delivers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#delivers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#delivers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#delivers> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#InterchangePoint> .
+<http://imce.jpl.nasa.gov/foundation/project#delivers> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Deliverable> .
+<http://imce.jpl.nasa.gov/foundation/project#delivers> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#delivers> <http://www.w3.org/2000/01/rdf-schema#label> "delivers" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#describes
+<http://imce.jpl.nasa.gov/foundation/project#describes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#describes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#describes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#describes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Product> .
+<http://imce.jpl.nasa.gov/foundation/project#describes> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#DevelopedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#describes> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#describes> <http://www.w3.org/2000/01/rdf-schema#label> "describes" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#executes
+<http://imce.jpl.nasa.gov/foundation/project#executes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#executes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#executes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#executes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#executes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Authority> .
+<http://imce.jpl.nasa.gov/foundation/project#executes> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Process> .
+<http://imce.jpl.nasa.gov/foundation/project#executes> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#executes> <http://www.w3.org/2000/01/rdf-schema#label> "executes" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#hasAssignment
+<http://imce.jpl.nasa.gov/foundation/project#hasAssignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#hasAssignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#hasAssignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#hasAssignment> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Role> .
+<http://imce.jpl.nasa.gov/foundation/project#hasAssignment> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#AssignedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#hasAssignment> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#hasAssignment> <http://www.w3.org/2000/01/rdf-schema#label> "has assignment" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#hasParticipant
+<http://imce.jpl.nasa.gov/foundation/project#hasParticipant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#hasParticipant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#hasParticipant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#hasParticipant> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Interchange> .
+<http://imce.jpl.nasa.gov/foundation/project#hasParticipant> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Deliverable> .
+<http://imce.jpl.nasa.gov/foundation/project#hasParticipant> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#hasParticipant> <http://www.w3.org/2000/01/rdf-schema#label> "has participant" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#hasResponsibilityFor
+<http://imce.jpl.nasa.gov/foundation/project#hasResponsibilityFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#hasResponsibilityFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#hasResponsibilityFor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Organization> .
+<http://imce.jpl.nasa.gov/foundation/project#hasResponsibilityFor> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Authority> .
+<http://imce.jpl.nasa.gov/foundation/project#hasResponsibilityFor> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#hasResponsibilityFor> <http://www.w3.org/2000/01/rdf-schema#label> "has responsibility for" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#hasRole
+<http://imce.jpl.nasa.gov/foundation/project#hasRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#hasRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#hasRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#hasRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#hasRole> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Person> .
+<http://imce.jpl.nasa.gov/foundation/project#hasRole> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Role> .
+<http://imce.jpl.nasa.gov/foundation/project#hasRole> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#hasRole> <http://www.w3.org/2000/01/rdf-schema#label> "has role" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#interchangesThrough
+<http://imce.jpl.nasa.gov/foundation/project#interchangesThrough> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#interchangesThrough> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#interchangesThrough> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#interchangesThrough> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#interchangesThrough> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Process> .
+<http://imce.jpl.nasa.gov/foundation/project#interchangesThrough> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#InterchangePoint> .
+<http://imce.jpl.nasa.gov/foundation/project#interchangesThrough> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#interchangesThrough> <http://www.w3.org/2000/01/rdf-schema#label> "interchanges through" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#invokes
+<http://imce.jpl.nasa.gov/foundation/project#invokes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#invokes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#invokes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Process> .
+<http://imce.jpl.nasa.gov/foundation/project#invokes> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Process> .
+<http://imce.jpl.nasa.gov/foundation/project#invokes> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#invokes> <http://www.w3.org/2000/01/rdf-schema#label> "invokes" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#involves
+<http://imce.jpl.nasa.gov/foundation/project#involves> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#involves> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#involves> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#involves> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Interchange> .
+<http://imce.jpl.nasa.gov/foundation/project#involves> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Process> .
+<http://imce.jpl.nasa.gov/foundation/project#involves> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#involves> <http://www.w3.org/2000/01/rdf-schema#label> "involves" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#involves1
+<http://imce.jpl.nasa.gov/foundation/project#involves1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#involves1> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://imce.jpl.nasa.gov/foundation/project#involves> .
+<http://imce.jpl.nasa.gov/foundation/project#involves1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#involves1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#involves1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#involves1> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Interchange> .
+<http://imce.jpl.nasa.gov/foundation/project#involves1> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Process> .
+<http://imce.jpl.nasa.gov/foundation/project#involves1> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#involves1> <http://www.w3.org/2000/01/rdf-schema#label> "involves1" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#involves2
+<http://imce.jpl.nasa.gov/foundation/project#involves2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#involves2> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://imce.jpl.nasa.gov/foundation/project#involves> .
+<http://imce.jpl.nasa.gov/foundation/project#involves2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#involves2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#involves2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#involves2> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Interchange> .
+<http://imce.jpl.nasa.gov/foundation/project#involves2> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Process> .
+<http://imce.jpl.nasa.gov/foundation/project#involves2> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#involves2> <http://www.w3.org/2000/01/rdf-schema#label> "involves2" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isApprovedBy
+<http://imce.jpl.nasa.gov/foundation/project#isApprovedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isApprovedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://imce.jpl.nasa.gov/foundation/project#approves> .
+<http://imce.jpl.nasa.gov/foundation/project#isApprovedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isApprovedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isApprovedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Product> .
+<http://imce.jpl.nasa.gov/foundation/project#isApprovedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Role> .
+<http://imce.jpl.nasa.gov/foundation/project#isApprovedBy> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#isApprovedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is approved by" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isAssignedTo
+<http://imce.jpl.nasa.gov/foundation/project#isAssignedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isAssignedTo> <http://www.w3.org/2002/07/owl#inverseOf> <http://imce.jpl.nasa.gov/foundation/project#hasAssignment> .
+<http://imce.jpl.nasa.gov/foundation/project#isAssignedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isAssignedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isAssignedTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#AssignedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#isAssignedTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Role> .
+<http://imce.jpl.nasa.gov/foundation/project#isAssignedTo> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#isAssignedTo> <http://www.w3.org/2000/01/rdf-schema#label> "is assigned to" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isAuthorizedBy
+<http://imce.jpl.nasa.gov/foundation/project#isAuthorizedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isAuthorizedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://imce.jpl.nasa.gov/foundation/project#authorizes> .
+<http://imce.jpl.nasa.gov/foundation/project#isAuthorizedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isAuthorizedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isAuthorizedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isAuthorizedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Authority> .
+<http://imce.jpl.nasa.gov/foundation/project#isAuthorizedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Authority> .
+<http://imce.jpl.nasa.gov/foundation/project#isAuthorizedBy> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#isAuthorizedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is authorized by" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isBoundBy
+<http://imce.jpl.nasa.gov/foundation/project#isBoundBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isBoundBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://imce.jpl.nasa.gov/foundation/project#binds> .
+<http://imce.jpl.nasa.gov/foundation/project#isBoundBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isBoundBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isBoundBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#BoundElement> .
+<http://imce.jpl.nasa.gov/foundation/project#isBoundBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Policy> .
+<http://imce.jpl.nasa.gov/foundation/project#isBoundBy> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#isBoundBy> <http://www.w3.org/2000/01/rdf-schema#label> "is bound by" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isConcurredBy
+<http://imce.jpl.nasa.gov/foundation/project#isConcurredBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isConcurredBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://imce.jpl.nasa.gov/foundation/project#concurs> .
+<http://imce.jpl.nasa.gov/foundation/project#isConcurredBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isConcurredBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isConcurredBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Product> .
+<http://imce.jpl.nasa.gov/foundation/project#isConcurredBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Role> .
+<http://imce.jpl.nasa.gov/foundation/project#isConcurredBy> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#isConcurredBy> <http://www.w3.org/2000/01/rdf-schema#label> "is concurred by" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isDelegateOf
+<http://imce.jpl.nasa.gov/foundation/project#isDelegateOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isDelegateOf> <http://www.w3.org/2002/07/owl#inverseOf> <http://imce.jpl.nasa.gov/foundation/project#delegatesTo> .
+<http://imce.jpl.nasa.gov/foundation/project#isDelegateOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isDelegateOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isDelegateOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isDelegateOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Role> .
+<http://imce.jpl.nasa.gov/foundation/project#isDelegateOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Role> .
+<http://imce.jpl.nasa.gov/foundation/project#isDelegateOf> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#isDelegateOf> <http://www.w3.org/2000/01/rdf-schema#label> "is delegate of" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isDeliveredBy
+<http://imce.jpl.nasa.gov/foundation/project#isDeliveredBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isDeliveredBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://imce.jpl.nasa.gov/foundation/project#delivers> .
+<http://imce.jpl.nasa.gov/foundation/project#isDeliveredBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isDeliveredBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isDeliveredBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isDeliveredBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Deliverable> .
+<http://imce.jpl.nasa.gov/foundation/project#isDeliveredBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#InterchangePoint> .
+<http://imce.jpl.nasa.gov/foundation/project#isDeliveredBy> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#isDeliveredBy> <http://www.w3.org/2000/01/rdf-schema#label> "is delivered by" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isDescribedBy
+<http://imce.jpl.nasa.gov/foundation/project#isDescribedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isDescribedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://imce.jpl.nasa.gov/foundation/project#describes> .
+<http://imce.jpl.nasa.gov/foundation/project#isDescribedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isDescribedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isDescribedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#DevelopedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#isDescribedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Product> .
+<http://imce.jpl.nasa.gov/foundation/project#isDescribedBy> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#isDescribedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is described by" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isExecutedBy
+<http://imce.jpl.nasa.gov/foundation/project#isExecutedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isExecutedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://imce.jpl.nasa.gov/foundation/project#executes> .
+<http://imce.jpl.nasa.gov/foundation/project#isExecutedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isExecutedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isExecutedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isExecutedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Process> .
+<http://imce.jpl.nasa.gov/foundation/project#isExecutedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Authority> .
+<http://imce.jpl.nasa.gov/foundation/project#isExecutedBy> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#isExecutedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is executed by" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isInterchangePointFor
+<http://imce.jpl.nasa.gov/foundation/project#isInterchangePointFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isInterchangePointFor> <http://www.w3.org/2002/07/owl#inverseOf> <http://imce.jpl.nasa.gov/foundation/project#interchangesThrough> .
+<http://imce.jpl.nasa.gov/foundation/project#isInterchangePointFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isInterchangePointFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isInterchangePointFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isInterchangePointFor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#InterchangePoint> .
+<http://imce.jpl.nasa.gov/foundation/project#isInterchangePointFor> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Process> .
+<http://imce.jpl.nasa.gov/foundation/project#isInterchangePointFor> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#isInterchangePointFor> <http://www.w3.org/2000/01/rdf-schema#label> "is interchange point for" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isInvokedBy
+<http://imce.jpl.nasa.gov/foundation/project#isInvokedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isInvokedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://imce.jpl.nasa.gov/foundation/project#invokes> .
+<http://imce.jpl.nasa.gov/foundation/project#isInvokedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isInvokedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Process> .
+<http://imce.jpl.nasa.gov/foundation/project#isInvokedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Process> .
+<http://imce.jpl.nasa.gov/foundation/project#isInvokedBy> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#isInvokedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is invoked by" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isInvolvedIn
+<http://imce.jpl.nasa.gov/foundation/project#isInvolvedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isInvolvedIn> <http://www.w3.org/2002/07/owl#inverseOf> <http://imce.jpl.nasa.gov/foundation/project#involves> .
+<http://imce.jpl.nasa.gov/foundation/project#isInvolvedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isInvolvedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isInvolvedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Process> .
+<http://imce.jpl.nasa.gov/foundation/project#isInvolvedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Interchange> .
+<http://imce.jpl.nasa.gov/foundation/project#isInvolvedIn> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#isInvolvedIn> <http://www.w3.org/2000/01/rdf-schema#label> "is involved in" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isInvolvedIn1
+<http://imce.jpl.nasa.gov/foundation/project#isInvolvedIn1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isInvolvedIn1> <http://www.w3.org/2002/07/owl#inverseOf> <http://imce.jpl.nasa.gov/foundation/project#involves1> .
+<http://imce.jpl.nasa.gov/foundation/project#isInvolvedIn1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isInvolvedIn1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isInvolvedIn1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isInvolvedIn1> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Process> .
+<http://imce.jpl.nasa.gov/foundation/project#isInvolvedIn1> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Interchange> .
+<http://imce.jpl.nasa.gov/foundation/project#isInvolvedIn1> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#isInvolvedIn1> <http://www.w3.org/2000/01/rdf-schema#label> "is involved in 1" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isInvolvedIn2
+<http://imce.jpl.nasa.gov/foundation/project#isInvolvedIn2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isInvolvedIn2> <http://www.w3.org/2002/07/owl#inverseOf> <http://imce.jpl.nasa.gov/foundation/project#involves2> .
+<http://imce.jpl.nasa.gov/foundation/project#isInvolvedIn2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isInvolvedIn2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isInvolvedIn2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isInvolvedIn2> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Process> .
+<http://imce.jpl.nasa.gov/foundation/project#isInvolvedIn2> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Interchange> .
+<http://imce.jpl.nasa.gov/foundation/project#isInvolvedIn2> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#isInvolvedIn2> <http://www.w3.org/2000/01/rdf-schema#label> "is involved in 2" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isManfestedBy
+<http://imce.jpl.nasa.gov/foundation/project#isManfestedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isManfestedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://imce.jpl.nasa.gov/foundation/project#manifests> .
+<http://imce.jpl.nasa.gov/foundation/project#isManfestedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isManfestedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isManfestedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isManfestedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#DevelopmentState> .
+<http://imce.jpl.nasa.gov/foundation/project#isManfestedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#DevelopedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#isManfestedBy> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#isManfestedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is manifested by" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isPreparedBy
+<http://imce.jpl.nasa.gov/foundation/project#isPreparedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isPreparedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://imce.jpl.nasa.gov/foundation/project#prepares> .
+<http://imce.jpl.nasa.gov/foundation/project#isPreparedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isPreparedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isPreparedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Product> .
+<http://imce.jpl.nasa.gov/foundation/project#isPreparedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Role> .
+<http://imce.jpl.nasa.gov/foundation/project#isPreparedBy> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#isPreparedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is prepared by" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isProducedBy
+<http://imce.jpl.nasa.gov/foundation/project#isProducedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isProducedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://imce.jpl.nasa.gov/foundation/project#produces> .
+<http://imce.jpl.nasa.gov/foundation/project#isProducedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isProducedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isProducedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isProducedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Product> .
+<http://imce.jpl.nasa.gov/foundation/project#isProducedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Authority> .
+<http://imce.jpl.nasa.gov/foundation/project#isProducedBy> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#isProducedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is produced by" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isRealizedBy
+<http://imce.jpl.nasa.gov/foundation/project#isRealizedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isRealizedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://imce.jpl.nasa.gov/foundation/project#realizes> .
+<http://imce.jpl.nasa.gov/foundation/project#isRealizedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isRealizedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isRealizedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#RealizedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#isRealizedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#RealizedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#isRealizedBy> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#isRealizedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is realized by" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isReceivedBy
+<http://imce.jpl.nasa.gov/foundation/project#isReceivedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isReceivedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://imce.jpl.nasa.gov/foundation/project#receives> .
+<http://imce.jpl.nasa.gov/foundation/project#isReceivedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isReceivedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isReceivedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Deliverable> .
+<http://imce.jpl.nasa.gov/foundation/project#isReceivedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#InterchangePoint> .
+<http://imce.jpl.nasa.gov/foundation/project#isReceivedBy> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#isReceivedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is received by" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isReliedOnBy
+<http://imce.jpl.nasa.gov/foundation/project#isReliedOnBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isReliedOnBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://imce.jpl.nasa.gov/foundation/project#reliesOn> .
+<http://imce.jpl.nasa.gov/foundation/project#isReliedOnBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isReliedOnBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isReliedOnBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#DevelopedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#isReliedOnBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Authority> .
+<http://imce.jpl.nasa.gov/foundation/project#isReliedOnBy> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#isReliedOnBy> <http://www.w3.org/2000/01/rdf-schema#label> "is relied on by" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isRepresentedBy
+<http://imce.jpl.nasa.gov/foundation/project#isRepresentedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isRepresentedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://imce.jpl.nasa.gov/foundation/project#represents> .
+<http://imce.jpl.nasa.gov/foundation/project#isRepresentedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isRepresentedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isRepresentedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Concern> .
+<http://imce.jpl.nasa.gov/foundation/project#isRepresentedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Stakeholder> .
+<http://imce.jpl.nasa.gov/foundation/project#isRepresentedBy> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#isRepresentedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is represented by" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isResponsibilityOf
+<http://imce.jpl.nasa.gov/foundation/project#isResponsibilityOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isResponsibilityOf> <http://www.w3.org/2002/07/owl#inverseOf> <http://imce.jpl.nasa.gov/foundation/project#hasResponsibilityFor> .
+<http://imce.jpl.nasa.gov/foundation/project#isResponsibilityOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isResponsibilityOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Authority> .
+<http://imce.jpl.nasa.gov/foundation/project#isResponsibilityOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Organization> .
+<http://imce.jpl.nasa.gov/foundation/project#isResponsibilityOf> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#isResponsibilityOf> <http://www.w3.org/2000/01/rdf-schema#label> "is responsibility of" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isRoleOf
+<http://imce.jpl.nasa.gov/foundation/project#isRoleOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isRoleOf> <http://www.w3.org/2002/07/owl#inverseOf> <http://imce.jpl.nasa.gov/foundation/project#hasRole> .
+<http://imce.jpl.nasa.gov/foundation/project#isRoleOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isRoleOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isRoleOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isRoleOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Role> .
+<http://imce.jpl.nasa.gov/foundation/project#isRoleOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Person> .
+<http://imce.jpl.nasa.gov/foundation/project#isRoleOf> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#isRoleOf> <http://www.w3.org/2000/01/rdf-schema#label> "is role of" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isSuppliedBy
+<http://imce.jpl.nasa.gov/foundation/project#isSuppliedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isSuppliedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://imce.jpl.nasa.gov/foundation/project#supplies> .
+<http://imce.jpl.nasa.gov/foundation/project#isSuppliedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isSuppliedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isSuppliedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isSuppliedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#SuppliedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#isSuppliedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Authority> .
+<http://imce.jpl.nasa.gov/foundation/project#isSuppliedBy> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#isSuppliedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is supplied by" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#manifests
+<http://imce.jpl.nasa.gov/foundation/project#manifests> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#manifests> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#manifests> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#manifests> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#manifests> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#DevelopedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#manifests> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#DevelopmentState> .
+<http://imce.jpl.nasa.gov/foundation/project#manifests> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#manifests> <http://www.w3.org/2000/01/rdf-schema#label> "manifests" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#participatesIn
+<http://imce.jpl.nasa.gov/foundation/project#participatesIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#participatesIn> <http://www.w3.org/2002/07/owl#inverseOf> <http://imce.jpl.nasa.gov/foundation/project#hasParticipant> .
+<http://imce.jpl.nasa.gov/foundation/project#participatesIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#participatesIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#participatesIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Deliverable> .
+<http://imce.jpl.nasa.gov/foundation/project#participatesIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Interchange> .
+<http://imce.jpl.nasa.gov/foundation/project#participatesIn> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#reverseRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#participatesIn> <http://www.w3.org/2000/01/rdf-schema#label> "participates in" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#prepares
+<http://imce.jpl.nasa.gov/foundation/project#prepares> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#prepares> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://imce.jpl.nasa.gov/foundation/project#hasAssignment> .
+<http://imce.jpl.nasa.gov/foundation/project#prepares> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#prepares> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#prepares> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Role> .
+<http://imce.jpl.nasa.gov/foundation/project#prepares> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Product> .
+<http://imce.jpl.nasa.gov/foundation/project#prepares> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#prepares> <http://www.w3.org/2000/01/rdf-schema#label> "prepares" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#produces
+<http://imce.jpl.nasa.gov/foundation/project#produces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#produces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#produces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#produces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#produces> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Authority> .
+<http://imce.jpl.nasa.gov/foundation/project#produces> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Product> .
+<http://imce.jpl.nasa.gov/foundation/project#produces> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#produces> <http://www.w3.org/2000/01/rdf-schema#label> "produces" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#realizes
+<http://imce.jpl.nasa.gov/foundation/project#realizes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#realizes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#realizes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#realizes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#RealizedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#realizes> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#RealizedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#realizes> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#realizes> <http://www.w3.org/2000/01/rdf-schema#label> "realizes" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#receives
+<http://imce.jpl.nasa.gov/foundation/project#receives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#receives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#receives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#receives> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#InterchangePoint> .
+<http://imce.jpl.nasa.gov/foundation/project#receives> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Deliverable> .
+<http://imce.jpl.nasa.gov/foundation/project#receives> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#receives> <http://www.w3.org/2000/01/rdf-schema#label> "receives" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#reliesOn
+<http://imce.jpl.nasa.gov/foundation/project#reliesOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#reliesOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#reliesOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#reliesOn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Authority> .
+<http://imce.jpl.nasa.gov/foundation/project#reliesOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#DevelopedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#reliesOn> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#reliesOn> <http://www.w3.org/2000/01/rdf-schema#label> "relies on" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#represents
+<http://imce.jpl.nasa.gov/foundation/project#represents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#represents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#represents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#represents> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Stakeholder> .
+<http://imce.jpl.nasa.gov/foundation/project#represents> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#Concern> .
+<http://imce.jpl.nasa.gov/foundation/project#represents> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#represents> <http://www.w3.org/2000/01/rdf-schema#label> "represents" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#supplies
+<http://imce.jpl.nasa.gov/foundation/project#supplies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#supplies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#supplies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#supplies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#supplies> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Authority> .
+<http://imce.jpl.nasa.gov/foundation/project#supplies> <http://www.w3.org/2000/01/rdf-schema#range> <http://imce.jpl.nasa.gov/foundation/project#SuppliedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#supplies> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation> .
+<http://imce.jpl.nasa.gov/foundation/project#supplies> <http://www.w3.org/2000/01/rdf-schema#label> "supplies" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isRequiredNotLaterThan
+<http://imce.jpl.nasa.gov/foundation/project#isRequiredNotLaterThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isRequiredNotLaterThan> <http://www.w3.org/2000/01/rdf-schema#domain> <http://imce.jpl.nasa.gov/foundation/project#Deliverable> .
+<http://imce.jpl.nasa.gov/foundation/project#isRequiredNotLaterThan> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://imce.jpl.nasa.gov/foundation/project#isRequiredNotLaterThan> <http://purl.org/dc/elements/1.1/description> "A [=Deliverable=] [=isRequiredNotLaterThan=] some [=dateTime=]." .
+<http://imce.jpl.nasa.gov/foundation/project#isRequiredNotLaterThan> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#scalarProperty> .
+<http://imce.jpl.nasa.gov/foundation/project#isRequiredNotLaterThan> <http://www.w3.org/2000/01/rdf-schema#label> "is required not later than" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://imce.jpl.nasa.gov/foundation/mission#Component
+<http://imce.jpl.nasa.gov/foundation/mission#Component> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/project#DevelopedElement> .
+<http://imce.jpl.nasa.gov/foundation/mission#Component> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/project#RealizedElement> .
+<http://imce.jpl.nasa.gov/foundation/mission#Component> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/project#SuppliedElement> .
+<http://imce.jpl.nasa.gov/foundation/mission#Component> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://imce.jpl.nasa.gov/foundation/mission#Component> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/project#isRealizedBy> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://imce.jpl.nasa.gov/foundation/mission#Component> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://imce.jpl.nasa.gov/foundation/project#WorkPackage> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/project#isSuppliedBy> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://imce.jpl.nasa.gov/foundation/mission#Component> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://imce.jpl.nasa.gov/foundation/mission#Component> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/project#realizes> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://imce.jpl.nasa.gov/foundation/mission#Function
+<http://imce.jpl.nasa.gov/foundation/mission#Function> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/project#RealizedElement> .
+<http://imce.jpl.nasa.gov/foundation/mission#Function> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/project#isRealizedBy> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://imce.jpl.nasa.gov/foundation/mission#Function> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/project#realizes> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://imce.jpl.nasa.gov/foundation/mission#Interface
+<http://imce.jpl.nasa.gov/foundation/mission#Interface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/project#DevelopedElement> .
+<http://imce.jpl.nasa.gov/foundation/mission#Interface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/project#RealizedElement> .
+<http://imce.jpl.nasa.gov/foundation/mission#Interface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://imce.jpl.nasa.gov/foundation/mission#Interface> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/project#isRealizedBy> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://imce.jpl.nasa.gov/foundation/mission#Interface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://imce.jpl.nasa.gov/foundation/mission#Interface> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/project#realizes> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://imce.jpl.nasa.gov/foundation/mission#Junction
+<http://imce.jpl.nasa.gov/foundation/mission#Junction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/project#DevelopedElement> .
+<http://imce.jpl.nasa.gov/foundation/mission#Junction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/project#RealizedElement> .
+<http://imce.jpl.nasa.gov/foundation/mission#Junction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://imce.jpl.nasa.gov/foundation/mission#Junction> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/project#isRealizedBy> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://imce.jpl.nasa.gov/foundation/mission#Junction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://imce.jpl.nasa.gov/foundation/mission#Junction> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/project#realizes> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://imce.jpl.nasa.gov/foundation/mission#Mission
+<http://imce.jpl.nasa.gov/foundation/mission#Mission> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/project#RealizedElement> .
+<http://imce.jpl.nasa.gov/foundation/mission#Mission> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/project#SuppliedElement> .
+<http://imce.jpl.nasa.gov/foundation/mission#Mission> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
+_:genid10 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://imce.jpl.nasa.gov/foundation/mission#Mission> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/project#isRealizedBy> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://imce.jpl.nasa.gov/foundation/mission#Mission> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://imce.jpl.nasa.gov/foundation/project#Project> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/project#isSuppliedBy> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://imce.jpl.nasa.gov/foundation/mission#Mission> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
+_:genid12 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://imce.jpl.nasa.gov/foundation/mission#Mission> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/project#realizes> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://imce.jpl.nasa.gov/foundation/mission#Objective
+<http://imce.jpl.nasa.gov/foundation/mission#Objective> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/project#Concern> .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Approves
+<http://imce.jpl.nasa.gov/foundation/project#Approves> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#Approves> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/project#HasAssignment> .
+<http://imce.jpl.nasa.gov/foundation/project#Approves> <http://purl.org/dc/elements/1.1/description> "A [=Role=] [=approves=] zero or more [=Product=]s." .
+<http://imce.jpl.nasa.gov/foundation/project#Approves> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity> .
+<http://imce.jpl.nasa.gov/foundation/project#Approves> <http://www.w3.org/2000/01/rdf-schema#label> "Approves" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#AssignedElement
+<http://imce.jpl.nasa.gov/foundation/project#AssignedElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#AssignedElement> <http://purl.org/dc/elements/1.1/description> "[=AssignedElement=] is the domain of [=isAssignedTo=]." .
+<http://imce.jpl.nasa.gov/foundation/project#AssignedElement> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Aspect> .
+<http://imce.jpl.nasa.gov/foundation/project#AssignedElement> <http://www.w3.org/2000/01/rdf-schema#label> "Assigned Element" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Authority
+<http://imce.jpl.nasa.gov/foundation/project#Authority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#Authority> <http://purl.org/dc/elements/1.1/description> "An [=Authority=] is any entity that asserts a fact in a model. Example [=Authority=]s include [=Program=], [=Project=], and [=WorkPackage=]. (The association of an \n    \t[=Authority=] with its asserted facts requires mechanisms outside the vocabulary of OML and OWL proper, e.g., named graphs. Authorization is conveyed by the organization of statements in a repository.)" .
+<http://imce.jpl.nasa.gov/foundation/project#Authority> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept> .
+<http://imce.jpl.nasa.gov/foundation/project#Authority> <http://www.w3.org/2000/01/rdf-schema#label> "Authority" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Authorizes
+<http://imce.jpl.nasa.gov/foundation/project#Authorizes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#Authorizes> <http://purl.org/dc/elements/1.1/description> "An [=Authority=] [=authorizes=] zero or more [=Authority=]s." .
+<http://imce.jpl.nasa.gov/foundation/project#Authorizes> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity> .
+<http://imce.jpl.nasa.gov/foundation/project#Authorizes> <http://www.w3.org/2000/01/rdf-schema#label> "Authorizes" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#BelongsTo
+<http://imce.jpl.nasa.gov/foundation/project#BelongsTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#BelongsTo> <http://purl.org/dc/elements/1.1/description> "A [=Person=] [=belongsTo=] zero or more [=Organization=]s." .
+<http://imce.jpl.nasa.gov/foundation/project#BelongsTo> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity> .
+<http://imce.jpl.nasa.gov/foundation/project#BelongsTo> <http://www.w3.org/2000/01/rdf-schema#label> "Belongs To" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Binds
+<http://imce.jpl.nasa.gov/foundation/project#Binds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#Binds> <http://purl.org/dc/elements/1.1/description> "A [=Policy=] [=binds=] zero or more [=BoundElement=]s." .
+<http://imce.jpl.nasa.gov/foundation/project#Binds> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity> .
+<http://imce.jpl.nasa.gov/foundation/project#Binds> <http://www.w3.org/2000/01/rdf-schema#label> "Binds" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#BoundElement
+<http://imce.jpl.nasa.gov/foundation/project#BoundElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#BoundElement> <http://purl.org/dc/elements/1.1/description> "[=BoundElement=] is the domain of [=binds=]." .
+<http://imce.jpl.nasa.gov/foundation/project#BoundElement> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Aspect> .
+<http://imce.jpl.nasa.gov/foundation/project#BoundElement> <http://www.w3.org/2000/01/rdf-schema#label> "Bound Element" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Concern
+<http://imce.jpl.nasa.gov/foundation/project#Concern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#Concern> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/base#AggregatedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#Concern> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/base#IdentifiedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#Concern> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://imce.jpl.nasa.gov/foundation/project#Concern> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/base#aggregates> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://imce.jpl.nasa.gov/foundation/project#Concern> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid14 .
+_:genid14 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://imce.jpl.nasa.gov/foundation/project#Concern> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/base#isAggregatedIn> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://imce.jpl.nasa.gov/foundation/project#Concern> <http://purl.org/dc/elements/1.1/description> "<para>A [=Concern=] is a specific interest that one or more [=Stakeholder=]s have in the successful completion of a [=Project=] or [=Program=] and its [=Mission=]s. </para>" .
+<http://imce.jpl.nasa.gov/foundation/project#Concern> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept> .
+<http://imce.jpl.nasa.gov/foundation/project#Concern> <http://www.w3.org/2000/01/rdf-schema#label> "Concern" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Concurs
+<http://imce.jpl.nasa.gov/foundation/project#Concurs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#Concurs> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/project#HasAssignment> .
+<http://imce.jpl.nasa.gov/foundation/project#Concurs> <http://purl.org/dc/elements/1.1/description> "A [=Role=] [=concurs=] in zero or more [=Product=]s." .
+<http://imce.jpl.nasa.gov/foundation/project#Concurs> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity> .
+<http://imce.jpl.nasa.gov/foundation/project#Concurs> <http://www.w3.org/2000/01/rdf-schema#label> "Concurs" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#DelegatesTo
+<http://imce.jpl.nasa.gov/foundation/project#DelegatesTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#DelegatesTo> <http://purl.org/dc/elements/1.1/description> "A [=Role=] [=delegatesTo=] zero or more [=Role=]s." .
+<http://imce.jpl.nasa.gov/foundation/project#DelegatesTo> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity> .
+<http://imce.jpl.nasa.gov/foundation/project#DelegatesTo> <http://www.w3.org/2000/01/rdf-schema#label> "Delegates To" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Deliverable
+<http://imce.jpl.nasa.gov/foundation/project#Deliverable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#Deliverable> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/base#IdentifiedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#Deliverable> <http://purl.org/dc/elements/1.1/description> "A [=Deliverable=] is the result of successful execution of a [=Process=]. It may be a prerequisite to another [=Process=]." .
+<http://imce.jpl.nasa.gov/foundation/project#Deliverable> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept> .
+<http://imce.jpl.nasa.gov/foundation/project#Deliverable> <http://www.w3.org/2000/01/rdf-schema#label> "Deliverable" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Delivers
+<http://imce.jpl.nasa.gov/foundation/project#Delivers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#Delivers> <http://purl.org/dc/elements/1.1/description> "An [=InterchangePoint=] [=delivers=] zero or more [=Deliverable=]s." .
+<http://imce.jpl.nasa.gov/foundation/project#Delivers> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity> .
+<http://imce.jpl.nasa.gov/foundation/project#Delivers> <http://www.w3.org/2000/01/rdf-schema#label> "Delivers" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Describes
+<http://imce.jpl.nasa.gov/foundation/project#Describes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#Describes> <http://purl.org/dc/elements/1.1/description> "A [=Product=] [=describes=] zero or more [=DevelopedElement=]s." .
+<http://imce.jpl.nasa.gov/foundation/project#Describes> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity> .
+<http://imce.jpl.nasa.gov/foundation/project#Describes> <http://www.w3.org/2000/01/rdf-schema#label> "Describes" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#DevelopedElement
+<http://imce.jpl.nasa.gov/foundation/project#DevelopedElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#DevelopedElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/analysis#CharacterizedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#DevelopedElement> <http://purl.org/dc/elements/1.1/description> "[=DevelopedElement=] is the domain of [=manifests=]." .
+<http://imce.jpl.nasa.gov/foundation/project#DevelopedElement> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Aspect> .
+<http://imce.jpl.nasa.gov/foundation/project#DevelopedElement> <http://www.w3.org/2000/01/rdf-schema#label> "Developed Element" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#DevelopmentState
+<http://imce.jpl.nasa.gov/foundation/project#DevelopmentState> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#DevelopmentState> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/analysis#Characterization> .
+<http://imce.jpl.nasa.gov/foundation/project#DevelopmentState> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/project#Deliverable> .
+<http://imce.jpl.nasa.gov/foundation/project#DevelopmentState> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://imce.jpl.nasa.gov/foundation/project#DevelopedElement> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/analysis#characterizes> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://imce.jpl.nasa.gov/foundation/project#DevelopmentState> <http://purl.org/dc/elements/1.1/description> "A [=DevelopmentState=] is a kind of [=Deliverable=] that represents a defined condition for a [=DevelopedElement=]. [=DevelopmentState=]s may be unique to the \n\t    [=DevelopedElement=]; example [=DevelopmentState=]s for a [=Product=] include Preliminary, Draft, and Final." .
+<http://imce.jpl.nasa.gov/foundation/project#DevelopmentState> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept> .
+<http://imce.jpl.nasa.gov/foundation/project#DevelopmentState> <http://www.w3.org/2000/01/rdf-schema#label> "Development State" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Executes
+<http://imce.jpl.nasa.gov/foundation/project#Executes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#Executes> <http://purl.org/dc/elements/1.1/description> "An [=Authority=] [=executes=] zero or more [=Process=]es." .
+<http://imce.jpl.nasa.gov/foundation/project#Executes> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity> .
+<http://imce.jpl.nasa.gov/foundation/project#Executes> <http://www.w3.org/2000/01/rdf-schema#label> "Executes" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Facility
+<http://imce.jpl.nasa.gov/foundation/project#Facility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#Facility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/base#IdentifiedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#Facility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/project#DevelopedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#Facility> <http://purl.org/dc/elements/1.1/description> "A [=Facility=] is any asset (e.g., laboratory, assembly facility, test facility, etc.) whose [=DevelopmentState=] may be a [=Deliverable=] for a project process." .
+<http://imce.jpl.nasa.gov/foundation/project#Facility> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept> .
+<http://imce.jpl.nasa.gov/foundation/project#Facility> <http://www.w3.org/2000/01/rdf-schema#label> "Facility" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#HasAssignment
+<http://imce.jpl.nasa.gov/foundation/project#HasAssignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#HasAssignment> <http://purl.org/dc/elements/1.1/description> "A [=Role=] [=hasAssignment=] zero or more [=AssignedElement=]es." .
+<http://imce.jpl.nasa.gov/foundation/project#HasAssignment> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity> .
+<http://imce.jpl.nasa.gov/foundation/project#HasAssignment> <http://www.w3.org/2000/01/rdf-schema#label> "Has Assignment" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#HasParticipant
+<http://imce.jpl.nasa.gov/foundation/project#HasParticipant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#HasParticipant> <http://purl.org/dc/elements/1.1/description> "An [=Interchange=] [=hasParticipant=] zero or more [=Deliverable=]s." .
+<http://imce.jpl.nasa.gov/foundation/project#HasParticipant> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity> .
+<http://imce.jpl.nasa.gov/foundation/project#HasParticipant> <http://www.w3.org/2000/01/rdf-schema#label> "Has Participant" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#HasResponsibilityFor
+<http://imce.jpl.nasa.gov/foundation/project#HasResponsibilityFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#HasResponsibilityFor> <http://purl.org/dc/elements/1.1/description> "An [=Organization=] [=hasResponsibilityFor=] zero or more [=Authority=]s." .
+<http://imce.jpl.nasa.gov/foundation/project#HasResponsibilityFor> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity> .
+<http://imce.jpl.nasa.gov/foundation/project#HasResponsibilityFor> <http://www.w3.org/2000/01/rdf-schema#label> "Has Responsibility For" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#HasRole
+<http://imce.jpl.nasa.gov/foundation/project#HasRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#HasRole> <http://purl.org/dc/elements/1.1/description> "A [=Person=] [=hasRole=] zero or more [=Role=]s." .
+<http://imce.jpl.nasa.gov/foundation/project#HasRole> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity> .
+<http://imce.jpl.nasa.gov/foundation/project#HasRole> <http://www.w3.org/2000/01/rdf-schema#label> "Has Role" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Interchange
+<http://imce.jpl.nasa.gov/foundation/project#Interchange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#Interchange> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/base#IdentifiedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#Interchange> <http://purl.org/dc/elements/1.1/description> "An [=Interchange=] represents the intended joint behavior of a pair of [=Process=]es. It indicates that a [=Deliverable=] may be delivered by one [=Process=] \n    \tand received by the other [=Process=]." .
+<http://imce.jpl.nasa.gov/foundation/project#Interchange> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept> .
+<http://imce.jpl.nasa.gov/foundation/project#Interchange> <http://www.w3.org/2000/01/rdf-schema#label> "Interchange" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#InterchangePoint
+<http://imce.jpl.nasa.gov/foundation/project#InterchangePoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#InterchangePoint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/base#IdentifiedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#InterchangePoint> <http://purl.org/dc/elements/1.1/description> "An [=InterchangePoint=] is a feature of a [=Process=] that permits it to participate\n\t\tin an [=Interchange=]." .
+<http://imce.jpl.nasa.gov/foundation/project#InterchangePoint> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept> .
+<http://imce.jpl.nasa.gov/foundation/project#InterchangePoint> <http://www.w3.org/2000/01/rdf-schema#label> "Interchange Point" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#InterchangesThrough
+<http://imce.jpl.nasa.gov/foundation/project#InterchangesThrough> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#InterchangesThrough> <http://purl.org/dc/elements/1.1/description> "A [=Process=] [=interchangesThrough=] zero or more [=InterchangePoint=]s." .
+<http://imce.jpl.nasa.gov/foundation/project#InterchangesThrough> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity> .
+<http://imce.jpl.nasa.gov/foundation/project#InterchangesThrough> <http://www.w3.org/2000/01/rdf-schema#label> "Interchanges Through" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Invokes
+<http://imce.jpl.nasa.gov/foundation/project#Invokes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#Invokes> <http://purl.org/dc/elements/1.1/description> "A [=Process=] [=invokes=] zero or more [=Process=]es." .
+<http://imce.jpl.nasa.gov/foundation/project#Invokes> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity> .
+<http://imce.jpl.nasa.gov/foundation/project#Invokes> <http://www.w3.org/2000/01/rdf-schema#label> "Invokes" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Involves
+<http://imce.jpl.nasa.gov/foundation/project#Involves> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#Involves> <http://purl.org/dc/elements/1.1/description> "An [=Interchange=] [=involves=] zero or more [=Process=]es." .
+<http://imce.jpl.nasa.gov/foundation/project#Involves> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity> .
+<http://imce.jpl.nasa.gov/foundation/project#Involves> <http://www.w3.org/2000/01/rdf-schema#label> "Involves" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Involves1
+<http://imce.jpl.nasa.gov/foundation/project#Involves1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#Involves1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/project#Involves> .
+<http://imce.jpl.nasa.gov/foundation/project#Involves1> <http://purl.org/dc/elements/1.1/description> "[=involves1=] and [=involves2=] are distinguishable specializations of\n\t\t[=involves=]. These specializations are employed to indicate distinct ends of an\n\t\t[=Interchange=]." .
+<http://imce.jpl.nasa.gov/foundation/project#Involves1> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity> .
+<http://imce.jpl.nasa.gov/foundation/project#Involves1> <http://www.w3.org/2000/01/rdf-schema#label> "Involves1" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Involves2
+<http://imce.jpl.nasa.gov/foundation/project#Involves2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#Involves2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/project#Involves> .
+<http://imce.jpl.nasa.gov/foundation/project#Involves2> <http://purl.org/dc/elements/1.1/description> "[=involves1=] and [=involves2=] are distinguishable specializations of\n\t\t[=involves=]. These specializations are employed to indicate distinct ends of an\n\t\t[=Interchange=]." .
+<http://imce.jpl.nasa.gov/foundation/project#Involves2> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity> .
+<http://imce.jpl.nasa.gov/foundation/project#Involves2> <http://www.w3.org/2000/01/rdf-schema#label> "Involves2" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Manifests
+<http://imce.jpl.nasa.gov/foundation/project#Manifests> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#Manifests> <http://purl.org/dc/elements/1.1/description> "A [=DevelopedElement=] [=manifests=] zero or more [=DevelopmentState=]s." .
+<http://imce.jpl.nasa.gov/foundation/project#Manifests> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity> .
+<http://imce.jpl.nasa.gov/foundation/project#Manifests> <http://www.w3.org/2000/01/rdf-schema#label> "Manifests" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Organization
+<http://imce.jpl.nasa.gov/foundation/project#Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#Organization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/base#IdentifiedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#Organization> <http://purl.org/dc/elements/1.1/description> "An [=Organization=] [=hasResponsibilityFor=] zero or more [=Authority=]s." .
+<http://imce.jpl.nasa.gov/foundation/project#Organization> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept> .
+<http://imce.jpl.nasa.gov/foundation/project#Organization> <http://www.w3.org/2000/01/rdf-schema#label> "Organization" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Person
+<http://imce.jpl.nasa.gov/foundation/project#Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/base#IdentifiedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#Person> <http://purl.org/dc/elements/1.1/description> "A [=Person=] is an individual human being. A [=Person=] [=belongsTo=] zero or more [=Organization=]s." .
+<http://imce.jpl.nasa.gov/foundation/project#Person> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept> .
+<http://imce.jpl.nasa.gov/foundation/project#Person> <http://www.w3.org/2000/01/rdf-schema#label> "Person" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Policy
+<http://imce.jpl.nasa.gov/foundation/project#Policy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#Policy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/base#IdentifiedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#Policy> <http://purl.org/dc/elements/1.1/description> "A [=Policy=] represents a specific exercise of authority that [=binds=] one or more model elements." .
+<http://imce.jpl.nasa.gov/foundation/project#Policy> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept> .
+<http://imce.jpl.nasa.gov/foundation/project#Policy> <http://www.w3.org/2000/01/rdf-schema#label> "Policy" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Prepares
+<http://imce.jpl.nasa.gov/foundation/project#Prepares> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#Prepares> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/project#HasAssignment> .
+<http://imce.jpl.nasa.gov/foundation/project#Prepares> <http://purl.org/dc/elements/1.1/description> "A [=Role=] [=prepares=] zero or more [=Product=]s." .
+<http://imce.jpl.nasa.gov/foundation/project#Prepares> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity> .
+<http://imce.jpl.nasa.gov/foundation/project#Prepares> <http://www.w3.org/2000/01/rdf-schema#label> "Prepares" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Process
+<http://imce.jpl.nasa.gov/foundation/project#Process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#Process> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/base#IdentifiedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#Process> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/project#AssignedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#Process> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/project#RealizedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#Process> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
+_:genid16 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://imce.jpl.nasa.gov/foundation/project#Process> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/project#isRealizedBy> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://imce.jpl.nasa.gov/foundation/project#Process> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid17 .
+_:genid17 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://imce.jpl.nasa.gov/foundation/project#Process> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/project#realizes> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://imce.jpl.nasa.gov/foundation/project#Process> <http://purl.org/dc/elements/1.1/description> "A [=Process=] is an activity authorized by a [=WorkPackage=] in support of delivering a [=Component=] or producing a [=Product=]. Examples include <emphasis>\n    \tdesign trajectory</emphasis>, <emphasis>conduct trade study</emphasis>, and <emphasis>review subsystem design</emphasis>." .
+<http://imce.jpl.nasa.gov/foundation/project#Process> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept> .
+<http://imce.jpl.nasa.gov/foundation/project#Process> <http://www.w3.org/2000/01/rdf-schema#label> "Process" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Produces
+<http://imce.jpl.nasa.gov/foundation/project#Produces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#Produces> <http://purl.org/dc/elements/1.1/description> "A [=Authority=] [=produces=] zero or more [=Product=]s." .
+<http://imce.jpl.nasa.gov/foundation/project#Produces> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity> .
+<http://imce.jpl.nasa.gov/foundation/project#Produces> <http://www.w3.org/2000/01/rdf-schema#label> "Produces" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Product
+<http://imce.jpl.nasa.gov/foundation/project#Product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#Product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/base#AggregatedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#Product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/base#IdentifiedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#Product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/project#DevelopedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#Product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/project#SuppliedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#Product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid18 .
+_:genid18 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://imce.jpl.nasa.gov/foundation/project#Product> .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/base#aggregates> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://imce.jpl.nasa.gov/foundation/project#Product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid19 .
+_:genid19 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://imce.jpl.nasa.gov/foundation/project#Product> .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/base#isAggregatedIn> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://imce.jpl.nasa.gov/foundation/project#Product> <http://purl.org/dc/elements/1.1/description> "A [=Product=] is a document or other artifact supplied by a [=WorkPackage=]. Example [=Product=]s include trade study reports, design documents, and inspection reports." .
+<http://imce.jpl.nasa.gov/foundation/project#Product> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept> .
+<http://imce.jpl.nasa.gov/foundation/project#Product> <http://www.w3.org/2000/01/rdf-schema#label> "Product" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Program
+<http://imce.jpl.nasa.gov/foundation/project#Program> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#Program> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/project#Authority> .
+<http://imce.jpl.nasa.gov/foundation/project#Program> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid20 .
+_:genid20 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://imce.jpl.nasa.gov/foundation/project#Project> .
+_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/project#authorizes> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://imce.jpl.nasa.gov/foundation/project#Program> <http://purl.org/dc/elements/1.1/description> "A [=Program=] is an [=Authority=] that [=authorizes=] zero or more [=Project=]s." .
+<http://imce.jpl.nasa.gov/foundation/project#Program> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept> .
+<http://imce.jpl.nasa.gov/foundation/project#Program> <http://www.w3.org/2000/01/rdf-schema#label> "Program" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Project
+<http://imce.jpl.nasa.gov/foundation/project#Project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#Project> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/project#Authority> .
+<http://imce.jpl.nasa.gov/foundation/project#Project> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/project#RealizedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#Project> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid21 .
+_:genid21 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://imce.jpl.nasa.gov/foundation/project#WorkPackage> .
+_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/project#authorizes> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://imce.jpl.nasa.gov/foundation/project#Project> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid22 .
+_:genid22 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://imce.jpl.nasa.gov/foundation/project#Program> .
+_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/project#isAuthorizedBy> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://imce.jpl.nasa.gov/foundation/project#Project> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid23 .
+_:genid23 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://imce.jpl.nasa.gov/foundation/project#Project> .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/project#isRealizedBy> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://imce.jpl.nasa.gov/foundation/project#Project> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid24 .
+_:genid24 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://imce.jpl.nasa.gov/foundation/project#Project> .
+_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/project#realizes> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://imce.jpl.nasa.gov/foundation/project#Project> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid25 .
+_:genid25 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://imce.jpl.nasa.gov/foundation/mission#Mission> .
+_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/project#supplies> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://imce.jpl.nasa.gov/foundation/project#Project> <http://purl.org/dc/elements/1.1/description> "A [=Project=] is an [=Authority=] that [=supplies=] a related set of [=Mission=]s in pursuit of a set of [=Objective=]s." .
+<http://imce.jpl.nasa.gov/foundation/project#Project> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept> .
+<http://imce.jpl.nasa.gov/foundation/project#Project> <http://www.w3.org/2000/01/rdf-schema#label> "Project" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#RealizedElement
+<http://imce.jpl.nasa.gov/foundation/project#RealizedElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#RealizedElement> <http://purl.org/dc/elements/1.1/description> "[=RealizedElement=] is the domain and range of [=realizes=]." .
+<http://imce.jpl.nasa.gov/foundation/project#RealizedElement> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Aspect> .
+<http://imce.jpl.nasa.gov/foundation/project#RealizedElement> <http://www.w3.org/2000/01/rdf-schema#label> "Realized Element" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Realizes
+<http://imce.jpl.nasa.gov/foundation/project#Realizes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#Realizes> <http://purl.org/dc/elements/1.1/description> "A [=RealizedElement=] [=realizes=] zero or more [=RealizedElement=]s." .
+<http://imce.jpl.nasa.gov/foundation/project#Realizes> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity> .
+<http://imce.jpl.nasa.gov/foundation/project#Realizes> <http://www.w3.org/2000/01/rdf-schema#label> "Realizes" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Receives
+<http://imce.jpl.nasa.gov/foundation/project#Receives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#Receives> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/project#AssignedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#Receives> <http://purl.org/dc/elements/1.1/description> "An [=InterchangePoint=] [=receives=] zero or more [=Deliverable=]s." .
+<http://imce.jpl.nasa.gov/foundation/project#Receives> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity> .
+<http://imce.jpl.nasa.gov/foundation/project#Receives> <http://www.w3.org/2000/01/rdf-schema#label> "Receives" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#ReliesOn
+<http://imce.jpl.nasa.gov/foundation/project#ReliesOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#ReliesOn> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/project#AssignedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#ReliesOn> <http://purl.org/dc/elements/1.1/description> "An [=Authority=] [=reliesOn=] zero or more [=DevelopedElement=]s." .
+<http://imce.jpl.nasa.gov/foundation/project#ReliesOn> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity> .
+<http://imce.jpl.nasa.gov/foundation/project#ReliesOn> <http://www.w3.org/2000/01/rdf-schema#label> "Relies On" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Represents
+<http://imce.jpl.nasa.gov/foundation/project#Represents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#Represents> <http://purl.org/dc/elements/1.1/description> "An [=Stakeholder=] [=represents=] zero or more [=Concern=]s." .
+<http://imce.jpl.nasa.gov/foundation/project#Represents> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity> .
+<http://imce.jpl.nasa.gov/foundation/project#Represents> <http://www.w3.org/2000/01/rdf-schema#label> "Represents" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Role
+<http://imce.jpl.nasa.gov/foundation/project#Role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#Role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/base#IdentifiedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#Role> <http://purl.org/dc/elements/1.1/description> "A [=Role=] corresponds to a set of assignments meant to be filled by a single [=Person=]." .
+<http://imce.jpl.nasa.gov/foundation/project#Role> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept> .
+<http://imce.jpl.nasa.gov/foundation/project#Role> <http://www.w3.org/2000/01/rdf-schema#label> "Role" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Stakeholder
+<http://imce.jpl.nasa.gov/foundation/project#Stakeholder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#Stakeholder> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/base#IdentifiedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#Stakeholder> <http://purl.org/dc/elements/1.1/description> "A [=Stakeholder=] is a person or organization with a recognized interest in the successful completion of a [=Project=] or [=Program=]. Example \n    \t[=Stakeholder=]s include scientists, NASA Directorates, nuclear safety advocates, and the general public." .
+<http://imce.jpl.nasa.gov/foundation/project#Stakeholder> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept> .
+<http://imce.jpl.nasa.gov/foundation/project#Stakeholder> <http://www.w3.org/2000/01/rdf-schema#label> "Stakeholder" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#SuppliedElement
+<http://imce.jpl.nasa.gov/foundation/project#SuppliedElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#SuppliedElement> <http://purl.org/dc/elements/1.1/description> "A [=SuppliedElement=] is the range of [=supplies=]." .
+<http://imce.jpl.nasa.gov/foundation/project#SuppliedElement> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Aspect> .
+<http://imce.jpl.nasa.gov/foundation/project#SuppliedElement> <http://www.w3.org/2000/01/rdf-schema#label> "Supplied Element" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#Supplies
+<http://imce.jpl.nasa.gov/foundation/project#Supplies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#Supplies> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/project#AssignedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#Supplies> <http://purl.org/dc/elements/1.1/description> "An [=Authority=] [=supplies=] zero or more [=SuppliedElement=]s." .
+<http://imce.jpl.nasa.gov/foundation/project#Supplies> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity> .
+<http://imce.jpl.nasa.gov/foundation/project#Supplies> <http://www.w3.org/2000/01/rdf-schema#label> "Supplies" .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#WorkPackage
+<http://imce.jpl.nasa.gov/foundation/project#WorkPackage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://imce.jpl.nasa.gov/foundation/project#WorkPackage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/base#Package> .
+<http://imce.jpl.nasa.gov/foundation/project#WorkPackage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/project#Authority> .
+<http://imce.jpl.nasa.gov/foundation/project#WorkPackage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/project#RealizedElement> .
+<http://imce.jpl.nasa.gov/foundation/project#WorkPackage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid26 .
+_:genid26 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://imce.jpl.nasa.gov/foundation/project#WorkPackage> .
+_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/project#authorizes> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://imce.jpl.nasa.gov/foundation/project#WorkPackage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid27 .
+_:genid27 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://imce.jpl.nasa.gov/foundation/project#WorkPackage> .
+_:genid27 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/project#isRealizedBy> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://imce.jpl.nasa.gov/foundation/project#WorkPackage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid28 .
+_:genid28 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://imce.jpl.nasa.gov/foundation/project#WorkPackage> .
+_:genid28 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/project#realizes> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://imce.jpl.nasa.gov/foundation/project#WorkPackage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid29 .
+_:genid29 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://imce.jpl.nasa.gov/foundation/mission#Component> .
+_:genid29 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/project#supplies> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://imce.jpl.nasa.gov/foundation/project#WorkPackage> <http://purl.org/dc/elements/1.1/description> "A [=WorkPackage=] is an [=Authority=] subordinate to a [=Project=]\n\t\tthat [=produces=] definite [=Product=]s and/or [=supplies=] definite\n\t\t[=SuppliedElements=] in the context of that [=Project=]." .
+<http://imce.jpl.nasa.gov/foundation/project#WorkPackage> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept> .
+<http://imce.jpl.nasa.gov/foundation/project#WorkPackage> <http://www.w3.org/2000/01/rdf-schema#label> "Work Package" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Rules
+# #
+# #################################################################
+# 
+# 
+<urn:swrl:var#r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#s> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#t> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+_:genid102 <http://www.w3.org/2000/01/rdf-schema#label> "executes derivation" .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid102 <http://www.w3.org/2003/11/swrl#body> _:genid107 .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid105 .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid103 .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid104 .
+_:genid104 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid104 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid104 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid106 .
+_:genid106 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
+_:genid106 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid106 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid108 .
+_:genid108 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid108 <http://www.w3.org/2003/11/swrl#classPredicate> <http://imce.jpl.nasa.gov/foundation/project#Executes> .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid102 <http://www.w3.org/2003/11/swrl#head> _:genid109 .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid110 .
+_:genid110 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid110 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s> .
+_:genid110 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://imce.jpl.nasa.gov/foundation/project#executes> .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid111 <http://www.w3.org/2000/01/rdf-schema#label> "hasAssignment derivation" .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid111 <http://www.w3.org/2003/11/swrl#body> _:genid116 .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid114 .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid112 .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid113 .
+_:genid113 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid113 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid113 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid115 .
+_:genid115 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
+_:genid115 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid115 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid117 .
+_:genid117 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid117 <http://www.w3.org/2003/11/swrl#classPredicate> <http://imce.jpl.nasa.gov/foundation/project#HasAssignment> .
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid111 <http://www.w3.org/2003/11/swrl#head> _:genid118 .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid119 .
+_:genid119 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid119 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s> .
+_:genid119 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://imce.jpl.nasa.gov/foundation/project#hasAssignment> .
+_:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid120 <http://www.w3.org/2000/01/rdf-schema#label> "hasParticipant derivation" .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid120 <http://www.w3.org/2003/11/swrl#body> _:genid125 .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid123 .
+_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid121 .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid122 .
+_:genid122 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid122 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid122 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid124 .
+_:genid124 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
+_:genid124 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid124 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+_:genid124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126 .
+_:genid126 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid126 <http://www.w3.org/2003/11/swrl#classPredicate> <http://imce.jpl.nasa.gov/foundation/project#HasParticipant> .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid120 <http://www.w3.org/2003/11/swrl#head> _:genid127 .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid128 .
+_:genid128 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid128 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s> .
+_:genid128 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://imce.jpl.nasa.gov/foundation/project#hasParticipant> .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid129 <http://www.w3.org/2000/01/rdf-schema#label> "hasResponsibilityFor derivation" .
+_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid129 <http://www.w3.org/2003/11/swrl#body> _:genid134 .
+_:genid134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid132 .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid130 .
+_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid131 .
+_:genid131 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid131 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid131 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid133 .
+_:genid133 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
+_:genid133 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid133 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid135 .
+_:genid135 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid135 <http://www.w3.org/2003/11/swrl#classPredicate> <http://imce.jpl.nasa.gov/foundation/project#HasResponsibilityFor> .
+_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid129 <http://www.w3.org/2003/11/swrl#head> _:genid136 .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid137 .
+_:genid137 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid137 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s> .
+_:genid137 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://imce.jpl.nasa.gov/foundation/project#hasResponsibilityFor> .
+_:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid138 <http://www.w3.org/2000/01/rdf-schema#label> "hasRole derivation" .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid138 <http://www.w3.org/2003/11/swrl#body> _:genid143 .
+_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141 .
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid139 .
+_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid140 .
+_:genid140 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid140 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid140 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid142 .
+_:genid142 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
+_:genid142 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid142 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+_:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid144 .
+_:genid144 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid144 <http://www.w3.org/2003/11/swrl#classPredicate> <http://imce.jpl.nasa.gov/foundation/project#HasRole> .
+_:genid144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid138 <http://www.w3.org/2003/11/swrl#head> _:genid145 .
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid146 .
+_:genid146 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid146 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s> .
+_:genid146 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://imce.jpl.nasa.gov/foundation/project#hasRole> .
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid147 <http://www.w3.org/2000/01/rdf-schema#label> "interchangesThrough derivation" .
+_:genid147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid147 <http://www.w3.org/2003/11/swrl#body> _:genid152 .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid150 .
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid148 .
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid149 .
+_:genid149 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid149 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid149 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+_:genid149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid151 .
+_:genid151 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
+_:genid151 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid151 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+_:genid151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid153 .
+_:genid153 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid153 <http://www.w3.org/2003/11/swrl#classPredicate> <http://imce.jpl.nasa.gov/foundation/project#InterchangesThrough> .
+_:genid153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid147 <http://www.w3.org/2003/11/swrl#head> _:genid154 .
+_:genid154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid155 .
+_:genid155 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid155 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s> .
+_:genid155 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://imce.jpl.nasa.gov/foundation/project#interchangesThrough> .
+_:genid155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid156 <http://www.w3.org/2000/01/rdf-schema#label> "invokes derivation" .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid156 <http://www.w3.org/2003/11/swrl#body> _:genid161 .
+_:genid161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid159 .
+_:genid159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid157 .
+_:genid157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid158 .
+_:genid158 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid158 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid158 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+_:genid158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid160 .
+_:genid160 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
+_:genid160 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid160 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+_:genid160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid162 .
+_:genid162 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid162 <http://www.w3.org/2003/11/swrl#classPredicate> <http://imce.jpl.nasa.gov/foundation/project#Invokes> .
+_:genid162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid156 <http://www.w3.org/2003/11/swrl#head> _:genid163 .
+_:genid163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid164 .
+_:genid164 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid164 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s> .
+_:genid164 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://imce.jpl.nasa.gov/foundation/project#invokes> .
+_:genid164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid165 <http://www.w3.org/2000/01/rdf-schema#label> "involves derivation" .
+_:genid165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid165 <http://www.w3.org/2003/11/swrl#body> _:genid170 .
+_:genid170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid168 .
+_:genid168 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid166 .
+_:genid166 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid166 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid167 .
+_:genid167 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid167 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid167 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+_:genid167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid166 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid168 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid169 .
+_:genid169 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
+_:genid169 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid169 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+_:genid169 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid168 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid171 .
+_:genid171 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid171 <http://www.w3.org/2003/11/swrl#classPredicate> <http://imce.jpl.nasa.gov/foundation/project#Involves> .
+_:genid171 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid165 <http://www.w3.org/2003/11/swrl#head> _:genid172 .
+_:genid172 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid172 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid173 .
+_:genid173 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid173 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s> .
+_:genid173 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://imce.jpl.nasa.gov/foundation/project#involves> .
+_:genid173 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid172 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid174 <http://www.w3.org/2000/01/rdf-schema#label> "involves1 derivation" .
+_:genid174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid174 <http://www.w3.org/2003/11/swrl#body> _:genid179 .
+_:genid179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid177 .
+_:genid177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid175 .
+_:genid175 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid175 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid176 .
+_:genid176 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid176 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid176 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+_:genid176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid175 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid178 .
+_:genid178 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
+_:genid178 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid178 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+_:genid178 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid180 .
+_:genid180 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid180 <http://www.w3.org/2003/11/swrl#classPredicate> <http://imce.jpl.nasa.gov/foundation/project#Involves1> .
+_:genid180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid174 <http://www.w3.org/2003/11/swrl#head> _:genid181 .
+_:genid181 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid181 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid182 .
+_:genid182 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid182 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s> .
+_:genid182 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://imce.jpl.nasa.gov/foundation/project#involves1> .
+_:genid182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid181 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid183 <http://www.w3.org/2000/01/rdf-schema#label> "involves2 derivation" .
+_:genid183 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid183 <http://www.w3.org/2003/11/swrl#body> _:genid188 .
+_:genid188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid186 .
+_:genid186 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid184 .
+_:genid184 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid184 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid185 .
+_:genid185 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid185 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid185 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+_:genid185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid184 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid186 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid187 .
+_:genid187 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
+_:genid187 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid187 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+_:genid187 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid186 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid189 .
+_:genid189 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid189 <http://www.w3.org/2003/11/swrl#classPredicate> <http://imce.jpl.nasa.gov/foundation/project#Involves2> .
+_:genid189 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid183 <http://www.w3.org/2003/11/swrl#head> _:genid190 .
+_:genid190 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid190 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid191 .
+_:genid191 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid191 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s> .
+_:genid191 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://imce.jpl.nasa.gov/foundation/project#involves2> .
+_:genid191 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid190 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid192 <http://www.w3.org/2000/01/rdf-schema#label> "manifests derivation" .
+_:genid192 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid192 <http://www.w3.org/2003/11/swrl#body> _:genid197 .
+_:genid197 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid195 .
+_:genid195 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid193 .
+_:genid193 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid193 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid194 .
+_:genid194 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid194 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid194 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+_:genid194 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid193 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid195 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid196 .
+_:genid196 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
+_:genid196 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid196 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+_:genid196 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid195 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid197 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid198 .
+_:genid198 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid198 <http://www.w3.org/2003/11/swrl#classPredicate> <http://imce.jpl.nasa.gov/foundation/project#Manifests> .
+_:genid198 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid197 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid192 <http://www.w3.org/2003/11/swrl#head> _:genid199 .
+_:genid199 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid199 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid200 .
+_:genid200 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid200 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s> .
+_:genid200 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://imce.jpl.nasa.gov/foundation/project#manifests> .
+_:genid200 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid199 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid201 <http://www.w3.org/2000/01/rdf-schema#label> "prepares derivation" .
+_:genid201 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid201 <http://www.w3.org/2003/11/swrl#body> _:genid206 .
+_:genid206 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid204 .
+_:genid204 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid202 .
+_:genid202 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid202 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid203 .
+_:genid203 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid203 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid203 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+_:genid203 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid202 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid204 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid205 .
+_:genid205 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
+_:genid205 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid205 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+_:genid205 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid204 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid206 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid207 .
+_:genid207 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid207 <http://www.w3.org/2003/11/swrl#classPredicate> <http://imce.jpl.nasa.gov/foundation/project#Prepares> .
+_:genid207 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid206 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid201 <http://www.w3.org/2003/11/swrl#head> _:genid208 .
+_:genid208 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid208 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid209 .
+_:genid209 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid209 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s> .
+_:genid209 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://imce.jpl.nasa.gov/foundation/project#prepares> .
+_:genid209 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid208 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid210 <http://www.w3.org/2000/01/rdf-schema#label> "produces derivation" .
+_:genid210 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid210 <http://www.w3.org/2003/11/swrl#body> _:genid215 .
+_:genid215 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid213 .
+_:genid213 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid211 .
+_:genid211 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid211 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid212 .
+_:genid212 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid212 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid212 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+_:genid212 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid211 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid213 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid214 .
+_:genid214 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
+_:genid214 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid214 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+_:genid214 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid213 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid215 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid216 .
+_:genid216 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid216 <http://www.w3.org/2003/11/swrl#classPredicate> <http://imce.jpl.nasa.gov/foundation/project#Produces> .
+_:genid216 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid215 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid210 <http://www.w3.org/2003/11/swrl#head> _:genid217 .
+_:genid217 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid217 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid218 .
+_:genid218 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid218 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s> .
+_:genid218 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://imce.jpl.nasa.gov/foundation/project#produces> .
+_:genid218 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid217 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid219 <http://www.w3.org/2000/01/rdf-schema#label> "realizes derivation" .
+_:genid219 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid219 <http://www.w3.org/2003/11/swrl#body> _:genid224 .
+_:genid224 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid222 .
+_:genid222 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid220 .
+_:genid220 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid220 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid221 .
+_:genid221 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid221 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid221 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+_:genid221 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid220 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid222 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid223 .
+_:genid223 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
+_:genid223 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid223 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+_:genid223 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid222 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid224 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid225 .
+_:genid225 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid225 <http://www.w3.org/2003/11/swrl#classPredicate> <http://imce.jpl.nasa.gov/foundation/project#Realizes> .
+_:genid225 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid224 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid219 <http://www.w3.org/2003/11/swrl#head> _:genid226 .
+_:genid226 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid226 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid227 .
+_:genid227 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid227 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s> .
+_:genid227 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://imce.jpl.nasa.gov/foundation/project#realizes> .
+_:genid227 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid226 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid228 <http://www.w3.org/2000/01/rdf-schema#label> "receives derivation" .
+_:genid228 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid228 <http://www.w3.org/2003/11/swrl#body> _:genid233 .
+_:genid233 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid231 .
+_:genid231 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid229 .
+_:genid229 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid229 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid230 .
+_:genid230 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid230 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid230 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+_:genid230 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid229 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid231 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid232 .
+_:genid232 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
+_:genid232 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid232 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+_:genid232 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid231 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid233 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid234 .
+_:genid234 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid234 <http://www.w3.org/2003/11/swrl#classPredicate> <http://imce.jpl.nasa.gov/foundation/project#Receives> .
+_:genid234 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid233 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid228 <http://www.w3.org/2003/11/swrl#head> _:genid235 .
+_:genid235 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid235 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid236 .
+_:genid236 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid236 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s> .
+_:genid236 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://imce.jpl.nasa.gov/foundation/project#receives> .
+_:genid236 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid235 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid237 <http://www.w3.org/2000/01/rdf-schema#label> "reliesOn derivation" .
+_:genid237 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid237 <http://www.w3.org/2003/11/swrl#body> _:genid242 .
+_:genid242 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid240 .
+_:genid240 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid238 .
+_:genid238 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid238 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid239 .
+_:genid239 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid239 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid239 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+_:genid239 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid238 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid240 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid241 .
+_:genid241 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
+_:genid241 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid241 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+_:genid241 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid240 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid242 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid243 .
+_:genid243 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid243 <http://www.w3.org/2003/11/swrl#classPredicate> <http://imce.jpl.nasa.gov/foundation/project#ReliesOn> .
+_:genid243 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid242 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid237 <http://www.w3.org/2003/11/swrl#head> _:genid244 .
+_:genid244 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid244 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid245 .
+_:genid245 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid245 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s> .
+_:genid245 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://imce.jpl.nasa.gov/foundation/project#reliesOn> .
+_:genid245 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid244 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid246 <http://www.w3.org/2000/01/rdf-schema#label> "represents derivation" .
+_:genid246 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid246 <http://www.w3.org/2003/11/swrl#body> _:genid251 .
+_:genid251 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid249 .
+_:genid249 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid247 .
+_:genid247 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid247 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid248 .
+_:genid248 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid248 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid248 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+_:genid248 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid247 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid249 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid250 .
+_:genid250 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
+_:genid250 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid250 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+_:genid250 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid249 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid251 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid252 .
+_:genid252 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid252 <http://www.w3.org/2003/11/swrl#classPredicate> <http://imce.jpl.nasa.gov/foundation/project#Represents> .
+_:genid252 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid251 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid246 <http://www.w3.org/2003/11/swrl#head> _:genid253 .
+_:genid253 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid253 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid254 .
+_:genid254 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid254 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s> .
+_:genid254 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://imce.jpl.nasa.gov/foundation/project#represents> .
+_:genid254 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid253 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid255 <http://www.w3.org/2000/01/rdf-schema#label> "supplies derivation" .
+_:genid255 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid255 <http://www.w3.org/2003/11/swrl#body> _:genid260 .
+_:genid260 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid258 .
+_:genid258 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid256 .
+_:genid256 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid256 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid257 .
+_:genid257 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid257 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid257 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+_:genid257 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid256 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid258 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid259 .
+_:genid259 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
+_:genid259 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid259 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+_:genid259 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid258 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid260 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid261 .
+_:genid261 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid261 <http://www.w3.org/2003/11/swrl#classPredicate> <http://imce.jpl.nasa.gov/foundation/project#Supplies> .
+_:genid261 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid260 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid255 <http://www.w3.org/2003/11/swrl#head> _:genid262 .
+_:genid262 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid262 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid263 .
+_:genid263 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid263 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s> .
+_:genid263 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://imce.jpl.nasa.gov/foundation/project#supplies> .
+_:genid263 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid262 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid30 <http://www.w3.org/2000/01/rdf-schema#label> "approves derivation" .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid30 <http://www.w3.org/2003/11/swrl#body> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid32 .
+_:genid32 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid32 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid32 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid34 .
+_:genid34 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
+_:genid34 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid34 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid36 .
+_:genid36 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid36 <http://www.w3.org/2003/11/swrl#classPredicate> <http://imce.jpl.nasa.gov/foundation/project#Approves> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid30 <http://www.w3.org/2003/11/swrl#head> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid38 .
+_:genid38 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid38 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s> .
+_:genid38 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://imce.jpl.nasa.gov/foundation/project#approves> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid39 <http://www.w3.org/2000/01/rdf-schema#label> "authorizes derivation" .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid39 <http://www.w3.org/2003/11/swrl#body> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid42 .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid41 .
+_:genid41 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid41 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid41 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid43 .
+_:genid43 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
+_:genid43 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid43 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid45 .
+_:genid45 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid45 <http://www.w3.org/2003/11/swrl#classPredicate> <http://imce.jpl.nasa.gov/foundation/project#Authorizes> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid39 <http://www.w3.org/2003/11/swrl#head> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47 .
+_:genid47 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid47 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s> .
+_:genid47 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://imce.jpl.nasa.gov/foundation/project#authorizes> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid48 <http://www.w3.org/2000/01/rdf-schema#label> "belongsTo derivation" .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid48 <http://www.w3.org/2003/11/swrl#body> _:genid53 .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid51 .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid50 .
+_:genid50 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid50 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid50 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid52 .
+_:genid52 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
+_:genid52 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid52 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid54 .
+_:genid54 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid54 <http://www.w3.org/2003/11/swrl#classPredicate> <http://imce.jpl.nasa.gov/foundation/project#BelongsTo> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid48 <http://www.w3.org/2003/11/swrl#head> _:genid55 .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid56 .
+_:genid56 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid56 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s> .
+_:genid56 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://imce.jpl.nasa.gov/foundation/project#belongsTo> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid57 <http://www.w3.org/2000/01/rdf-schema#label> "binds derivation" .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid57 <http://www.w3.org/2003/11/swrl#body> _:genid62 .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid60 .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid58 .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid59 .
+_:genid59 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid59 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid59 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid61 .
+_:genid61 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
+_:genid61 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid61 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid63 .
+_:genid63 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid63 <http://www.w3.org/2003/11/swrl#classPredicate> <http://imce.jpl.nasa.gov/foundation/project#Binds> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid57 <http://www.w3.org/2003/11/swrl#head> _:genid64 .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid65 .
+_:genid65 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid65 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s> .
+_:genid65 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://imce.jpl.nasa.gov/foundation/project#binds> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid66 <http://www.w3.org/2000/01/rdf-schema#label> "concurs derivation" .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid66 <http://www.w3.org/2003/11/swrl#body> _:genid71 .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid69 .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid67 .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid68 .
+_:genid68 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid68 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid68 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid70 .
+_:genid70 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
+_:genid70 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid70 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid72 .
+_:genid72 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid72 <http://www.w3.org/2003/11/swrl#classPredicate> <http://imce.jpl.nasa.gov/foundation/project#Concurs> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid66 <http://www.w3.org/2003/11/swrl#head> _:genid73 .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid74 .
+_:genid74 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid74 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s> .
+_:genid74 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://imce.jpl.nasa.gov/foundation/project#concurs> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid75 <http://www.w3.org/2000/01/rdf-schema#label> "delegatesTo derivation" .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid75 <http://www.w3.org/2003/11/swrl#body> _:genid80 .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid78 .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid76 .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid77 .
+_:genid77 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid77 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid77 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid79 .
+_:genid79 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
+_:genid79 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid79 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid81 .
+_:genid81 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid81 <http://www.w3.org/2003/11/swrl#classPredicate> <http://imce.jpl.nasa.gov/foundation/project#DelegatesTo> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid75 <http://www.w3.org/2003/11/swrl#head> _:genid82 .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid83 .
+_:genid83 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid83 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s> .
+_:genid83 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://imce.jpl.nasa.gov/foundation/project#delegatesTo> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid84 <http://www.w3.org/2000/01/rdf-schema#label> "delivers derivation" .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid84 <http://www.w3.org/2003/11/swrl#body> _:genid89 .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid87 .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid85 .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid86 .
+_:genid86 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid86 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid86 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid88 .
+_:genid88 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
+_:genid88 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid88 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid90 .
+_:genid90 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid90 <http://www.w3.org/2003/11/swrl#classPredicate> <http://imce.jpl.nasa.gov/foundation/project#Delivers> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid84 <http://www.w3.org/2003/11/swrl#head> _:genid91 .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid92 .
+_:genid92 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid92 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s> .
+_:genid92 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://imce.jpl.nasa.gov/foundation/project#delivers> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid93 <http://www.w3.org/2000/01/rdf-schema#label> "describes derivation" .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid93 <http://www.w3.org/2003/11/swrl#body> _:genid98 .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid96 .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid94 .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid95 .
+_:genid95 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid95 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid95 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid97 .
+_:genid97 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
+_:genid97 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid97 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid99 .
+_:genid99 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid99 <http://www.w3.org/2003/11/swrl#classPredicate> <http://imce.jpl.nasa.gov/foundation/project#Describes> .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid93 <http://www.w3.org/2003/11/swrl#head> _:genid100 .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101 .
+_:genid101 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid101 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s> .
+_:genid101 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://imce.jpl.nasa.gov/foundation/project#describes> .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+# Generated by the OWL API (version 5.1.17.2020-11-07T15:03:35Z) https://github.com/owlcs/owlapi/

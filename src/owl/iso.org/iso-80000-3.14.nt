@@ -1,0 +1,156 @@
+<http://iso.org/iso-80000-3.14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://iso.org/iso-80000-3.14> <http://www.w3.org/2002/07/owl#imports> <http://bipm.org/jcgm/vim4> .
+<http://iso.org/iso-80000-3.14> <http://www.w3.org/2002/07/owl#imports> <http://iso.org/iso-80000-1> .
+<http://iso.org/iso-80000-3.14> <http://www.w3.org/2002/07/owl#imports> <http://iso.org/iso-80000-3.5> .
+<http://iso.org/iso-80000-3.14> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1> .
+<http://iso.org/iso-80000-3.14> <http://purl.org/dc/elements/1.1/creator> "Jet Propulsion Laboratory" .
+<http://iso.org/iso-80000-3.14> <http://purl.org/dc/elements/1.1/description> "The ISO-80000-3 library." .
+<http://iso.org/iso-80000-3.14> <http://purl.org/dc/elements/1.1/rights> "Copyright 2021, by the California Institute of Technology. ALL RIGHTS RESERVED. United States Government Sponsorship acknowledged. Any commercial use must be negotiated with the Office of Technology Transfer at the California Institute of Technology. \nThis software may be subject to U.S. export control laws. By accepting this software, the user agrees to comply with all applicable U.S. export laws and regulations. User has the responsibility to obtain export licenses, or other export authority as may be required before exporting such information to foreign countries or providing access to foreign persons." .
+<http://iso.org/iso-80000-3.14> <http://purl.org/dc/elements/1.1/title> "ISO-80000-3.14 rotation" .
+<http://iso.org/iso-80000-3.14> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Description> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://bipm.org/jcgm/vim4#instantiates
+<http://bipm.org/jcgm/vim4#instantiates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://opencaesar.io/oml#hasSource
+<http://opencaesar.io/oml#hasSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://opencaesar.io/oml#hasTarget
+<http://opencaesar.io/oml#hasTarget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://bipm.org/jcgm/vim4#exponent
+<http://bipm.org/jcgm/vim4#exponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://bipm.org/jcgm/vim4#id
+<http://bipm.org/jcgm/vim4#id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://bipm.org/jcgm/vim4#isDimensionless
+<http://bipm.org/jcgm/vim4#isDimensionless> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://bipm.org/jcgm/vim4#isOffSystemUnit
+<http://bipm.org/jcgm/vim4#isOffSystemUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://iso.org/iso-80000-3.14#ISQ7-rotation
+<http://iso.org/iso-80000-3.14#ISQ7-rotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://iso.org/iso-80000-3.14#ISQ7-rotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bipm.org/jcgm/vim4#SystemHasDerivedUnitaryQuantity> .
+<http://iso.org/iso-80000-3.14#ISQ7-rotation> <http://opencaesar.io/oml#hasSource> <http://iso.org/iso-80000-1#ISQ7> .
+<http://iso.org/iso-80000-3.14#ISQ7-rotation> <http://opencaesar.io/oml#hasTarget> <http://iso.org/iso-80000-3.14#rotation> .
+<http://iso.org/iso-80000-3.14#ISQ7-rotation> <http://bipm.org/jcgm/vim4#isDimensionless> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://iso.org/iso-80000-3.14#ISQ7-rotation.per.2pi-plane-angle
+<http://iso.org/iso-80000-3.14#ISQ7-rotation.per.2pi-plane-angle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://iso.org/iso-80000-3.14#ISQ7-rotation.per.2pi-plane-angle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bipm.org/jcgm/vim4#HasPowerOfUnitaryQuantityFactor> .
+<http://iso.org/iso-80000-3.14#ISQ7-rotation.per.2pi-plane-angle> <http://opencaesar.io/oml#hasSource> <http://iso.org/iso-80000-3.14#ISQ7-rotation> .
+<http://iso.org/iso-80000-3.14#ISQ7-rotation.per.2pi-plane-angle> <http://opencaesar.io/oml#hasTarget> <http://iso.org/iso-80000-3.5#ISQ7-2pi-plane-angle> .
+<http://iso.org/iso-80000-3.14#ISQ7-rotation.per.2pi-plane-angle> <http://bipm.org/jcgm/vim4#exponent> "-1/1"^^<http://www.w3.org/2002/07/owl#rational> .
+# 
+# http://iso.org/iso-80000-3.14#ISQ7-rotation.plane-angle
+<http://iso.org/iso-80000-3.14#ISQ7-rotation.plane-angle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://iso.org/iso-80000-3.14#ISQ7-rotation.plane-angle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bipm.org/jcgm/vim4#HasPowerOfUnitaryQuantityFactor> .
+<http://iso.org/iso-80000-3.14#ISQ7-rotation.plane-angle> <http://opencaesar.io/oml#hasSource> <http://iso.org/iso-80000-3.14#ISQ7-rotation> .
+<http://iso.org/iso-80000-3.14#ISQ7-rotation.plane-angle> <http://opencaesar.io/oml#hasTarget> <http://iso.org/iso-80000-3.5#ISQ7-plane-angle> .
+<http://iso.org/iso-80000-3.14#ISQ7-rotation.plane-angle> <http://bipm.org/jcgm/vim4#exponent> "1/1"^^<http://www.w3.org/2002/07/owl#rational> .
+# 
+# http://iso.org/iso-80000-3.14#ISQ8-rotation
+<http://iso.org/iso-80000-3.14#ISQ8-rotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://iso.org/iso-80000-3.14#ISQ8-rotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bipm.org/jcgm/vim4#SystemHasDerivedUnitaryQuantity> .
+<http://iso.org/iso-80000-3.14#ISQ8-rotation> <http://opencaesar.io/oml#hasSource> <http://iso.org/iso-80000-1#ISQ8> .
+<http://iso.org/iso-80000-3.14#ISQ8-rotation> <http://opencaesar.io/oml#hasTarget> <http://iso.org/iso-80000-3.14#rotation> .
+<http://iso.org/iso-80000-3.14#ISQ8-rotation> <http://bipm.org/jcgm/vim4#isDimensionless> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://iso.org/iso-80000-3.14#ISQ8-rotation.per.2pi-plane-angle
+<http://iso.org/iso-80000-3.14#ISQ8-rotation.per.2pi-plane-angle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://iso.org/iso-80000-3.14#ISQ8-rotation.per.2pi-plane-angle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bipm.org/jcgm/vim4#HasPowerOfUnitaryQuantityFactor> .
+<http://iso.org/iso-80000-3.14#ISQ8-rotation.per.2pi-plane-angle> <http://opencaesar.io/oml#hasSource> <http://iso.org/iso-80000-3.14#ISQ8-rotation> .
+<http://iso.org/iso-80000-3.14#ISQ8-rotation.per.2pi-plane-angle> <http://opencaesar.io/oml#hasTarget> <http://iso.org/iso-80000-3.5#ISQ8-2pi-plane-angle> .
+<http://iso.org/iso-80000-3.14#ISQ8-rotation.per.2pi-plane-angle> <http://bipm.org/jcgm/vim4#exponent> "-1/1"^^<http://www.w3.org/2002/07/owl#rational> .
+# 
+# http://iso.org/iso-80000-3.14#ISQ8-rotation.plane-angle
+<http://iso.org/iso-80000-3.14#ISQ8-rotation.plane-angle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://iso.org/iso-80000-3.14#ISQ8-rotation.plane-angle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bipm.org/jcgm/vim4#HasPowerOfUnitaryQuantityFactor> .
+<http://iso.org/iso-80000-3.14#ISQ8-rotation.plane-angle> <http://opencaesar.io/oml#hasSource> <http://iso.org/iso-80000-3.14#ISQ8-rotation> .
+<http://iso.org/iso-80000-3.14#ISQ8-rotation.plane-angle> <http://opencaesar.io/oml#hasTarget> <http://iso.org/iso-80000-3.5#ISQ8-plane-angle> .
+<http://iso.org/iso-80000-3.14#ISQ8-rotation.plane-angle> <http://bipm.org/jcgm/vim4#exponent> "1/1"^^<http://www.w3.org/2002/07/owl#rational> .
+# 
+# http://iso.org/iso-80000-3.14#SI7-revolution
+<http://iso.org/iso-80000-3.14#SI7-revolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://iso.org/iso-80000-3.14#SI7-revolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bipm.org/jcgm/vim4#SystemHasDerivedUnit> .
+<http://iso.org/iso-80000-3.14#SI7-revolution> <http://opencaesar.io/oml#hasSource> <http://iso.org/iso-80000-1#SI7> .
+<http://iso.org/iso-80000-3.14#SI7-revolution> <http://opencaesar.io/oml#hasTarget> <http://iso.org/iso-80000-3.14#revolution> .
+<http://iso.org/iso-80000-3.14#SI7-revolution> <http://bipm.org/jcgm/vim4#isOffSystemUnit> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://iso.org/iso-80000-3.14#SI7-revolution.per.radian
+<http://iso.org/iso-80000-3.14#SI7-revolution.per.radian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://iso.org/iso-80000-3.14#SI7-revolution.per.radian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bipm.org/jcgm/vim4#HasPowerOfUnitFactor> .
+<http://iso.org/iso-80000-3.14#SI7-revolution.per.radian> <http://opencaesar.io/oml#hasSource> <http://iso.org/iso-80000-3.14#SI7-revolution> .
+<http://iso.org/iso-80000-3.14#SI7-revolution.per.radian> <http://opencaesar.io/oml#hasTarget> <http://iso.org/iso-80000-3.5#SI7-radian> .
+<http://iso.org/iso-80000-3.14#SI7-revolution.per.radian> <http://bipm.org/jcgm/vim4#exponent> "-1/1"^^<http://www.w3.org/2002/07/owl#rational> .
+# 
+# http://iso.org/iso-80000-3.14#SI7-revolution.radian
+<http://iso.org/iso-80000-3.14#SI7-revolution.radian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://iso.org/iso-80000-3.14#SI7-revolution.radian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bipm.org/jcgm/vim4#HasPowerOfUnitFactor> .
+<http://iso.org/iso-80000-3.14#SI7-revolution.radian> <http://opencaesar.io/oml#hasSource> <http://iso.org/iso-80000-3.14#SI7-revolution> .
+<http://iso.org/iso-80000-3.14#SI7-revolution.radian> <http://opencaesar.io/oml#hasTarget> <http://iso.org/iso-80000-3.5#SI7-radian> .
+<http://iso.org/iso-80000-3.14#SI7-revolution.radian> <http://bipm.org/jcgm/vim4#exponent> "1/1"^^<http://www.w3.org/2002/07/owl#rational> .
+# 
+# http://iso.org/iso-80000-3.14#SI8-revolution
+<http://iso.org/iso-80000-3.14#SI8-revolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://iso.org/iso-80000-3.14#SI8-revolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bipm.org/jcgm/vim4#SystemHasDerivedUnit> .
+<http://iso.org/iso-80000-3.14#SI8-revolution> <http://opencaesar.io/oml#hasSource> <http://iso.org/iso-80000-1#SI8> .
+<http://iso.org/iso-80000-3.14#SI8-revolution> <http://opencaesar.io/oml#hasTarget> <http://iso.org/iso-80000-3.14#revolution> .
+<http://iso.org/iso-80000-3.14#SI8-revolution> <http://bipm.org/jcgm/vim4#isOffSystemUnit> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://iso.org/iso-80000-3.14#SI8-revolution.per.radian
+<http://iso.org/iso-80000-3.14#SI8-revolution.per.radian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://iso.org/iso-80000-3.14#SI8-revolution.per.radian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bipm.org/jcgm/vim4#HasPowerOfUnitFactor> .
+<http://iso.org/iso-80000-3.14#SI8-revolution.per.radian> <http://opencaesar.io/oml#hasSource> <http://iso.org/iso-80000-3.14#SI8-revolution> .
+<http://iso.org/iso-80000-3.14#SI8-revolution.per.radian> <http://opencaesar.io/oml#hasTarget> <http://iso.org/iso-80000-3.5#SI8-radian> .
+<http://iso.org/iso-80000-3.14#SI8-revolution.per.radian> <http://bipm.org/jcgm/vim4#exponent> "-1/1"^^<http://www.w3.org/2002/07/owl#rational> .
+# 
+# http://iso.org/iso-80000-3.14#SI8-revolution.radian
+<http://iso.org/iso-80000-3.14#SI8-revolution.radian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://iso.org/iso-80000-3.14#SI8-revolution.radian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bipm.org/jcgm/vim4#HasPowerOfUnitFactor> .
+<http://iso.org/iso-80000-3.14#SI8-revolution.radian> <http://opencaesar.io/oml#hasSource> <http://iso.org/iso-80000-3.14#SI8-revolution> .
+<http://iso.org/iso-80000-3.14#SI8-revolution.radian> <http://opencaesar.io/oml#hasTarget> <http://iso.org/iso-80000-3.5#SI8-radian> .
+<http://iso.org/iso-80000-3.14#SI8-revolution.radian> <http://bipm.org/jcgm/vim4#exponent> "1/1"^^<http://www.w3.org/2002/07/owl#rational> .
+# 
+# http://iso.org/iso-80000-3.14#revolution
+<http://iso.org/iso-80000-3.14#revolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://iso.org/iso-80000-3.14#revolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bipm.org/jcgm/vim4#UnprefixedMeasurementUnit> .
+<http://iso.org/iso-80000-3.14#revolution> <http://bipm.org/jcgm/vim4#instantiates> <http://iso.org/iso-80000-3.14#rotation> .
+<http://iso.org/iso-80000-3.14#revolution> <http://bipm.org/jcgm/vim4#id> "revolution" .
+<http://iso.org/iso-80000-3.14#revolution> <http://purl.org/dc/elements/1.1/source> "3-14.a" .
+# 
+# http://iso.org/iso-80000-3.14#rotation
+<http://iso.org/iso-80000-3.14#rotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://iso.org/iso-80000-3.14#rotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bipm.org/jcgm/vim4#GeneralUnitaryQuantity> .
+<http://iso.org/iso-80000-3.14#rotation> <http://bipm.org/jcgm/vim4#id> "rotation" .
+<http://iso.org/iso-80000-3.14#rotation> <http://purl.org/dc/elements/1.1/source> "3-14" .
+# 
+# Generated by the OWL API (version 5.1.17.2020-11-07T15:03:35Z) https://github.com/owlcs/owlapi/

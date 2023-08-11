@@ -1,0 +1,353 @@
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse> <http://www.w3.org/2002/07/owl#imports> <http://bipm.org/jcgm/vim4> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse> <http://www.w3.org/2002/07/owl#imports> <http://imce.jpl.nasa.gov/foundation/base> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse> <http://www.w3.org/2002/07/owl#imports> <http://imce.jpl.nasa.gov/foundation/mission> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse> <http://www.w3.org/2002/07/owl#imports> <http://imce.jpl.nasa.gov/foundation/project> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse> <http://www.w3.org/2002/07/owl#imports> <http://iso.org/iso-80000-4.1> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse> <http://purl.org/dc/elements/1.1/title> "Flight System Engineering" .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Vocabulary> .
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://opencaesar.io/examples/firesat/disciplines/fse/fse#EndCircuitDirection
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#EndCircuitDirection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#EndCircuitDirection> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#oneOf> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "out" .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "inout" .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "in" .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# http://opencaesar.io/examples/firesat/disciplines/fse/fse#FunctionDirection
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#FunctionDirection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#FunctionDirection> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#oneOf> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Undefined" .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "Bidirectional" .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "2to1" .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "1to2" .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly> <http://www.w3.org/2000/01/rdf-schema#domain> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#Function> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly> <http://www.w3.org/2000/01/rdf-schema#range> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#Assembly> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation> .
+# 
+# http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly1
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly1> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly1> <http://www.w3.org/2000/01/rdf-schema#domain> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#Function> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly1> <http://www.w3.org/2000/01/rdf-schema#range> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#Assembly> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly1> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation> .
+# 
+# http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly2
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly2> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly2> <http://www.w3.org/2000/01/rdf-schema#domain> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#Function> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly2> <http://www.w3.org/2000/01/rdf-schema#range> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#Assembly> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly2> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#forwardRelation> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://opencaesar.io/examples/firesat/disciplines/fse/fse#hasEndCircuitDirectione
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#hasEndCircuitDirectione> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#hasEndCircuitDirectione> <http://www.w3.org/2000/01/rdf-schema#domain> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#Function> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#hasEndCircuitDirectione> <http://www.w3.org/2000/01/rdf-schema#range> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#EndCircuitDirection> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#hasEndCircuitDirectione> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#scalarProperty> .
+# 
+# http://opencaesar.io/examples/firesat/disciplines/fse/fse#hasEndCircuitType
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#hasEndCircuitType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#hasEndCircuitType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#Function> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#hasEndCircuitType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#hasEndCircuitType> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#scalarProperty> .
+# 
+# http://opencaesar.io/examples/firesat/disciplines/fse/fse#hasFunctionDirection
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#hasFunctionDirection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#hasFunctionDirection> <http://www.w3.org/2000/01/rdf-schema#domain> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#Function> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#hasFunctionDirection> <http://www.w3.org/2000/01/rdf-schema#range> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#FunctionDirection> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#hasFunctionDirection> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#scalarProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://imce.jpl.nasa.gov/foundation/project#WorkPackage
+<http://imce.jpl.nasa.gov/foundation/project#WorkPackage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassConstrainedElement> .
+# 
+# http://opencaesar.io/examples/firesat/disciplines/fse/fse#Assembly
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#Assembly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#Assembly> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/mission#Component> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#Assembly> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#EndCircuitPresentingElement> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#Assembly> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassConstrainedElement> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#Assembly> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
+_:genid10 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#Subsystem> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/base#isAggregatedIn> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#Assembly> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept> .
+# 
+# http://opencaesar.io/examples/firesat/disciplines/fse/fse#ConnectsAssembly
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#ConnectsAssembly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#ConnectsAssembly> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity> .
+# 
+# http://opencaesar.io/examples/firesat/disciplines/fse/fse#ConnectsAssembly1
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#ConnectsAssembly1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#ConnectsAssembly1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#ConnectsAssembly> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#ConnectsAssembly1> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity> .
+# 
+# http://opencaesar.io/examples/firesat/disciplines/fse/fse#ConnectsAssembly2
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#ConnectsAssembly2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#ConnectsAssembly2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#ConnectsAssembly> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#ConnectsAssembly2> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#RelationEntity> .
+# 
+# http://opencaesar.io/examples/firesat/disciplines/fse/fse#EndCircuit
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#EndCircuit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#EndCircuit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/mission#Interface> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#EndCircuit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#Function> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/mission#isJoinedIn> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#EndCircuit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
+_:genid12 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#EndCircuitPresentingElement> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/mission#isPresentedBy> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#EndCircuit> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept> .
+# 
+# http://opencaesar.io/examples/firesat/disciplines/fse/fse#EndCircuitPresentingElement
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#EndCircuitPresentingElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#EndCircuitPresentingElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/mission#PresentingElement> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#EndCircuitPresentingElement> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Aspect> .
+# 
+# http://opencaesar.io/examples/firesat/disciplines/fse/fse#Function
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#Function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#Function> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/mission#Junction> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#Function> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#EndCircuit> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/mission#joins> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#Function> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept> .
+# 
+# http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassAllocationConstraint
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassAllocationConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassAllocationConstraint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassConstraint> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassAllocationConstraint> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept> .
+# 
+# http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassConstrainedElement
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassConstrainedElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassConstrainedElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bipm.org/jcgm/vim4#Object> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassConstrainedElement> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Aspect> .
+# 
+# http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassConstraint
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassConstraint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://bipm.org/jcgm/vim4#InherentUnitaryQuantityValue> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassConstraint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid14 .
+_:genid14 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassConstrainedElement> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://bipm.org/jcgm/vim4#characterizes> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassConstraint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#hasValue> <http://iso.org/iso-80000-4.1#mass> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://bipm.org/jcgm/vim4#instantiates> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassConstraint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
+_:genid16 <http://www.w3.org/2002/07/owl#hasValue> <http://iso.org/iso-80000-4.1#kilogram> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <http://bipm.org/jcgm/vim4#unit> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassConstraint> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept> .
+# 
+# http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassLimitConstraint
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassLimitConstraint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassConstraint> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassLimitConstraint> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept> .
+# 
+# http://opencaesar.io/examples/firesat/disciplines/fse/fse#PowerEndCircuit
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#PowerEndCircuit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#PowerEndCircuit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#EndCircuit> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#PowerEndCircuit> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept> .
+# 
+# http://opencaesar.io/examples/firesat/disciplines/fse/fse#PowerFunction
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#PowerFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#PowerFunction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#Function> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#PowerFunction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid17 .
+_:genid17 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#PowerEndCircuit> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/mission#joins> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#PowerFunction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid18 .
+_:genid18 <http://www.w3.org/2002/07/owl#hasValue> "Power" .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#hasEndCircuitType> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#PowerFunction> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept> .
+# 
+# http://opencaesar.io/examples/firesat/disciplines/fse/fse#PowerIn
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#PowerIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#PowerIn> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#PowerEndCircuit> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#PowerIn> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept> .
+# 
+# http://opencaesar.io/examples/firesat/disciplines/fse/fse#PowerOut
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#PowerOut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#PowerOut> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#PowerEndCircuit> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#PowerOut> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept> .
+# 
+# http://opencaesar.io/examples/firesat/disciplines/fse/fse#Subsystem
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#Subsystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#Subsystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://imce.jpl.nasa.gov/foundation/mission#Component> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#Subsystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassConstrainedElement> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#Subsystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid19 .
+_:genid19 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#Assembly> .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <http://imce.jpl.nasa.gov/foundation/base#aggregates> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://opencaesar.io/examples/firesat/disciplines/fse/fse#Subsystem> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Concept> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Rules
+# #
+# #################################################################
+# 
+# 
+<urn:swrl:var#r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#s> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#t> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+_:genid20 <http://www.w3.org/2000/01/rdf-schema#label> "connectsAssembly derivation" .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid20 <http://www.w3.org/2003/11/swrl#body> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid22 .
+_:genid22 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid22 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid22 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid24 .
+_:genid24 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
+_:genid24 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid24 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid26 .
+_:genid26 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid26 <http://www.w3.org/2003/11/swrl#classPredicate> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#ConnectsAssembly> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid20 <http://www.w3.org/2003/11/swrl#head> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid28 .
+_:genid28 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid28 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s> .
+_:genid28 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid29 <http://www.w3.org/2000/01/rdf-schema#label> "connectsAssembly1 derivation" .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid29 <http://www.w3.org/2003/11/swrl#body> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid31 .
+_:genid31 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid31 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid31 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid33 .
+_:genid33 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
+_:genid33 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid33 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid35 .
+_:genid35 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid35 <http://www.w3.org/2003/11/swrl#classPredicate> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#ConnectsAssembly1> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid29 <http://www.w3.org/2003/11/swrl#head> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid37 .
+_:genid37 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid37 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s> .
+_:genid37 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly1> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid38 <http://www.w3.org/2000/01/rdf-schema#label> "connectsAssembly2 derivation" .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid38 <http://www.w3.org/2003/11/swrl#body> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid40 .
+_:genid40 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid40 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid40 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasTarget> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid42 .
+_:genid42 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
+_:genid42 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid42 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/oml#hasSource> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid44 .
+_:genid44 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid44 <http://www.w3.org/2003/11/swrl#classPredicate> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#ConnectsAssembly2> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid38 <http://www.w3.org/2003/11/swrl#head> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid46 .
+_:genid46 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#t> .
+_:genid46 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#s> .
+_:genid46 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#connectsAssembly2> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+# Generated by the OWL API (version 5.1.17.2020-11-07T15:03:35Z) https://github.com/owlcs/owlapi/

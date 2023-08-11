@@ -1,0 +1,81 @@
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system> <http://www.w3.org/2002/07/owl#imports> <http://imce.jpl.nasa.gov/foundation/mission> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system> <http://purl.org/dc/elements/1.1/title> "Payload System Requirements" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Description> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://imce.jpl.nasa.gov/foundation/mission#refines
+<http://imce.jpl.nasa.gov/foundation/mission#refines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#ApertureSize
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#ApertureSize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#ApertureSize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#ApertureSize> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Coverage> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#ApertureSize> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#GeoLocation> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#ApertureSize> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Persistence> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#ApertureSize> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#LCCBudget> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#ApertureSize> <http://www.w3.org/2000/01/rdf-schema#label> "Aperture Size" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#FOR
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#FOR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#FOR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#FOR> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Coverage> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#FOR> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#GeoLocation> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#FOR> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Persistence> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#FOR> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#LCCBudget> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#FOR> <http://www.w3.org/2000/01/rdf-schema#label> "FOR" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#SensingRange
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#SensingRange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#SensingRange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#SensingRange> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Detection> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#SensingRange> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#GeoLocation> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#SensingRange> <http://www.w3.org/2000/01/rdf-schema#label> "Sensing Range" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#SpatialResolution
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#SpatialResolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#SpatialResolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#SpatialResolution> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Coverage> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#SpatialResolution> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#GeoLocation> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#SpatialResolution> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Persistence> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#SpatialResolution> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#LCCBudget> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#SpatialResolution> <http://www.w3.org/2000/01/rdf-schema#label> "Spatial Resolution" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#SpectralResolution
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#SpectralResolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#SpectralResolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#SpectralResolution> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Coverage> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#SpectralResolution> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#GeoLocation> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#SpectralResolution> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Persistence> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#SpectralResolution> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#LCCBudget> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#SpectralResolution> <http://www.w3.org/2000/01/rdf-schema#label> "Spectral Resolution" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#WavelenghtRange
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#WavelenghtRange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#WavelenghtRange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#WavelenghtRange> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Coverage> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#WavelenghtRange> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#GeoLocation> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#WavelenghtRange> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Persistence> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#WavelenghtRange> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#LCCBudget> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/pld/requirements/system#WavelenghtRange> <http://www.w3.org/2000/01/rdf-schema#label> "Wavelenght Range" .
+# 
+# Generated by the OWL API (version 5.1.17.2020-11-07T15:03:35Z) https://github.com/owlcs/owlapi/

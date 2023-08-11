@@ -1,0 +1,185 @@
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions> <http://www.w3.org/2002/07/owl#imports> <http://imce.jpl.nasa.gov/foundation/mission> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions> <http://purl.org/dc/elements/1.1/title> "FireSat Functions" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Description> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://imce.jpl.nasa.gov/foundation/mission#invokes
+<http://imce.jpl.nasa.gov/foundation/mission#invokes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#ApplyCommands
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#ApplyCommands> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#ApplyCommands> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#ApplyCommands> <http://imce.jpl.nasa.gov/foundation/mission#invokes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#ReceiveTelecommandFromNOAAGroundStations> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#ApplyCommands> <http://www.w3.org/2000/01/rdf-schema#label> "Apply Commands" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#AttitudeAwareness
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#AttitudeAwareness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#AttitudeAwareness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#AttitudeAwareness> <http://www.w3.org/2000/01/rdf-schema#label> "Attitude Awareness" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#AvoidCollisions
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#AvoidCollisions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#AvoidCollisions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#AvoidCollisions> <http://imce.jpl.nasa.gov/foundation/mission#invokes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#ControlTrajectory> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#AvoidCollisions> <http://www.w3.org/2000/01/rdf-schema#label> "Avoid Collisions" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Communicate
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Communicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Communicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Communicate> <http://imce.jpl.nasa.gov/foundation/mission#invokes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Communicate911DownlinkWithRegionalFieldOffices> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Communicate> <http://imce.jpl.nasa.gov/foundation/mission#invokes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#ReceiveTelecommandFromNOAAGroundStations> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Communicate> <http://imce.jpl.nasa.gov/foundation/mission#invokes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#SendTelemetryToNOAAGroundStations> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Communicate> <http://www.w3.org/2000/01/rdf-schema#label> "Communicate" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Communicate911DownlinkWithRegionalFieldOffices
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Communicate911DownlinkWithRegionalFieldOffices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Communicate911DownlinkWithRegionalFieldOffices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Communicate911DownlinkWithRegionalFieldOffices> <http://www.w3.org/2000/01/rdf-schema#label> "Communicate 911 Downlink With Regional Field Offices" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#ControlTrajectory
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#ControlTrajectory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#ControlTrajectory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#ControlTrajectory> <http://imce.jpl.nasa.gov/foundation/mission#invokes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#AttitudeAwareness> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#ControlTrajectory> <http://imce.jpl.nasa.gov/foundation/mission#invokes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#PositionAwareness> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#ControlTrajectory> <http://www.w3.org/2000/01/rdf-schema#label> "Control Trajectory" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#DeployMechanisms
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#DeployMechanisms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#DeployMechanisms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#DeployMechanisms> <http://www.w3.org/2000/01/rdf-schema#label> "Deploy Mechanisms" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#DetectNewWildfires
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#DetectNewWildfires> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#DetectNewWildfires> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#DetectNewWildfires> <http://www.w3.org/2000/01/rdf-schema#label> "Detect New Wildfires" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#GenerateTelemetry
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#GenerateTelemetry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#GenerateTelemetry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#GenerateTelemetry> <http://www.w3.org/2000/01/rdf-schema#label> "Generate Telemetry" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#HomogenizeTemperature
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#HomogenizeTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#HomogenizeTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#HomogenizeTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "Homogenize Temperature" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#InsureMechanicalIntegrity
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#InsureMechanicalIntegrity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#InsureMechanicalIntegrity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#InsureMechanicalIntegrity> <http://www.w3.org/2000/01/rdf-schema#label> "Insure Mechanical Integrity" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Launch_SC
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Launch_SC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Launch_SC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Launch_SC> <http://imce.jpl.nasa.gov/foundation/mission#invokes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#InsureMechanicalIntegrity> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Launch_SC> <http://www.w3.org/2000/01/rdf-schema#label> "Launch S/C" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#MitigateFailures
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#MitigateFailures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#MitigateFailures> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#MitigateFailures> <http://imce.jpl.nasa.gov/foundation/mission#invokes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#HomogenizeTemperature> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#MitigateFailures> <http://imce.jpl.nasa.gov/foundation/mission#invokes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#ProtectAgainstRadiations> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#MitigateFailures> <http://www.w3.org/2000/01/rdf-schema#label> "Mitigate Failures" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#MonitorAndMaintainHealthAndsafety
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#MonitorAndMaintainHealthAndsafety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#MonitorAndMaintainHealthAndsafety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#MonitorAndMaintainHealthAndsafety> <http://imce.jpl.nasa.gov/foundation/mission#invokes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#AvoidCollisions> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#MonitorAndMaintainHealthAndsafety> <http://imce.jpl.nasa.gov/foundation/mission#invokes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#MitigateFailures> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#MonitorAndMaintainHealthAndsafety> <http://www.w3.org/2000/01/rdf-schema#label> "Monitor and Maintain Health & Safety" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#MonitorExistingWildfires_24_7
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#MonitorExistingWildfires_24_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#MonitorExistingWildfires_24_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#MonitorExistingWildfires_24_7> <http://www.w3.org/2000/01/rdf-schema#label> "Monitor Existing Wildfires 24/7" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#PerformMission
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#PerformMission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#PerformMission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#PerformMission> <http://imce.jpl.nasa.gov/foundation/mission#invokes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#ApplyCommands> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#PerformMission> <http://imce.jpl.nasa.gov/foundation/mission#invokes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Communicate> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#PerformMission> <http://imce.jpl.nasa.gov/foundation/mission#invokes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Communicate911DownlinkWithRegionalFieldOffices> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#PerformMission> <http://imce.jpl.nasa.gov/foundation/mission#invokes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#DeployMechanisms> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#PerformMission> <http://imce.jpl.nasa.gov/foundation/mission#invokes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#DetectNewWildfires> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#PerformMission> <http://imce.jpl.nasa.gov/foundation/mission#invokes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#MonitorAndMaintainHealthAndsafety> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#PerformMission> <http://imce.jpl.nasa.gov/foundation/mission#invokes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#MonitorExistingWildfires_24_7> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#PerformMission> <http://imce.jpl.nasa.gov/foundation/mission#invokes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#ReachOperationalOrbit> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#PerformMission> <http://imce.jpl.nasa.gov/foundation/mission#invokes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Release_SC_From_LV> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#PerformMission> <http://imce.jpl.nasa.gov/foundation/mission#invokes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Supply_Power_24_7> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#PerformMission> <http://www.w3.org/2000/01/rdf-schema#label> "Perform Mission" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#PositionAwareness
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#PositionAwareness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#PositionAwareness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#PositionAwareness> <http://www.w3.org/2000/01/rdf-schema#label> "Position Awareness" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#ProtectAgainstRadiations
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#ProtectAgainstRadiations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#ProtectAgainstRadiations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#ProtectAgainstRadiations> <http://www.w3.org/2000/01/rdf-schema#label> "Protect Against Radiations" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#ReachOperationalOrbit
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#ReachOperationalOrbit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#ReachOperationalOrbit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#ReachOperationalOrbit> <http://imce.jpl.nasa.gov/foundation/mission#invokes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#ControlTrajectory> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#ReachOperationalOrbit> <http://www.w3.org/2000/01/rdf-schema#label> "Reach Operational Orbit" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#ReceiveTelecommandFromNOAAGroundStations
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#ReceiveTelecommandFromNOAAGroundStations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#ReceiveTelecommandFromNOAAGroundStations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#ReceiveTelecommandFromNOAAGroundStations> <http://www.w3.org/2000/01/rdf-schema#label> "Receive Telecommand Trom NOAA Ground Stations" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Release_SC_From_LV
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Release_SC_From_LV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Release_SC_From_LV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Release_SC_From_LV> <http://imce.jpl.nasa.gov/foundation/mission#invokes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Launch_SC> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Release_SC_From_LV> <http://www.w3.org/2000/01/rdf-schema#label> "Release S/C from L/V" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#SendTelemetryToNOAAGroundStations
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#SendTelemetryToNOAAGroundStations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#SendTelemetryToNOAAGroundStations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#SendTelemetryToNOAAGroundStations> <http://imce.jpl.nasa.gov/foundation/mission#invokes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#GenerateTelemetry> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#SendTelemetryToNOAAGroundStations> <http://imce.jpl.nasa.gov/foundation/mission#invokes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#StoreDataBetweenTwoTelemetries> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#SendTelemetryToNOAAGroundStations> <http://www.w3.org/2000/01/rdf-schema#label> "Send Telemetry NOAA Ground Stations" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#StoreDataBetweenTwoTelemetries
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#StoreDataBetweenTwoTelemetries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#StoreDataBetweenTwoTelemetries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#StoreDataBetweenTwoTelemetries> <http://www.w3.org/2000/01/rdf-schema#label> "Store Data Between Two Telemetries" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#StoreEnergyDuringEclipses
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#StoreEnergyDuringEclipses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#StoreEnergyDuringEclipses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#StoreEnergyDuringEclipses> <http://www.w3.org/2000/01/rdf-schema#label> "Store Energy During Eclipses" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Supply_Power_24_7
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Supply_Power_24_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Supply_Power_24_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Supply_Power_24_7> <http://imce.jpl.nasa.gov/foundation/mission#invokes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#StoreEnergyDuringEclipses> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Supply_Power_24_7> <http://imce.jpl.nasa.gov/foundation/mission#invokes> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#TransformSolarRadiationsIntoEnergy> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#Supply_Power_24_7> <http://www.w3.org/2000/01/rdf-schema#label> "Supply Power 24/7" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#TransformSolarRadiationsIntoEnergy
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#TransformSolarRadiationsIntoEnergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#TransformSolarRadiationsIntoEnergy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Function> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/functions#TransformSolarRadiationsIntoEnergy> <http://www.w3.org/2000/01/rdf-schema#label> "Transform Solar Radiations Into Energy" .
+# 
+# Generated by the OWL API (version 5.1.17.2020-11-07T15:03:35Z) https://github.com/owlcs/owlapi/

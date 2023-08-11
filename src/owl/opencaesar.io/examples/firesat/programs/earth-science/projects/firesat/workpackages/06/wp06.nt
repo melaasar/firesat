@@ -1,0 +1,105 @@
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06> <http://www.w3.org/2002/07/owl#imports> <http://imce.jpl.nasa.gov/foundation/project> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/organizations/boeing> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/organizations/curtiss-wright> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/organizations/lockheed-martin> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/organizations/northrop-grumman> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/organizations/raytheon> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/firesat> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/subsystems/ang/ang> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/subsystems/cdh/cdh> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/subsystems/cmn/cmn> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/subsystems/eps/eps> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/subsystems/prp/prp> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/subsystems/sam/sam> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/subsystems/thc/thc> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06> <http://purl.org/dc/elements/1.1/title> "Workpackage 06" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Description> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://imce.jpl.nasa.gov/foundation/project#authorizes
+<http://imce.jpl.nasa.gov/foundation/project#authorizes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#isResponsibilityOf
+<http://imce.jpl.nasa.gov/foundation/project#isResponsibilityOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#supplies
+<http://imce.jpl.nasa.gov/foundation/project#supplies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/firesat#WP06
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/firesat#WP06> <http://imce.jpl.nasa.gov/foundation/project#authorizes> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.04> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/firesat#WP06> <http://imce.jpl.nasa.gov/foundation/project#authorizes> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.05> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/firesat#WP06> <http://imce.jpl.nasa.gov/foundation/project#authorizes> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.06> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/firesat#WP06> <http://imce.jpl.nasa.gov/foundation/project#authorizes> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.07> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/firesat#WP06> <http://imce.jpl.nasa.gov/foundation/project#authorizes> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.08> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/firesat#WP06> <http://imce.jpl.nasa.gov/foundation/project#authorizes> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.09> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/firesat#WP06> <http://imce.jpl.nasa.gov/foundation/project#authorizes> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.10> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/firesat#WP06> <http://www.w3.org/2000/01/rdf-schema#label> "WP06" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.04
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/project#WorkPackage> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.04> <http://imce.jpl.nasa.gov/foundation/project#isResponsibilityOf> <http://opencaesar.io/examples/firesat/organizations/boeing#Boeing> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.04> <http://imce.jpl.nasa.gov/foundation/project#supplies> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/subsystems/sam/sam#StructuresAndMechanisms> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.04> <http://www.w3.org/2000/01/rdf-schema#label> "WP06.04" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.05
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/project#WorkPackage> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.05> <http://imce.jpl.nasa.gov/foundation/project#isResponsibilityOf> <http://opencaesar.io/examples/firesat/organizations/boeing#Boeing> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.05> <http://imce.jpl.nasa.gov/foundation/project#supplies> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/subsystems/thc/thc#ThermalControl> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.05> <http://www.w3.org/2000/01/rdf-schema#label> "WP06.05" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.06
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.06> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.06> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/project#WorkPackage> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.06> <http://imce.jpl.nasa.gov/foundation/project#isResponsibilityOf> <http://opencaesar.io/examples/firesat/organizations/raytheon#Raytheon> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.06> <http://imce.jpl.nasa.gov/foundation/project#supplies> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/subsystems/eps/eps#ElectricPowerSystem> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.06> <http://www.w3.org/2000/01/rdf-schema#label> "WP06.06" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.07
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.07> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.07> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/project#WorkPackage> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.07> <http://imce.jpl.nasa.gov/foundation/project#isResponsibilityOf> <http://opencaesar.io/examples/firesat/organizations/northrop-grumman#NorthropGrumman> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.07> <http://imce.jpl.nasa.gov/foundation/project#supplies> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/subsystems/ang/ang#ADCSAndGNC> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.07> <http://www.w3.org/2000/01/rdf-schema#label> "WP06.07" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.08
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.08> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.08> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/project#WorkPackage> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.08> <http://imce.jpl.nasa.gov/foundation/project#isResponsibilityOf> <http://opencaesar.io/examples/firesat/organizations/lockheed-martin#LockheedMartin> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.08> <http://imce.jpl.nasa.gov/foundation/project#supplies> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/subsystems/prp/prp#Propulsion> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.08> <http://www.w3.org/2000/01/rdf-schema#label> "WP06.08" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.09
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/project#WorkPackage> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.09> <http://imce.jpl.nasa.gov/foundation/project#isResponsibilityOf> <http://opencaesar.io/examples/firesat/organizations/boeing#Boeing> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.09> <http://imce.jpl.nasa.gov/foundation/project#supplies> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/subsystems/cmn/cmn#Communications> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.09> <http://www.w3.org/2000/01/rdf-schema#label> "WP06.09" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.10
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/project#WorkPackage> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.10> <http://imce.jpl.nasa.gov/foundation/project#isResponsibilityOf> <http://opencaesar.io/examples/firesat/organizations/curtiss-wright#CurtissWright> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.10> <http://imce.jpl.nasa.gov/foundation/project#supplies> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/subsystems/cdh/cdh#CommandAndDataHandling> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/wp06#WP06.10> <http://www.w3.org/2000/01/rdf-schema#label> "WP06.10" .
+# 
+# Generated by the OWL API (version 5.1.17.2020-11-07T15:03:35Z) https://github.com/owlcs/owlapi/

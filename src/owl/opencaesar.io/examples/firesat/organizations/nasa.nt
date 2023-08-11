@@ -1,0 +1,88 @@
+<http://opencaesar.io/examples/firesat/organizations/nasa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://opencaesar.io/examples/firesat/organizations/nasa> <http://www.w3.org/2002/07/owl#imports> <http://imce.jpl.nasa.gov/foundation/project> .
+<http://opencaesar.io/examples/firesat/organizations/nasa> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1> .
+<http://opencaesar.io/examples/firesat/organizations/nasa> <http://purl.org/dc/elements/1.1/title> "NASA" .
+<http://opencaesar.io/examples/firesat/organizations/nasa> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Description> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://imce.jpl.nasa.gov/foundation/project#belongsTo
+<http://imce.jpl.nasa.gov/foundation/project#belongsTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#hasRole
+<http://imce.jpl.nasa.gov/foundation/project#hasRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://opencaesar.io/examples/firesat/organizations/nasa#BobF
+<http://opencaesar.io/examples/firesat/organizations/nasa#BobF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/organizations/nasa#BobF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/project#Person> .
+<http://opencaesar.io/examples/firesat/organizations/nasa#BobF> <http://imce.jpl.nasa.gov/foundation/project#belongsTo> <http://opencaesar.io/examples/firesat/organizations/nasa#NASA> .
+<http://opencaesar.io/examples/firesat/organizations/nasa#BobF> <http://imce.jpl.nasa.gov/foundation/project#hasRole> <http://opencaesar.io/examples/firesat/organizations/nasa#SystemArchitect> .
+<http://opencaesar.io/examples/firesat/organizations/nasa#BobF> <http://www.w3.org/2000/01/rdf-schema#label> "Bob F." .
+# 
+# http://opencaesar.io/examples/firesat/organizations/nasa#HarryP
+<http://opencaesar.io/examples/firesat/organizations/nasa#HarryP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/organizations/nasa#HarryP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/project#Person> .
+<http://opencaesar.io/examples/firesat/organizations/nasa#HarryP> <http://imce.jpl.nasa.gov/foundation/project#belongsTo> <http://opencaesar.io/examples/firesat/organizations/nasa#NASA> .
+<http://opencaesar.io/examples/firesat/organizations/nasa#HarryP> <http://imce.jpl.nasa.gov/foundation/project#hasRole> <http://opencaesar.io/examples/firesat/organizations/nasa#SystemArchitect> .
+<http://opencaesar.io/examples/firesat/organizations/nasa#HarryP> <http://imce.jpl.nasa.gov/foundation/project#hasRole> <http://opencaesar.io/examples/firesat/organizations/nasa#SystemEngineer> .
+<http://opencaesar.io/examples/firesat/organizations/nasa#HarryP> <http://www.w3.org/2000/01/rdf-schema#label> "Harry P." .
+# 
+# http://opencaesar.io/examples/firesat/organizations/nasa#JohnA
+<http://opencaesar.io/examples/firesat/organizations/nasa#JohnA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/organizations/nasa#JohnA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/project#Person> .
+<http://opencaesar.io/examples/firesat/organizations/nasa#JohnA> <http://imce.jpl.nasa.gov/foundation/project#belongsTo> <http://opencaesar.io/examples/firesat/organizations/nasa#NASA> .
+<http://opencaesar.io/examples/firesat/organizations/nasa#JohnA> <http://imce.jpl.nasa.gov/foundation/project#hasRole> <http://opencaesar.io/examples/firesat/organizations/nasa#ProjectManager> .
+<http://opencaesar.io/examples/firesat/organizations/nasa#JohnA> <http://www.w3.org/2000/01/rdf-schema#label> "John A." .
+# 
+# http://opencaesar.io/examples/firesat/organizations/nasa#LukeS
+<http://opencaesar.io/examples/firesat/organizations/nasa#LukeS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/organizations/nasa#LukeS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/project#Person> .
+<http://opencaesar.io/examples/firesat/organizations/nasa#LukeS> <http://imce.jpl.nasa.gov/foundation/project#belongsTo> <http://opencaesar.io/examples/firesat/organizations/nasa#NASA> .
+<http://opencaesar.io/examples/firesat/organizations/nasa#LukeS> <http://imce.jpl.nasa.gov/foundation/project#hasRole> <http://opencaesar.io/examples/firesat/organizations/nasa#SystemArchitect> .
+<http://opencaesar.io/examples/firesat/organizations/nasa#LukeS> <http://imce.jpl.nasa.gov/foundation/project#hasRole> <http://opencaesar.io/examples/firesat/organizations/nasa#SystemEngineer> .
+<http://opencaesar.io/examples/firesat/organizations/nasa#LukeS> <http://www.w3.org/2000/01/rdf-schema#label> "Luke S." .
+# 
+# http://opencaesar.io/examples/firesat/organizations/nasa#NASA
+<http://opencaesar.io/examples/firesat/organizations/nasa#NASA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/organizations/nasa#NASA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/project#Organization> .
+<http://opencaesar.io/examples/firesat/organizations/nasa#NASA> <http://www.w3.org/2000/01/rdf-schema#label> "NASA" .
+# 
+# http://opencaesar.io/examples/firesat/organizations/nasa#PaulN
+<http://opencaesar.io/examples/firesat/organizations/nasa#PaulN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/organizations/nasa#PaulN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/project#Person> .
+<http://opencaesar.io/examples/firesat/organizations/nasa#PaulN> <http://imce.jpl.nasa.gov/foundation/project#belongsTo> <http://opencaesar.io/examples/firesat/organizations/nasa#NASA> .
+<http://opencaesar.io/examples/firesat/organizations/nasa#PaulN> <http://imce.jpl.nasa.gov/foundation/project#hasRole> <http://opencaesar.io/examples/firesat/organizations/nasa#SystemArchitect> .
+<http://opencaesar.io/examples/firesat/organizations/nasa#PaulN> <http://imce.jpl.nasa.gov/foundation/project#hasRole> <http://opencaesar.io/examples/firesat/organizations/nasa#SystemEngineer> .
+<http://opencaesar.io/examples/firesat/organizations/nasa#PaulN> <http://www.w3.org/2000/01/rdf-schema#label> "Paul N." .
+# 
+# http://opencaesar.io/examples/firesat/organizations/nasa#ProjectManager
+<http://opencaesar.io/examples/firesat/organizations/nasa#ProjectManager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/organizations/nasa#ProjectManager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/project#Role> .
+<http://opencaesar.io/examples/firesat/organizations/nasa#ProjectManager> <http://www.w3.org/2000/01/rdf-schema#label> "Project Manager" .
+# 
+# http://opencaesar.io/examples/firesat/organizations/nasa#SystemArchitect
+<http://opencaesar.io/examples/firesat/organizations/nasa#SystemArchitect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/organizations/nasa#SystemArchitect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/project#Role> .
+<http://opencaesar.io/examples/firesat/organizations/nasa#SystemArchitect> <http://www.w3.org/2000/01/rdf-schema#label> "System architect" .
+# 
+# http://opencaesar.io/examples/firesat/organizations/nasa#SystemEngineer
+<http://opencaesar.io/examples/firesat/organizations/nasa#SystemEngineer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/organizations/nasa#SystemEngineer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/project#Role> .
+<http://opencaesar.io/examples/firesat/organizations/nasa#SystemEngineer> <http://www.w3.org/2000/01/rdf-schema#label> "System engineer" .
+# 
+# Generated by the OWL API (version 5.1.17.2020-11-07T15:03:35Z) https://github.com/owlcs/owlapi/

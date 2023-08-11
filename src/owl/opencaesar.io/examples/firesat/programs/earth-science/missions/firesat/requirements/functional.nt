@@ -1,0 +1,93 @@
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional> <http://www.w3.org/2002/07/owl#imports> <http://imce.jpl.nasa.gov/foundation/mission> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional> <http://purl.org/dc/elements/1.1/title> "FireSat Functional Requirements" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Description> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://imce.jpl.nasa.gov/foundation/mission#refines
+<http://imce.jpl.nasa.gov/foundation/mission#refines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Coverage
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Coverage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Coverage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Coverage> <http://www.w3.org/2000/01/rdf-schema#label> "Coverage" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Detection
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Detection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Detection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Detection> <http://www.w3.org/2000/01/rdf-schema#label> "Detection" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#DownwardsMessages
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#DownwardsMessages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#DownwardsMessages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#DownwardsMessages> <http://www.w3.org/2000/01/rdf-schema#label> "Downwards Messages" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#GeoLocation
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#GeoLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#GeoLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#GeoLocation> <http://www.w3.org/2000/01/rdf-schema#label> "Geo-Location\t" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Persistence
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Persistence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Persistence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Persistence> <http://www.w3.org/2000/01/rdf-schema#label> "Persistence" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationFor911MessageDownlink
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationFor911MessageDownlink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationFor911MessageDownlink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationFor911MessageDownlink> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Timeliness> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationFor911MessageDownlink> <http://www.w3.org/2000/01/rdf-schema#label> "Time Allocation for 911 Message Downlink" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationForDetectingANewWildfire
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationForDetectingANewWildfire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationForDetectingANewWildfire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationForDetectingANewWildfire> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Timeliness> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationForDetectingANewWildfire> <http://www.w3.org/2000/01/rdf-schema#label> "Time Allocation for Detecting A New Wildfire" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationForFireGeoLocation
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationForFireGeoLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationForFireGeoLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationForFireGeoLocation> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Timeliness> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationForFireGeoLocation> <http://www.w3.org/2000/01/rdf-schema#label> "Time Allocation for Fire Geo-Location" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationForGroundReceiptAndConfirmationOutsideScope
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationForGroundReceiptAndConfirmationOutsideScope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationForGroundReceiptAndConfirmationOutsideScope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationForGroundReceiptAndConfirmationOutsideScope> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Timeliness> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationForGroundReceiptAndConfirmationOutsideScope> <http://www.w3.org/2000/01/rdf-schema#label> "Time Allocation for Ground Receipt and Confirmation Outside Scope" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationForOnboardValidation
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationForOnboardValidation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationForOnboardValidation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationForOnboardValidation> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Timeliness> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationForOnboardValidation> <http://www.w3.org/2000/01/rdf-schema#label> "Time Allocation for On-board Validation" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationForOrbitAndAltitudeDetermination
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationForOrbitAndAltitudeDetermination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationForOrbitAndAltitudeDetermination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationForOrbitAndAltitudeDetermination> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Timeliness> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationForOrbitAndAltitudeDetermination> <http://www.w3.org/2000/01/rdf-schema#label> "Time Allocation for Orbit and Altitude Determination" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Timeliness
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Timeliness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Timeliness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Timeliness> <http://www.w3.org/2000/01/rdf-schema#label> "Timeliness" .
+# 
+# Generated by the OWL API (version 5.1.17.2020-11-07T15:03:35Z) https://github.com/owlcs/owlapi/

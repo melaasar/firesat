@@ -1,0 +1,56 @@
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/operational> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/operational> <http://www.w3.org/2002/07/owl#imports> <http://imce.jpl.nasa.gov/foundation/mission> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/operational> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/operational> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/operational> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/operational> <http://purl.org/dc/elements/1.1/title> "Spacecraft Operational Requirements" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/operational> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Description> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://imce.jpl.nasa.gov/foundation/mission#refines
+<http://imce.jpl.nasa.gov/foundation/mission#refines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/operational#Altitude
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/operational#Altitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/operational#Altitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/operational#Altitude> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Coverage> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/operational#Altitude> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#GeoLocation> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/operational#Altitude> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Persistence> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/operational#Altitude> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#LCCBudget> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/operational#Altitude> <http://www.w3.org/2000/01/rdf-schema#label> "Altitude" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/operational#MinimumElevationAngle
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/operational#MinimumElevationAngle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/operational#MinimumElevationAngle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/operational#MinimumElevationAngle> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Coverage> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/operational#MinimumElevationAngle> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#GeoLocation> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/operational#MinimumElevationAngle> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Persistence> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/operational#MinimumElevationAngle> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#LCCBudget> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/operational#MinimumElevationAngle> <http://www.w3.org/2000/01/rdf-schema#label> "Minimum Elevation Angle" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/operational#OrbitInclination
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/operational#OrbitInclination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/operational#OrbitInclination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/operational#OrbitInclination> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Coverage> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/operational#OrbitInclination> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#GeoLocation> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/operational#OrbitInclination> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Persistence> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/operational#OrbitInclination> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#LCCBudget> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/operational#OrbitInclination> <http://www.w3.org/2000/01/rdf-schema#label> "Orbit Inclination" .
+# 
+# Generated by the OWL API (version 5.1.17.2020-11-07T15:03:35Z) https://github.com/owlcs/owlapi/

@@ -1,0 +1,48 @@
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder> <http://www.w3.org/2002/07/owl#imports> <http://imce.jpl.nasa.gov/foundation/mission> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder> <http://purl.org/dc/elements/1.1/title> "FireSat Stakeholder Requirements" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Description> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://imce.jpl.nasa.gov/foundation/mission#refines
+<http://imce.jpl.nasa.gov/foundation/mission#refines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#GroundSystemInterface
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#GroundSystemInterface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#GroundSystemInterface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#GroundSystemInterface> <http://www.w3.org/2000/01/rdf-schema#label> "Ground System Interface" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#InitialFullOperationalCapability
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#InitialFullOperationalCapability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#InitialFullOperationalCapability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#InitialFullOperationalCapability> <http://www.w3.org/2000/01/rdf-schema#label> "Initial/Full Operational Capability" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#LCCBudget
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#LCCBudget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#LCCBudget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#LCCBudget> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#OnOrbitDesignLifetime> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#LCCBudget> <http://www.w3.org/2000/01/rdf-schema#label> "LCC Budget" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#OnOrbitDesignLifetime
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#OnOrbitDesignLifetime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#OnOrbitDesignLifetime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#OnOrbitDesignLifetime> <http://www.w3.org/2000/01/rdf-schema#label> "On-Orbit Design Lifetime" .
+# 
+# Generated by the OWL API (version 5.1.17.2020-11-07T15:03:35Z) https://github.com/owlcs/owlapi/

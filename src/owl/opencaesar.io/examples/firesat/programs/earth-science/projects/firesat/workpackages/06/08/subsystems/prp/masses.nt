@@ -1,0 +1,146 @@
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses> <http://www.w3.org/2002/07/owl#imports> <http://bipm.org/jcgm/vim4> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/disciplines/fse/fse> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses> <http://purl.org/dc/elements/1.1/title> "Propulsion Masses" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Description> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://bipm.org/jcgm/vim4#characterizes
+<http://bipm.org/jcgm/vim4#characterizes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://bipm.org/jcgm/vim4#hasDoubleNumber
+<http://bipm.org/jcgm/vim4#hasDoubleNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster1MassLimitConstraint
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster1MassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster1MassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassLimitConstraint> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster1MassLimitConstraint> <http://bipm.org/jcgm/vim4#characterizes> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster1> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster1MassLimitConstraint> <http://bipm.org/jcgm/vim4#hasDoubleNumber> "0.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster1MassLimitConstraint> <http://www.w3.org/2000/01/rdf-schema#label> "A CS Thruster 1  Mass Limit Constraint" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster2MassLimitConstraint
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster2MassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster2MassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassLimitConstraint> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster2MassLimitConstraint> <http://bipm.org/jcgm/vim4#characterizes> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster2> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster2MassLimitConstraint> <http://bipm.org/jcgm/vim4#hasDoubleNumber> "0.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster2MassLimitConstraint> <http://www.w3.org/2000/01/rdf-schema#label> "A CS Thruster 2 Mass Limit Constraint" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster3MassLimitConstraint
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster3MassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster3MassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassLimitConstraint> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster3MassLimitConstraint> <http://bipm.org/jcgm/vim4#characterizes> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster3> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster3MassLimitConstraint> <http://bipm.org/jcgm/vim4#hasDoubleNumber> "0.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster3MassLimitConstraint> <http://www.w3.org/2000/01/rdf-schema#label> "A CS Thruster 3 Mass Limit Constraint" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster4MassLimitConstraint
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster4MassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster4MassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassLimitConstraint> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster4MassLimitConstraint> <http://bipm.org/jcgm/vim4#characterizes> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster4> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster4MassLimitConstraint> <http://bipm.org/jcgm/vim4#hasDoubleNumber> "0.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster4MassLimitConstraint> <http://www.w3.org/2000/01/rdf-schema#label> "A CS Thruster 4 Mass Limit Constraint" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster5MassLimitConstraint
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster5MassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster5MassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassLimitConstraint> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster5MassLimitConstraint> <http://bipm.org/jcgm/vim4#characterizes> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster5> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster5MassLimitConstraint> <http://bipm.org/jcgm/vim4#hasDoubleNumber> "0.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster5MassLimitConstraint> <http://www.w3.org/2000/01/rdf-schema#label> "A CS Thruster 5 Mass Limit Constraint" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster6MassLimitConstraint
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster6MassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster6MassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassLimitConstraint> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster6MassLimitConstraint> <http://bipm.org/jcgm/vim4#characterizes> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#ACSThruster6> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster6MassLimitConstraint> <http://bipm.org/jcgm/vim4#hasDoubleNumber> "0.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#ACSThruster6MassLimitConstraint> <http://www.w3.org/2000/01/rdf-schema#label> "A CS Thruster 6 Mass Limit Constraint" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#BPPropellantLineUnitMassLimitConstraint
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#BPPropellantLineUnitMassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#BPPropellantLineUnitMassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassLimitConstraint> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#BPPropellantLineUnitMassLimitConstraint> <http://bipm.org/jcgm/vim4#characterizes> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#BPPropellantLineUnit> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#BPPropellantLineUnitMassLimitConstraint> <http://bipm.org/jcgm/vim4#hasDoubleNumber> "2.695"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#BPPropellantLineUnitMassLimitConstraint> <http://www.w3.org/2000/01/rdf-schema#label> "BP Propellant Line Unit Mass Limit Constraint" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#FillDrainValveUnitMassLimitConstraint
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#FillDrainValveUnitMassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#FillDrainValveUnitMassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassLimitConstraint> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#FillDrainValveUnitMassLimitConstraint> <http://bipm.org/jcgm/vim4#characterizes> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#FillDrainValveUnit> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#FillDrainValveUnitMassLimitConstraint> <http://bipm.org/jcgm/vim4#hasDoubleNumber> "3.75"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#FillDrainValveUnitMassLimitConstraint> <http://www.w3.org/2000/01/rdf-schema#label> "Fill Drain Valve Unit Mass Limit Constraint" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PMPropellantLineUnitMassLimitConstraint
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PMPropellantLineUnitMassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PMPropellantLineUnitMassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassLimitConstraint> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PMPropellantLineUnitMassLimitConstraint> <http://bipm.org/jcgm/vim4#characterizes> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PMPropellantLineUnit> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PMPropellantLineUnitMassLimitConstraint> <http://bipm.org/jcgm/vim4#hasDoubleNumber> "2.695"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PMPropellantLineUnitMassLimitConstraint> <http://www.w3.org/2000/01/rdf-schema#label> "PM Propellant Line Unit Mass Limit Constraint" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PressurantTankMassLimitConstraint
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PressurantTankMassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PressurantTankMassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassLimitConstraint> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PressurantTankMassLimitConstraint> <http://bipm.org/jcgm/vim4#characterizes> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PressurantTank> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PressurantTankMassLimitConstraint> <http://bipm.org/jcgm/vim4#hasDoubleNumber> "10.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PressurantTankMassLimitConstraint> <http://www.w3.org/2000/01/rdf-schema#label> "Pressurant Tank Mass Limit Constraint" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PrimaryThrusterMassLimitConstraint
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PrimaryThrusterMassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PrimaryThrusterMassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassLimitConstraint> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PrimaryThrusterMassLimitConstraint> <http://bipm.org/jcgm/vim4#characterizes> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PrimaryThruster> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PrimaryThrusterMassLimitConstraint> <http://bipm.org/jcgm/vim4#hasDoubleNumber> "1.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PrimaryThrusterMassLimitConstraint> <http://www.w3.org/2000/01/rdf-schema#label> "Primary Thruster Mass Limit Constraint" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PropellantHandlingSectionMassLimitConstraint
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PropellantHandlingSectionMassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PropellantHandlingSectionMassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassLimitConstraint> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PropellantHandlingSectionMassLimitConstraint> <http://bipm.org/jcgm/vim4#characterizes> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PropellantHandlingSection> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PropellantHandlingSectionMassLimitConstraint> <http://bipm.org/jcgm/vim4#hasDoubleNumber> "0.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PropellantHandlingSectionMassLimitConstraint> <http://www.w3.org/2000/01/rdf-schema#label> "Propellant Handling Section Mass Limit Constraint" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PropellantTankMassLimitConstraint
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PropellantTankMassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PropellantTankMassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassLimitConstraint> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PropellantTankMassLimitConstraint> <http://bipm.org/jcgm/vim4#characterizes> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PropellantTank> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PropellantTankMassLimitConstraint> <http://bipm.org/jcgm/vim4#hasDoubleNumber> "20.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PropellantTankMassLimitConstraint> <http://www.w3.org/2000/01/rdf-schema#label> "Propellant Tank Mass Limit Constraint" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PropulsionModuleMassLimitConstraint
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PropulsionModuleMassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PropulsionModuleMassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassLimitConstraint> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PropulsionModuleMassLimitConstraint> <http://bipm.org/jcgm/vim4#characterizes> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PropulsionModule> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PropulsionModuleMassLimitConstraint> <http://bipm.org/jcgm/vim4#hasDoubleNumber> "0.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PropulsionModuleMassLimitConstraint> <http://www.w3.org/2000/01/rdf-schema#label> "Propulsion Module Mass Limit Constraint" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PropulsionSystemControlUnitMassLimitConstraint
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PropulsionSystemControlUnitMassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PropulsionSystemControlUnitMassLimitConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://opencaesar.io/examples/firesat/disciplines/fse/fse#MassLimitConstraint> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PropulsionSystemControlUnitMassLimitConstraint> <http://bipm.org/jcgm/vim4#characterizes> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/assemblies#PropulsionSystemControlUnit> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PropulsionSystemControlUnitMassLimitConstraint> <http://bipm.org/jcgm/vim4#hasDoubleNumber> "1.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/08/subsystems/prp/masses#PropulsionSystemControlUnitMassLimitConstraint> <http://www.w3.org/2000/01/rdf-schema#label> "Propulsion System Control Unit Mass Limit Constraint" .
+# 
+# Generated by the OWL API (version 5.1.17.2020-11-07T15:03:35Z) https://github.com/owlcs/owlapi/

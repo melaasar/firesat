@@ -54,7 +54,7 @@ task load(type:io.opencaesar.owl.load.OwlLoadTask) {
     endpointURL = 'http://localhost:3030/firesat'
     catalogPath = file('src/owl/catalog.xml')
     iris = ['http://opencaesar.io/examples/firesat/bundle/root']
-    fileExtensions = ['ttl']
+    fileExtensions = ['nt']
 }
 
 /*

@@ -1,0 +1,87 @@
+<http://opencaesar.io/viewpoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://opencaesar.io/viewpoint> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1> .
+<http://opencaesar.io/viewpoint> <http://purl.org/dc/elements/1.1/creator> "Jet Propulsion Laboratory" .
+<http://opencaesar.io/viewpoint> <http://purl.org/dc/elements/1.1/description> "A vocabulary for defining common terms used in defining viewpoints" .
+<http://opencaesar.io/viewpoint> <http://purl.org/dc/elements/1.1/rights> "Copyright 2010-2020, by the California Institute of Technology. ALL RIGHTS RESERVED. United States Government Sponsorship acknowledged. Any commercial use must be negotiated with the Office of Technology Transfer at the California Institute of Technology. \nThis software may be subject to U.S. export control laws. By accepting this software, the user agrees to comply with all applicable U.S. export laws and regulations. User has the responsibility to obtain export licenses, or other export authority as may be required before exporting such information to foreign countries or providing access to foreign persons." .
+<http://opencaesar.io/viewpoint> <http://purl.org/dc/elements/1.1/title> "Viewpoint" .
+<http://opencaesar.io/viewpoint> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Vocabulary> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://opencaesar.io/viewpoint#decoration-c
+<http://opencaesar.io/viewpoint#decoration-c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://opencaesar.io/viewpoint#decoration-c> <http://purl.org/dc/elements/1.1/description> "A property that represents a path to an image for an element in a viewpoint shown as a Center decoration." .
+<http://opencaesar.io/viewpoint#decoration-c> <http://www.w3.org/2000/01/rdf-schema#label> "C decoration" .
+# 
+# http://opencaesar.io/viewpoint#decoration-e
+<http://opencaesar.io/viewpoint#decoration-e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://opencaesar.io/viewpoint#decoration-e> <http://purl.org/dc/elements/1.1/description> "A property that represents a path to an image for an element in a viewpoint shown as an East decoration." .
+<http://opencaesar.io/viewpoint#decoration-e> <http://www.w3.org/2000/01/rdf-schema#label> "E decoration" .
+# 
+# http://opencaesar.io/viewpoint#decoration-n
+<http://opencaesar.io/viewpoint#decoration-n> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://opencaesar.io/viewpoint#decoration-n> <http://purl.org/dc/elements/1.1/description> "A property that represents a path to an image for an element in a viewpoint shown as a North decoration." .
+<http://opencaesar.io/viewpoint#decoration-n> <http://www.w3.org/2000/01/rdf-schema#label> "N decoration" .
+# 
+# http://opencaesar.io/viewpoint#decoration-ne
+<http://opencaesar.io/viewpoint#decoration-ne> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://opencaesar.io/viewpoint#decoration-ne> <http://purl.org/dc/elements/1.1/description> "A property that represents a path to an image for an element in a viewpoint shown as a North-East decoration." .
+<http://opencaesar.io/viewpoint#decoration-ne> <http://www.w3.org/2000/01/rdf-schema#label> "NE decoration" .
+# 
+# http://opencaesar.io/viewpoint#decoration-nw
+<http://opencaesar.io/viewpoint#decoration-nw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://opencaesar.io/viewpoint#decoration-nw> <http://purl.org/dc/elements/1.1/description> "A property that represents a path to an image for an element in a viewpoint shown as a North-West decoration." .
+<http://opencaesar.io/viewpoint#decoration-nw> <http://www.w3.org/2000/01/rdf-schema#label> "NW decoration" .
+# 
+# http://opencaesar.io/viewpoint#decoration-s
+<http://opencaesar.io/viewpoint#decoration-s> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://opencaesar.io/viewpoint#decoration-s> <http://purl.org/dc/elements/1.1/description> "A property that represents a path to an image for an element in a viewpoint shown as a South decoration." .
+<http://opencaesar.io/viewpoint#decoration-s> <http://www.w3.org/2000/01/rdf-schema#label> "S decoration" .
+# 
+# http://opencaesar.io/viewpoint#decoration-se
+<http://opencaesar.io/viewpoint#decoration-se> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://opencaesar.io/viewpoint#decoration-se> <http://purl.org/dc/elements/1.1/description> "A property that represents a path to an image for an element in a viewpoint shown as a South-East decoration." .
+<http://opencaesar.io/viewpoint#decoration-se> <http://www.w3.org/2000/01/rdf-schema#label> "SE decoration" .
+# 
+# http://opencaesar.io/viewpoint#decoration-sw
+<http://opencaesar.io/viewpoint#decoration-sw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://opencaesar.io/viewpoint#decoration-sw> <http://purl.org/dc/elements/1.1/description> "A property that represents a path to an image for an element in a viewpoint shown as a South-West decoration." .
+<http://opencaesar.io/viewpoint#decoration-sw> <http://www.w3.org/2000/01/rdf-schema#label> "SW decoration" .
+# 
+# http://opencaesar.io/viewpoint#decoration-w
+<http://opencaesar.io/viewpoint#decoration-w> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://opencaesar.io/viewpoint#decoration-w> <http://purl.org/dc/elements/1.1/description> "A property that represents a path to an image for an element in a viewpoint shown as a West decoration." .
+<http://opencaesar.io/viewpoint#decoration-w> <http://www.w3.org/2000/01/rdf-schema#label> "W decoration" .
+# 
+# http://opencaesar.io/viewpoint#group
+<http://opencaesar.io/viewpoint#group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://opencaesar.io/viewpoint#group> <http://purl.org/dc/elements/1.1/description> "A property that represents a group that an element belongs to in a viewpoint." .
+<http://opencaesar.io/viewpoint#group> <http://www.w3.org/2000/01/rdf-schema#label> "group" .
+# 
+# http://opencaesar.io/viewpoint#hide
+<http://opencaesar.io/viewpoint#hide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://opencaesar.io/viewpoint#hide> <http://purl.org/dc/elements/1.1/description> "A property that indicates that an element is hidden in a viewpoint" .
+<http://opencaesar.io/viewpoint#hide> <http://www.w3.org/2000/01/rdf-schema#label> "exclude" .
+# 
+# http://opencaesar.io/viewpoint#image
+<http://opencaesar.io/viewpoint#image> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://opencaesar.io/viewpoint#image> <http://purl.org/dc/elements/1.1/description> "A property that represents a path to an image for an element in a viewpoint." .
+<http://opencaesar.io/viewpoint#image> <http://www.w3.org/2000/01/rdf-schema#label> "image" .
+# 
+# http://opencaesar.io/viewpoint#show
+<http://opencaesar.io/viewpoint#show> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://opencaesar.io/viewpoint#show> <http://purl.org/dc/elements/1.1/description> "A property that indicates that an element is shown in a viewpoint" .
+<http://opencaesar.io/viewpoint#show> <http://www.w3.org/2000/01/rdf-schema#label> "include" .
+# 
+# http://opencaesar.io/viewpoint#type
+<http://opencaesar.io/viewpoint#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://opencaesar.io/viewpoint#type> <http://purl.org/dc/elements/1.1/description> "A property that represents a notational type for an element in a viewpoint." .
+<http://opencaesar.io/viewpoint#type> <http://www.w3.org/2000/01/rdf-schema#label> "type" .
+# 
+# Generated by the OWL API (version 5.1.17.2020-11-07T15:03:35Z) https://github.com/owlcs/owlapi/

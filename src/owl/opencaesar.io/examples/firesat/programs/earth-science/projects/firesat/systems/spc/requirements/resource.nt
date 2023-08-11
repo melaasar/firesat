@@ -1,0 +1,85 @@
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource> <http://www.w3.org/2002/07/owl#imports> <http://imce.jpl.nasa.gov/foundation/mission> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/logistical> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource> <http://purl.org/dc/elements/1.1/title> "Spacecraft Resource Requirements" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Description> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://imce.jpl.nasa.gov/foundation/mission#refines
+<http://imce.jpl.nasa.gov/foundation/mission#refines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#AltitudeDetermination
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#AltitudeDetermination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#AltitudeDetermination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#AltitudeDetermination> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Coverage> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#AltitudeDetermination> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#GeoLocation> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#AltitudeDetermination> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Persistence> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#AltitudeDetermination> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationForFireGeoLocation> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#AltitudeDetermination> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationForOrbitAndAltitudeDetermination> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#AltitudeDetermination> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#LCCBudget> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#AltitudeDetermination> <http://www.w3.org/2000/01/rdf-schema#label> "Altitude Determination" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#DeltaVBudget
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#DeltaVBudget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#DeltaVBudget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#DeltaVBudget> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#LCCBudget> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#DeltaVBudget> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/logistical#EndOfLifeDisposal> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#DeltaVBudget> <http://www.w3.org/2000/01/rdf-schema#label> "Delta-V Budget" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#MaturityOfNewTechnologies
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#MaturityOfNewTechnologies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#MaturityOfNewTechnologies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#MaturityOfNewTechnologies> <http://www.w3.org/2000/01/rdf-schema#label> "Maturity of New Technologies" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#NumberOfSatellites
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#NumberOfSatellites> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#NumberOfSatellites> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#NumberOfSatellites> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Coverage> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#NumberOfSatellites> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#GeoLocation> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#NumberOfSatellites> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Persistence> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#NumberOfSatellites> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#LCCBudget> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#NumberOfSatellites> <http://www.w3.org/2000/01/rdf-schema#label> "Number of Satellites" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#OrbitDetermination
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#OrbitDetermination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#OrbitDetermination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#OrbitDetermination> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Coverage> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#OrbitDetermination> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#GeoLocation> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#OrbitDetermination> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#Persistence> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#OrbitDetermination> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationForFireGeoLocation> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#OrbitDetermination> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/functional#TimeAllocationForOrbitAndAltitudeDetermination> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#OrbitDetermination> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#LCCBudget> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#OrbitDetermination> <http://www.w3.org/2000/01/rdf-schema#label> "Orbit Determination" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#PowerBudget
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#PowerBudget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#PowerBudget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#PowerBudget> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#LCCBudget> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#PowerBudget> <http://www.w3.org/2000/01/rdf-schema#label> "Power Budget" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#SpaceVehicleMass
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#SpaceVehicleMass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#SpaceVehicleMass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Requirement> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#SpaceVehicleMass> <http://imce.jpl.nasa.gov/foundation/mission#refines> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/requirements/stakeholder#LCCBudget> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/systems/spc/requirements/resource#SpaceVehicleMass> <http://www.w3.org/2000/01/rdf-schema#label> "Space Vehicle Mass" .
+# 
+# Generated by the OWL API (version 5.1.17.2020-11-07T15:03:35Z) https://github.com/owlcs/owlapi/

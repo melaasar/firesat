@@ -1,0 +1,74 @@
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat> <http://www.w3.org/2002/07/owl#imports> <http://imce.jpl.nasa.gov/foundation/mission> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat> <http://www.w3.org/2002/07/owl#imports> <http://imce.jpl.nasa.gov/foundation/project> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat> <http://www.w3.org/2002/07/owl#imports> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/assemblies> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/elements/1.1> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat> <http://purl.org/dc/elements/1.1/title> "FireSat Mission" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat> <http://purl.org/dc/elements/1.1/type> <http://opencaesar.io/oml#Description> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://imce.jpl.nasa.gov/foundation/mission#deploys
+<http://imce.jpl.nasa.gov/foundation/mission#deploys> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://imce.jpl.nasa.gov/foundation/mission#pursues
+<http://imce.jpl.nasa.gov/foundation/mission#pursues> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://imce.jpl.nasa.gov/foundation/project#represents
+<http://imce.jpl.nasa.gov/foundation/project#represents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#Endoatmosphere
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#Endoatmosphere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#Endoatmosphere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Environment> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#Endoatmosphere> <http://www.w3.org/2000/01/rdf-schema#label> "Endoatmosphere" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#FireSatMission
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#FireSatMission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#FireSatMission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Mission> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#FireSatMission> <http://imce.jpl.nasa.gov/foundation/mission#deploys> <http://opencaesar.io/examples/firesat/programs/earth-science/projects/firesat/workpackages/06/systems/spc/assemblies#SpacecraftSystemSegment> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#FireSatMission> <http://imce.jpl.nasa.gov/foundation/mission#pursues> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#ForestFireDetection> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#FireSatMission> <http://www.w3.org/2000/01/rdf-schema#label> "FireSat Mission" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#ForestFireDetection
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#ForestFireDetection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#ForestFireDetection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Objective> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#ForestFireDetection> <http://www.w3.org/2000/01/rdf-schema#comment> "Reduce impact of forest fires on recreation and commerce in the United States" .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#ForestFireDetection> <http://www.w3.org/2000/01/rdf-schema#label> "Forest Fire Detection" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#SpaceDebris
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#SpaceDebris> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#SpaceDebris> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Environment> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#SpaceDebris> <http://www.w3.org/2000/01/rdf-schema#label> "Space debris" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#Stars
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#Stars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#Stars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Environment> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#Stars> <http://www.w3.org/2000/01/rdf-schema#label> "Stars" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#Sun
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#Sun> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#Sun> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/mission#Environment> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#Sun> <http://www.w3.org/2000/01/rdf-schema#label> "Sun" .
+# 
+# http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#USForestService
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#USForestService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#USForestService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://imce.jpl.nasa.gov/foundation/project#Stakeholder> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#USForestService> <http://imce.jpl.nasa.gov/foundation/project#represents> <http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#ForestFireDetection> .
+<http://opencaesar.io/examples/firesat/programs/earth-science/missions/firesat/firesat#USForestService> <http://www.w3.org/2000/01/rdf-schema#label> "US Forest Service" .
+# 
+# Generated by the OWL API (version 5.1.17.2020-11-07T15:03:35Z) https://github.com/owlcs/owlapi/
